@@ -7,11 +7,14 @@
 </head>
 <body class="bc">
     <div class="background">
+        
+
         <div class="blackOverlay">   
         </div>
         <header>
             <main class="header1">
                 <div class="intro">
+                    <img src="" alt="">
                     <h1 class="h1">
                         Higor Luis Pires
                     </h1>
@@ -31,5 +34,13 @@
         </div>
 
     </div>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            $(".zoom img").css({
+                width: (100 + scroll/5) + '%'
+            })
+        })
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
 </body>

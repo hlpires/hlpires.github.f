@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding:0;
-    box-sizing: border-box;
+
     }
 
 .background{    
     margin: 0;
     width:100%;
     height: 100vh;
-    background: url(./IMG/imagemPP.png);
+    background: url(./IMG/space.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
