@@ -1,25 +1,24 @@
 body{
     margin: 0;
-    width:100%;
-    height: 100%;
-}
-    
+    padding:0;
+    box-sizing: border-box;
+    }
 
-header{
+.background{    
     margin: 0;
+    width:100%;
+    height: 100vh;
     background: url(./IMG/imagemPP.png);
-    width: 100%;
-    height: 100%;
-    position: fixed;
     background-repeat: no-repeat;
-    display: block;
-    background-position: center;
     background-size: 100%;
-}
-.intro{
-    margin-top: 500px;
     position: relative;
+    background-attachment: fixed;
 
+}
+
+.intro{
+    top: 500px;
+    position: relative;
 }
 
 .h1 {
@@ -28,8 +27,6 @@ header{
     font-display: Helvetica;
     
 }
-
-
 .h2{
     color: aliceblue;
     text-align: center;
@@ -40,4 +37,16 @@ header{
     text-align: center;
     font-display: Helvetica;    
     
+}
+.EXP{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    
+}
+.e1{
+    top: 1000px;
+    position: relative;
+    color: rgb(20, 20, 20);
+    text-align: center;
 }
