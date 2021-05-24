@@ -1,52 +1,58 @@
 body{
     margin: 0;
-    padding:0;
+    padding:0
 
     }
 
-.background{    
+#background{    
     margin: 0;
     width:100%;
     height: 100vh;
     background: url(./IMG/space.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    position: relative;
+    position: absolute;
     background-attachment: fixed;
+    background-position: center;
 
 }
 
 .intro{
     top: 500px;
-    position: relative;
+    
+    position: relative
 }
 
 .h1 {
     color: aliceblue;
     text-align: center;
-    font-display: Helvetica;
+    font-display: Helvetica
     
 }
 .h2{
     color: aliceblue;
     text-align: center;
-    font-display: Helvetica;
+    font-display: Helvetica
 }
 .h3{
     color: aliceblue;
     text-align: center;
-    font-display: Helvetica;    
+    font-display: Helvetica
     
 }
 .EXP{
     width: 100%;
     height: 800px;
-    position: relative;
+    position: relative
     
 }
 .e1{
     top: 1000px;
     position: relative;
     color: rgb(20, 20, 20);
-    text-align: center;
+    text-align: center
+}
+.p1{
+    top: 1000px;
+    position: relative;
 }
