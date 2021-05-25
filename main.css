@@ -82,11 +82,19 @@ main{
     border-bottom: 10px  solid rgb(168, 208, 211);
     
 }
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .6s;
+}
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
 .criative{
  float: left;
  width: 15%;
  margin-left: 10%;
- 
 }
 #imageCriative{
     margin-top: -120px;
@@ -122,7 +130,7 @@ margin-right: 10%;
 .exp{
     width: 100%;
     float: left;
-    height:55 %;
+    
     background-color: rgb(159, 203, 240);
     position: relative;
 }
