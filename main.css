@@ -14,6 +14,7 @@ body{
     position: absolute;
     background-attachment: fixed;
     background-position: center;
+    
 
 }
 .header{
@@ -23,27 +24,34 @@ body{
     
 }
 .intro{
-    top: 500px;
+    text-align: center;
+    top: 350px;
     width: 100%;
     position: relative;
-    height: 100%;
     float: left;
 }
-
+#mask{
+    clip-path: circle();
+    
+}
+#mascara{
+    width: 400px;
+    /*imagem*/
+}
 .h1 {
     color: aliceblue;
-    text-align: center;
+    
     font-display: Helvetica
     
 }
 .h2{
     color: aliceblue;
-    text-align: center;
+    
     font-display: Helvetica
 }
 .h3{
     color: aliceblue;
-    text-align: center;
+    
     font-display: Helvetica
     
 }
