@@ -35,7 +35,7 @@ body{
     
 }
 #mascara{
-    width: 400px;
+    width: 300px;
     /*imagem*/
 }
 .h1 {
@@ -67,38 +67,52 @@ main{
     color: rgb(20, 20, 20);
     text-align: center
 }
-.OBJ{
-    top: 10px;
-    position: relative;
-    text-align: center;
-    float: left;
-    width: 100%;
-}
 
 .OBj{
     top: 0;
     position: relative;
     width: 100%;
-    float: left;
-    height: 1200px;
+    height: 500px;
     background-color: #ffffff;
+    font-size: 10px;
+    margin-top: 200px;
+    float: left;
+    text-align: center;
+    
 }
 .criative{
-    float: left;
-    width: 20%;
-    left: 0;
-    margin-left: 180px;
-    margin-top: 250px;
+ float: left;
+ width: 15%;
+ margin-left: 10%;
+ 
+}
+#imageCriative{
+    width: 250px;
 }
 .inovate{
-    margin-right: 440px;
-    margin-top: 250px;
+
+width: 15%;
+float: left;
+margin-left: 18%;
+
+}
+#imageInovate{
+    width: 250px;
     
 }
 .curiosity{
-    float: right;
-    width: 20%;
-    margin-top: 70px;
-    margin-right: 180px;
-    
+
+float: right;
+width: 15%;
+margin-right: 10%;
+}
+#imageCuriosity{
+    width: 170px;
+}
+.exp{
+    width: 100%;
+    float: left;
+    height:500 px;
+    background-color: aqua;
+    position: relative;
 }
