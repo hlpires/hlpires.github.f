@@ -136,3 +136,20 @@ margin-right: 10%;
     background-color: rgb(159, 203, 240);
     position: relative;
 }
+main{
+    text-align: center;
+}
+h5{
+    font-size: 40px;
+}
+.buttonLeft{
+    width: 200px;
+    height: 200px;
+    margin-left: 27%;
+}
+.buttonRight{
+    width: 200px;
+    height: 200px;
+    margin-right: 27%
+}
+
