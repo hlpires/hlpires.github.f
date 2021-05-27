@@ -21,7 +21,7 @@ body{
 .header{
     height:100%;
     width: 100%;
-    border-bottom: 10px  solid rgb(168, 208, 211);
+    
     
     
 
@@ -111,7 +111,7 @@ h6{
     transform: translate3d(0,0,0);
 }
 .criative{
-margin-top: -70px;
+margin-top: -80px;
  float: left;
  width: 15%;
  margin-left: 10%;
@@ -119,9 +119,8 @@ margin-top: -70px;
 }
 #imageCriative{
     margin-top: 100px;
-    
     width: 270px;
-    padding-right: 70px;
+    
 }
 .inovate{
 margin-top: -70px;
@@ -146,7 +145,7 @@ margin-right: 10%;
 font-family:Arial, Helvetica, sans-serif
 }
 #imageCuriosity{
-    width: 120px;
+    width:145px;
     margin-bottom: 10%;
     margin-top: 100px; 
 }
@@ -166,7 +165,7 @@ h7{
     font-family: Canela Web,Times,serif;
     top: 60px;
     font-size: 40px;
-    color: #f3f3f3;
+    color: #c8deec;
 
 }
 main{
