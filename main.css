@@ -130,15 +130,16 @@ margin-right: 10%;
     margin-top: -100px; 
 }
 .exp{
+    
     width: 100%;
     float: left;
-    height: 60%;
-    background-image: url(./IMG/space.png); 
+    height: 60vh;
+    background-image: url(./IMG/sea.jpg); 
     position: relative;
     background-repeat: no-repeat;
-    background-size: 100%;
- 
-    
+    background-size: cover;
+   
+
 }
 main{
     text-align: center;
