@@ -149,6 +149,79 @@ font-family:Arial, Helvetica, sans-serif
     margin-bottom: 10%;
     margin-top: 100px; 
 }
+.skills{
+    width: 100%;
+    max-width: 900px;
+    float: left;
+    position: relative;
+    text-align: center;
+    left: 45%;
+    padding-top: 05%;
+    
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  
+  .skill-per{
+    height: 20px;
+    background-color: #0fbcf9;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+h7{
+    font-family: Canela Web,Times,serif;
+    top: 60px;
+    font-size: 40px;
+    color: #272727;
+    float: left;
+    position: relative;
+
+}
+
+
+
+
+
+
+
 .exp{
     
     width: 100%;
@@ -161,7 +234,7 @@ font-family:Arial, Helvetica, sans-serif
    
 
 }
-h7{
+h8{
     font-family: Canela Web,Times,serif;
     top: 60px;
     font-size: 40px;

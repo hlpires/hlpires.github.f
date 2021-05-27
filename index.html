@@ -53,6 +53,30 @@
                     <h5>Dinamico</h5>
                     <h6>Websites não precisam ser estaticos, amo dar vida a eles..</h6>
                 </div>
+                
+                <div class="skills">
+                    <div class="skill">
+                      <div class="skill-name">HTML</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" per="90"></div>
+                      </div>
+                    </div>
+              
+                    <div class="skill">
+                      <div class="skill-name">CSS</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" per="70"></div>
+                      </div>
+                    </div>
+              
+                    <div class="skill">
+                      <div class="skill-name">Javascript</div>
+                      <div class="skill-bar">
+                        <div class="skill-per" per="60"></div>
+                      </div>
+                    </div>
+                </div>
+              <h7>Habilidades</h7>
             </section>
         </main>
     </div>
@@ -60,9 +84,9 @@
 
         <main>
             <div class="expJS">
-                <h7>
+                <h8>
                     EXPERIENCIAS
-                </h7>
+                </h8>
                 <button class="buttonRight">
 
                 </button>
@@ -76,6 +100,22 @@
     <div class="complementares"></div>
     <div class="frase"></div>
     <div class="contatoEtc"></div>
+    <script>
+        $('.skill-per').each(function(){
+          var $this = $(this);
+          var per = $this.attr('per');
+          $this.css("width",per+'%');
+          $({animatedValue: 0}).animate({animatedValue: per},{
+            duration: 1000,
+            step: function(){
+              $this.attr('per', Math.floor(this.animatedValue) + '%');
+            },
+            complete: function(){
+              $this.attr('per', Math.floor(this.animatedValue) + '%');
+            }
+          });
+        });
+      </script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="./code.js"></script>
     <script src="./jquery.ripples-min.js"></script>
