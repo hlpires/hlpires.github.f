@@ -67,6 +67,7 @@ debounce = function(func, wait, immediate) {
 })();
 
   function scrollwhere() {
+	  
 	$('.skill-per').each(function(){
 		var $this = $(this);
 		var per = $this.attr('per');
@@ -83,23 +84,26 @@ debounce = function(func, wait, immediate) {
 	  });
 	
 	
-	//if(scrollwhereV > 1200){
-	//	clearInterval(scrollwhere);
+	
 	}	
-
-
+	
+//desenrolei aq slk keepo//
+	(function(){
+		var createClock = setInterval(init, 3000);	
 function init(){
 var offset = $(window).height() * 1/4 + 100;
 console.log(offset + '  offset');
 var scrollwhereV =$(document).scrollTop();
 console.log(scrollwhereV + 'scroll');
-const createClock = setInterval(init, 1000);
+
 
 
 if(scrollwhereV>offset){
 		scrollwhere();
-	}
-
+		console.log("STOP INTERVAL EXECUTED");
+		clearInterval(createClock);
+		
 }
-
+}
 init();
+})();
