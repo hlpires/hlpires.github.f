@@ -73,7 +73,7 @@ debounce = function(func, wait, immediate) {
 		var per = $this.attr('per');
 		$this.css("width",per+'%');
 		$({animatedValue: 0}).animate({animatedValue: per},{
-		  duration: 1000,
+		  duration: 4000,
 		  step: function(){
 			$this.attr('per', Math.floor(this.animatedValue) + '%');
 		  },
@@ -83,10 +83,8 @@ debounce = function(func, wait, immediate) {
 		});
 	  });
 	
-	
-	
 	}	
-	
+
 //desenrolei aq slk keepo//
 	(function(){
 		var createClock = setInterval(init, 3000);	
