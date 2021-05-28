@@ -355,9 +355,11 @@ h7{
 }
 h8{
     font-family: Canela Web,Times,serif;
-    top: 60px;
+    
     font-size: 40px;
     color: #c8deec;
+    margin-bottom: 10%;
+    
 
 }
 main{
@@ -365,6 +367,7 @@ main{
 }
 
 button{
+    margin-top: 4%;
     border:none;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -374,7 +377,7 @@ button{
 
 }
 .expJS{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .buttonRight{
