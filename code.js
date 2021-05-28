@@ -5,7 +5,7 @@
 
 (function(){
 window.addEventListener('scroll',function(){
-    this.document.getElementById("background").style.backgroundSize = 160 - + window.pageYOffset/20 + '%'});
+    this.document.getElementById("background").style.backgroundSize = 160 - + window.pageYOffset/40 + '%'});
 }());
 
 
