@@ -412,6 +412,12 @@ h9{
   color: #141c3a;
   border-radius: 12px;
 }
+.pc{
+  width: 50%;
+  height: 40%;
+  text-align: center;
+  margin-top: 5%;
+}
 .box2{
   height: 40%;
   width: 20%;
@@ -423,6 +429,13 @@ h9{
   color: #141c3a;
   border-radius: 12px;
 }
+.speak{
+  width: 50%;
+  height: 40%;
+  text-align: center;
+  margin-top: 5%;
+  padding-left: 8%;
+}
 .box3{
   height: 40%;
   width: 20%;
@@ -433,5 +446,20 @@ h9{
   box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
   color: #141c3a;
   border-radius: 12px;
+}
+.cursos{
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+p5{
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  font-family: Times,serif;
+  margin-top: 5%;
 }
 
