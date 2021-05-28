@@ -111,18 +111,6 @@ body{
 }
 /* LOADING */
 
-
-
-
-
-
-
-body{
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    }
-
 #background{    
     margin: 0;
     width:100%;
@@ -356,12 +344,11 @@ h7{
 }
 h8{
     font-family: Canela Web,Times,serif;
-    
     font-size: 40px;
     color: #c8deec;
     margin-bottom: 10%;
-    
-
+    width: 100%;
+    text-align: center;
 }
 main{
     text-align: center;
@@ -395,5 +382,56 @@ button{
     background-image: url("./IMG/arrow-left.png");
     float: left;
     margin-left: 13%;
+}
+
+.QUALIFICAÇÕES{
+height: 100%;
+position: relative;
+float: left;
+background-color: white;
+width: 100%;
+}
+h9{
+  font-family: arial,Times,serif;
+  color: #2b2b2b;
+  font-size:40px;
+  float: left;
+  margin-top: 05%;
+  width: 100%;
+  
+}
+
+.box1{
+  height: 40%;
+  width: 20%;
+  background-color:rgb(223, 232, 241);
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+  box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  border-radius: 12px;
+}
+.box2{
+  height: 40%;
+  width: 20%;
+  background-color:rgb(223, 232, 241);
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+  box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  border-radius: 12px;
+}
+.box3{
+  height: 40%;
+  width: 20%;
+  background-color:rgb(223, 232, 241);
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+  box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  border-radius: 12px;
 }
 
