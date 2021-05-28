@@ -320,7 +320,7 @@ float: left;
     border-radius: 2px;
   }
   .centralizeskills{
-    margin-top: 02%;
+   padding: 80px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -346,7 +346,7 @@ h7{
 
 
 .exp{
-    
+  
     width: 100%;
     float: left;
     height: 60vh;
@@ -363,7 +363,7 @@ h8{
     color: #c8deec;
     margin-bottom: 10%;
     width: 100%;
-    text-align: center;
+    margin-left: 02%;
 }
 main{
     text-align: center;
@@ -380,13 +380,13 @@ button{
 
 }
 .expJS{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .buttonRight{
     width: 10%;
     height: 200px;
-    margin-right: 10%;
+    margin-right: 07%;
     background-image: url("./IMG/arrow-next.png");
     float: right;
     
@@ -396,7 +396,7 @@ button{
     height: 200px;
     background-image: url("./IMG/arrow-left.png");
     float: left;
-    margin-left: 13%;
+    margin-left: 12%;
 }
 
 .QUALIFICAÇÕES{
