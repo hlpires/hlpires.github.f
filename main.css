@@ -484,4 +484,12 @@ p5{
   font-family: Times,serif;
   margin-top: 5%;
 }
+.frase{
+  height: 90%;
+  background-color: #001f3f;
+  position: relative;
+  float: left;
+  width: 100%;
 
+
+}
