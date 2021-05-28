@@ -322,10 +322,10 @@ float: left;
   .centralizeskills{
     margin-top: 02%;
     position: relative;
-    float:left;
+    display: flex;
+    justify-content: center;
     width: 50%;
-    margin-left:25%;
-    margin-right:25%;
+    margin:0 auto;
     
   }
 
