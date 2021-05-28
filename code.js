@@ -46,10 +46,11 @@ debounce = function(func, wait, immediate) {
 
 	function animeScroll() {
 		var documentTop = $(document).scrollTop();
+		
 
 		$target.each(function(){
 			var itemTop = $(this).offset().top;
-            console.log(itemTop);
+            
 			if (documentTop > itemTop - offset) {
 				$(this).addClass(animationClass);
 			} else {
@@ -64,3 +65,41 @@ debounce = function(func, wait, immediate) {
 		animeScroll();
 	}, 200));
 })();
+
+  function scrollwhere() {
+	$('.skill-per').each(function(){
+		var $this = $(this);
+		var per = $this.attr('per');
+		$this.css("width",per+'%');
+		$({animatedValue: 0}).animate({animatedValue: per},{
+		  duration: 1000,
+		  step: function(){
+			$this.attr('per', Math.floor(this.animatedValue) + '%');
+		  },
+		  complete: function(){
+			$this.attr('per', Math.floor(this.animatedValue) + '%');
+		  }
+		});
+	  });
+	
+	
+	//if(scrollwhereV > 1200){
+	//	clearInterval(scrollwhere);
+	}	
+
+
+function init(){
+var offset = $(window).height() * 1/4 + 100;
+console.log(offset + '  offset');
+var scrollwhereV =$(document).scrollTop();
+console.log(scrollwhereV + 'scroll');
+const createClock = setInterval(init, 1000);
+
+
+if(scrollwhereV>offset){
+		scrollwhere();
+	}
+
+}
+
+init();
