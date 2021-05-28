@@ -202,7 +202,7 @@ h5{
 h6{
     font-family: Canela Web,Times,serif;
     margin-top: 60px;
-    font-size: 17px;
+    font-size: 140%;
     color: #2b2b2b;
 
 }
@@ -218,7 +218,7 @@ h6{
     transform: translate3d(0,0,0);
 }
 .criative{
-margin-top: -80px;
+margin-top: -70px;
  float: left;
  width: 15%;
  margin-left: 10%;
@@ -226,7 +226,7 @@ margin-top: -80px;
 }
 #imageCriative{
     margin-top: 100px;
-    width: 220px;
+    width: 80%;
     
 }
 .inovate{
@@ -238,32 +238,37 @@ font-family:Arial, Helvetica, sans-serif
 
 }
 #imageInovate{
-    width: 150px;
+  width: 60%;
     margin-bottom: 10%;
     margin-top: 100px;
     border-bottom:10px solid aqua cover;
     
 }
 .curiosity{
-margin-top: -70px;
+margin-top: -60px;
 float: right;
 width: 15%;
 margin-right: 10%;
 font-family:Arial, Helvetica, sans-serif
 }
 #imageCuriosity{
-    width:95px;
+  width: 40%;
     margin-bottom: 10%;
     margin-top: 100px; 
 }
+.centralizeObJ{
+  position: relative;
+  width: 100%;
+  align-self: center;
+float: left;
+}
+
+
 .skills{
     width: 100%;
     max-width: 1200px;
-    float: left;
-    position: relative;
-    text-align: center;
-    padding-top: 05%;
-    margin-left: -7%;
+    
+    
     
     
   }
@@ -314,6 +319,16 @@ font-family:Arial, Helvetica, sans-serif
     transform: translateX(50%) rotate(45deg);
     border-radius: 2px;
   }
+  .centralizeskills{
+    margin-top: 02%;
+    position: relative;
+    float:left;
+    width: 50%;
+    margin-left:25%;
+    margin-right:25%;
+    
+  }
+
 h7{
     font-family: Canela Web,Times,serif;
     top: 60px;
