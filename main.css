@@ -3,6 +3,125 @@ body{
     height: 100%;
     width: 100%;
     }
+    /* LOADING */
+#circle{
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index:9999;
+    background-color: white;
+
+}
+  .circle{
+    background-color: white;
+    z-index:9999;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100px;
+    height:100px;
+    background:#ccc;
+    border-radius:100%;
+    overflow:hidden;
+    
+  }
+  .wave{
+    position:relative;
+    width:120%;
+    height:100%;
+    background:#4973ff;
+    border-radius:50%;
+    box-shadow:inset 0 0 50px rgba(0,0,0,.5);
+  }
+  .wave:before,.wave:after{
+    content:'';
+    position:absolute;
+    width:200%;
+    height:200%;
+    top:0;
+    left:50%;
+    transform:translate(-50%,-75%);
+    background:#000;
+  }
+  .wave:before{
+    border-radius:45%;
+    background:aqua;
+    animation:animate 5s linear infinite;
+  }
+  .wave:after{
+    border-radius:50%;
+    background:blue;
+    animation:animate 3.5s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+       transform:translate(-50%,-75%) rotate(0deg);
+    }
+    100%{
+       transform:translate(-50%,-75%) rotate(360deg);
+    }
+  }
+.circle{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100px;
+  height:100px;
+  background:#ccc;
+  border-radius:100%;
+  overflow:hidden;
+}
+.wave{
+  position:relative;
+  width:120%;
+  height:100%;
+  background:#4973ff;
+  border-radius:50%;
+  box-shadow:inset 0 0 50px rgba(0,0,0,.5);
+}
+.wave:before,.wave:after{
+  content:'';
+  position:absolute;
+  width:200%;
+  height:200%;
+  top:0;
+  left:50%;
+  transform:translate(-50%,-75%);
+  background:#000;
+}
+.wave:before{
+  border-radius:45%;
+  background:aqua;
+  animation:animate 5s linear infinite;
+}
+.wave:after{
+  border-radius:50%;
+  background:blue;
+  animation:animate 3.5s linear infinite;
+}
+@keyframes animate{
+  0%{
+     transform:translate(-50%,-75%) rotate(0deg);
+  }
+  100%{
+     transform:translate(-50%,-75%) rotate(360deg);
+  }
+}
+/* LOADING */
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    }
 
 #background{    
     margin: 0;

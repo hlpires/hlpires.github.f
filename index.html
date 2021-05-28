@@ -7,8 +7,13 @@
 
 </head>
 <body>
+  <div id="circle">
+    <div class="circle">
+      <div class="wave"></div>
+    </div>
+  </div>
     <div class="header">
-        <main>
+        <main id="main">
             <div id="background">
                 <header>
                     <div class="intro">
@@ -30,7 +35,7 @@
         </main>
     </div>
     <div class="OBJ">
-        <main>
+        <main id="main">
             <h4>
                 SOBRE
             </h4>
@@ -88,7 +93,7 @@
     </div>
     <div class="exp">
 
-        <main>
+        <main id="main">
             <div class="expJS">
                 <h8>
                     EXPERIENCIAS
@@ -106,6 +111,7 @@
     <div class="complementares"></div>
     <div class="frase"></div>
     <div class="contatoEtc"></div>
+    
     <script>
         $('.skill-per').each(function(){
           var $this = $(this);
@@ -122,6 +128,11 @@
           });
         });
       </script>
+    <script>
+      $(window).on("load",function(){
+        $("#circle").fadeOut("slow");
+      });
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="./code.js"></script>
     <script src="./jquery.ripples-min.js"></script>
