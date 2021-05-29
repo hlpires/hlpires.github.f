@@ -180,7 +180,7 @@ main{
     top: 0;
     position: relative;
     width: 100%;
-    height: 140%;
+    height: 1500px;
     background-color: #ffffff;
     font-size: 15px;
     float: left;
@@ -275,7 +275,7 @@ float: left;
 .skills{
     width: 100%;
     max-width: 1200px;
-    
+    margin-top: 10%;
     
     
     
@@ -357,7 +357,7 @@ h7{
   
     width: 100%;
     float: left;
-    height: 60vh;
+    height: 600px;
     background-image: url(./IMG/undersea.png);
     position: relative;
     background-repeat: no-repeat;
@@ -408,7 +408,7 @@ button{
 }
 
 .QUALIFICAÇÕES{
-height: 100%;
+height: 1000px;
 position: relative;
 float: left;
 background-color: white;
@@ -425,12 +425,12 @@ h9{
 }
 
 .box1{
-  height: 40%;
+  height: 400px;
   width: 20%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
-  margin-top: 10%;
+  margin-top: 11%;
   box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
   color: #141c3a;
   border-radius: 12px;
@@ -442,12 +442,12 @@ h9{
   margin-top: 5%;
 }
 .box2{
-  height: 40%;
+  height: 400px;
   width: 20%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
-  margin-top: 10%;
+  margin-top: 11%;
   box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
   color: #141c3a;
   border-radius: 12px;
@@ -460,12 +460,12 @@ h9{
   padding-left: 8%;
 }
 .box3{
-  height: 40%;
+  height: 400px;
   width: 20%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
-  margin-top: 10%;
+  margin-top: 11%;
   box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
   color: #141c3a;
   border-radius: 12px;
@@ -486,11 +486,43 @@ p5{
   margin-top: 5%;
 }
 .frase{
-  height: 90%;
+  height: 800px;
   background-color: #001f3f;
   position: relative;
   float: left;
   width: 100%;
+}
+p6{
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 10%;
+  
+}
 
+.box10{
+  width: 20%;
+  height: 400px;
+  
+ margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+  
+}
+button{
+  color: #001f3f;
+}
 
+.contatoETC{
+  float: left;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  height: 120px;
+}
+.email{
+  width: 85px;
+  margin-top: 20px;
+ float: right;
+ margin-right: 25%;
 }
