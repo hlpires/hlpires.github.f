@@ -12,7 +12,8 @@ body{
     width: 100%;
     position:fixed;
     z-index:9999;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
 
 }
   .circle{
@@ -144,7 +145,7 @@ body{
     float: left;
     height: 100%;
     position: absolute;
-    color: #000000;
+    color: #f8f8ff;
 }
 #mask{
     clip-path: circle();
@@ -158,12 +159,12 @@ body{
 font-size: 40px;
 }
 .t2{
-    color: #000000;
+    
     font-size: 30px;
     
 }
 .t3{
-    color: #000000;
+    
     font-size: 20px;
     
     
@@ -558,7 +559,4 @@ h20{
 
 
 
-.frase{
-
-}
 
