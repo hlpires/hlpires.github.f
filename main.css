@@ -115,6 +115,7 @@ body{
 }
 /* LOADING */
 
+
 #background{    
     margin: 0;
     width:100%;
@@ -136,6 +137,13 @@ body{
     
     
 
+}
+.linkedin{
+  float: right;
+  position: relative;
+  width: 63px;
+  margin-top: 22px;
+  margin-right: 20px;
 }
 .intro{
     text-align: center;
@@ -563,7 +571,7 @@ h20{
   width: 70px;
   margin-top: 20px;
  float: right;
- margin-right: 25%;
+ margin-right: 10%;
  background-color: transparent;
 }
 
