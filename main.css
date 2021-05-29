@@ -517,7 +517,7 @@ button{
 .contatoETC{
   float: left;
   width: 100%;
-  background-color: rgb(41, 41, 41);
+  background-color: transparent;
   height: 120px;
 }
 .email{
@@ -525,4 +525,5 @@ button{
   margin-top: 20px;
  float: right;
  margin-right: 25%;
+ background-color: transparent;
 }
