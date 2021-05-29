@@ -189,12 +189,15 @@ main{
     text-align: center;  
 }
 h4{
-
-    
+  margin: 0 auto;
+    max-width: 150px;
     margin-top: 80px;
     font-size: 40px;
     color: #2b2b2b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom:4px solid black;
+
+    
 }
 h5{
     font-family: Arial, Helvetica, sans-serif;
@@ -413,7 +416,7 @@ button{
 }
 
 .QUALIFICAÇÕES{
-height: 1200px;
+height: 1000px;
 position: relative;
 float: left;
 background-color: white;
@@ -422,18 +425,20 @@ width: 100%;
 h9{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:40px;
-  float: left;
-  margin-top: 05%;
-  width: 100%;
+  top: 80px;
+  width: 300px;
   height: 50px;
-  
-  display: block;
+  margin: 0 auto;
+  position: relative;
   font-weight: bold;
+  border-bottom: 4px solid black;
+  color: #2b2b2b;
+  margin-top: 200px;
 }
 
 .box1{
-  height: 400px;
-  width: 20%;
+  height: 300px;
+  width: 15%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
@@ -443,14 +448,19 @@ h9{
   border-radius: 12px;
 }
 .pc{
-  width: 50%;
-  height: 40%;
+  width: 45%;
+  height: 35%;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 8%;
+}
+.box{
+  margin: 0 auto;
+ margin-right: 14%;
+ margin-top: 08%;
 }
 .box2{
-  height: 400px;
-  width: 20%;
+  height: 300px;
+  width: 15%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
@@ -467,8 +477,8 @@ h9{
   padding-left: 8%;
 }
 .box3{
-  height: 400px;
-  width: 20%;
+  height: 300px;
+  width: 15%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
@@ -493,7 +503,7 @@ p5{
   margin-top: 5%;
 }
 .frase{
-  height: 500px;
+  height: 400px;
   background-color: transparent;
   position: relative;
   float: left;
@@ -510,7 +520,7 @@ h20{
   text-align: center;
   font-size: 40px;
   color: rgb(255, 254, 254);
-  margin-top: 10%;
+  
   
 }
 
@@ -527,7 +537,7 @@ h20{
 .fraseleft{
   float: left;
   width: 100%;
- margin-top: 06.7%;
+ margin-top: 6.7%;
   position: relative;
   height: 60%;
   background-color: #252934;
