@@ -487,16 +487,19 @@ p5{
 }
 .frase{
   height: 800px;
-  background-color: #001f3f;
+  background-color: transparent;
   position: relative;
   float: left;
   width: 100%;
+  background-image: url(./IMG/deepsea.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 p6{
   float: left;
   text-align: center;
   font-size: 40px;
-  color: white;
+  color: rgb(8, 8, 8);
   margin-top: 10%;
   
 }
@@ -513,6 +516,10 @@ p6{
 button{
   color: #001f3f;
 }
+.text{
+  color:#2b2b2b;
+
+}
 
 .contatoETC{
   float: left;
@@ -521,7 +528,7 @@ button{
   height: 120px;
 }
 .email{
-  width: 85px;
+  width: 70px;
   margin-top: 20px;
  float: right;
  margin-right: 25%;
