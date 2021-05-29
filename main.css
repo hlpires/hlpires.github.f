@@ -211,7 +211,7 @@ h6{
 .animeCriative{
     opacity: 0;
     transform: translate3d(-100px,0,0);
-    transition: .6s;
+    transition: .9s;
 }
 .anime-start{
     opacity: 1;
@@ -494,12 +494,14 @@ p5{
   background-image: url(./IMG/deepsea.png);
   background-size: 100%;
   background-repeat: no-repeat;
+
 }
-p6{
+
+h20{
   float: left;
   text-align: center;
   font-size: 40px;
-  color: rgb(8, 8, 8);
+  color: rgb(255, 254, 254);
   margin-top: 10%;
   
 }
@@ -534,3 +536,8 @@ button{
  margin-right: 25%;
  background-color: transparent;
 }
+
+
+
+
+
