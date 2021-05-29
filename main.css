@@ -144,7 +144,7 @@ body{
     float: left;
     height: 100%;
     position: absolute;
-    color: #1b1b1b;
+    color: #000000;
 }
 #mask{
     clip-path: circle();
@@ -158,12 +158,12 @@ body{
 font-size: 40px;
 }
 .t2{
-    color: #1b1b1b;
+    color: #000000;
     font-size: 30px;
     
 }
 .t3{
-    color: #1b1b1b;
+    color: #000000;
     font-size: 20px;
     
     
@@ -412,7 +412,7 @@ button{
 }
 
 .QUALIFICAÇÕES{
-height: 1000px;
+height: 1200px;
 position: relative;
 float: left;
 background-color: white;
@@ -492,7 +492,7 @@ p5{
   margin-top: 5%;
 }
 .frase{
-  height: 800px;
+  height: 500px;
   background-color: transparent;
   position: relative;
   float: left;
@@ -519,7 +519,7 @@ h20{
   
  margin: 0 auto;
   text-align: center;
-  margin-top: 10%;
+ 
   
 }
 
@@ -528,7 +528,7 @@ h20{
   width: 100%;
  margin-top: 06.7%;
   position: relative;
-  height: 20%;
+  height: 60%;
   background-color: #252934;
   background-image: url(./IMG/frase.png);
   background-repeat: no-repeat;
@@ -558,5 +558,7 @@ h20{
 
 
 
+.frase{
 
+}
 
