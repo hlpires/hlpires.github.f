@@ -130,6 +130,30 @@ animation:animate 3.5s linear infinite;
   
 
 }
+
+header{
+top: 0;
+font-size: 30px;
+color: rgb(255, 255, 255);
+position: relative;
+float: left;
+width: 100%;
+margin-top: 1.5%;
+
+}
+.sobreMenu{
+  margin-left: 3%;
+  float: left;
+
+}
+.ferramentasMenu{
+  margin-left: 6%;
+  float: left;
+}
+.qualificacoesMenu{
+  margin-left: 7%;
+  float: left;
+}
 .header{
   height:100%;
   width: 100%;
@@ -146,14 +170,14 @@ margin-top: 22px;
 margin-right: 20px;
 }
 .intro{
-  text-align: center;
-  top: 25%;
-  width: 100%;
+  
+  width: 20%;
   position: relative;
   float: left;
-  height: 100%;
-  position: absolute;
-  color: #f8f8ff;
+  height: 700px;
+  position: relative;
+  color: #0d0d0e;
+  padding: 200px;
 }
 #mask{
   clip-path: circle();
@@ -177,6 +201,7 @@ font-size: 40px;
   
   
 }
+
 main{
   
   width: 100%;
