@@ -225,7 +225,7 @@ main{
 h4{
 margin: 0 auto;
   max-width: 150px;
-  margin-top: 40px;
+  margin-top: 80px;
   font-size: 40px;
   color: #2b2b2b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -241,7 +241,7 @@ h5{
 }
 h6{
   font-family: Canela Web,Times,serif;
-  font-size: 124%;
+  font-size: 115%;
   color: #2b2b2b;
   margin-right:40px ;
   margin-left: 40px;
@@ -297,7 +297,7 @@ width: 15%;
 margin-left: 17%;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 300px;
+height: 280px;
 border-radius: 12%;
 
 
@@ -313,7 +313,7 @@ float: left;
 margin-left: 10%;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 300px;
+height: 280px;
 border-radius: 12%;
 }
 #imageInovate{
@@ -330,7 +330,7 @@ width: 15%;
 
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 300px;
+height: 280px;
 margin-left: 10%;
 border-radius: 12%;
 }
@@ -341,7 +341,7 @@ margin-top: 05%;
   
 }
 .centralizeObJ{
-margin-top: 03%;
+margin-top: 04%;
 position: relative;
 width: 100%;
 align-self: center;
