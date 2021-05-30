@@ -73,7 +73,7 @@ debounce = function(func, wait, immediate) {
 		var per = $this.attr('per');
 		$this.css("width",per+'%');
 		$({animatedValue: 0}).animate({animatedValue: per},{
-		  duration: 4000,
+		  duration: 3000,
 		  step: function(){
 			$this.attr('per', Math.floor(this.animatedValue) + '%');
 		  },
@@ -87,9 +87,9 @@ debounce = function(func, wait, immediate) {
 
 //desenrolei aq slk keepo//
 	(function(){
-		var createClock = setInterval(init, 3000);	
+		var createClock = setInterval(init, 2000);	
 function init(){
-var offset = $(window).height() * 1/4 + 100;
+var offset = $(window).height() * 1/6 + 300;
 console.log(offset + '  offset');
 var scrollwhereV =$(document).scrollTop();
 console.log(scrollwhereV + 'scroll');

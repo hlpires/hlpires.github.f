@@ -218,6 +218,8 @@ h6{
     margin-top: 60px;
     font-size: 140%;
     color: #2b2b2b;
+    margin-right:40px ;
+    margin-left: 40px;
 
 }
 
@@ -446,7 +448,7 @@ h9{
 
 .box1{
   height: 300px;
-  width: 15%;
+  width: 18%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
@@ -463,12 +465,12 @@ h9{
 }
 .box{
   margin: 0 auto;
- margin-right: 14%;
+ margin-right: 07%;
  margin-top: 08%;
 }
 .box2{
   height: 300px;
-  width: 15%;
+  width: 18%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
@@ -486,7 +488,7 @@ h9{
 }
 .box3{
   height: 300px;
-  width: 15%;
+  width: 18%;
   background-color:rgb(223, 232, 241);
   float: right;
   margin-right: 10%;
@@ -502,14 +504,22 @@ h9{
   margin-top: 5%;
   
 }
-
+h30{
+  width: 100%;
+  float: left;
+  font-size: 30px;
+  font-family: Times,serif;
+  margin-top: 5%;
+  font-weight: bold;
+}
 p5{
   width: 100%;
   float: left;
-  font-size: 50px;
+  font-size: 30px;
   font-family: Times,serif;
   margin-top: 5%;
 }
+
 .frase{
   height: 400px;
   background-color: transparent;
