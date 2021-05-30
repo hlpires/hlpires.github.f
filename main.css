@@ -237,7 +237,7 @@ h6{
 margin-top: 0px;
  float: left;
  width: 15%;
- margin-left: 10%;
+ margin-left: 17%;
  font-family:Arial, Helvetica, sans-serif;
  box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
  height: 450px;
@@ -252,7 +252,7 @@ margin-top: 0px;
 margin-top: 0px;
 width: 15%;
 float: left;
-margin-left: 18%;
+margin-left: 10%;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 450px;
@@ -266,12 +266,13 @@ height: 450px;
 }
 .curiosity{
 margin-top: 0px;
-float: right;
+float: left;
 width: 15%;
-margin-right: 10%;
+
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 450px;
+margin-left: 10%;
 }
 #imageCuriosity{
   width: 40%;
