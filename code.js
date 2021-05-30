@@ -41,7 +41,7 @@
 	(function(){
 		var $target = $('.animeCriative'),
 				
-				offset = $(window).height() * 1/8;
+				offset = $(window).height() * 1/6+100;
 	
 		function animeScroll() {
 			var documentTop = $(document).scrollTop();
