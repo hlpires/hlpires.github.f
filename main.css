@@ -185,7 +185,7 @@ margin-right: 20px;
   
 }
 #mascara{
-  width: 200px;
+  width: 250px;
   /*imagem*/
 }
 .t1{
@@ -197,6 +197,17 @@ font-size: 25px;
   
 }
 
+.introAnime{
+opacity: 0;
+transform: translate3d(-200px,0,0);
+transition: .9s;
+
+}
+.introAnimeStart{
+opacity: 1;
+transform: translate3d(0,0,0);
+transition: 1.3s;
+}
 
 main{
   

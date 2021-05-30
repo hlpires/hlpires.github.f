@@ -131,8 +131,32 @@
 	
 	
 	
-		function escurecer(){
-			$("#frase").fadeOut();
+
+
+
+
+
+
+	(function(){
+		var $target = $('.introAnime'),		
+		offset = $(window).height() * 1/8;
+		var createClock = setInterval(animeScroll4,2000);
+	
+		function animeScroll4() {
+			var documentTop = $(document).scrollTop();
+			
+	
+			$target.each(function(){
+				var itemTop = $($target).offset().top;
+				
+				if (documentTop > itemTop - offset) {
+					$($target).addClass('introAnimeStart');
+					clearInterval(createClock);
+				} 
+			});
+
 		}
 	
-		escurecer();
+	animeScroll4();	
+	
+	})();
