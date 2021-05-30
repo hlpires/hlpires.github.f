@@ -110,7 +110,7 @@
 		(function(){
 			var createClock = setInterval(init, 2000);	
 	function init(){
-	var offset = $(window).height() * 1/6 + 300;
+	var offset = $(window).height() * 1/6 ;
 	console.log(offset + '  offset');
 	var scrollwhereV =$(document).scrollTop();
 	console.log(scrollwhereV + 'scroll');

@@ -138,7 +138,7 @@ color: rgb(255, 255, 255);
 position: relative;
 float: left;
 width: 100%;
-margin-top: 1.5%;
+
 
 }
 .sobreMenu{
@@ -170,7 +170,7 @@ margin-top: 22px;
 margin-right: 20px;
 }
 .intro{
-  
+  margin-top: -100px;
   width: 20%;
   position: relative;
   float: left;
@@ -178,21 +178,22 @@ margin-right: 20px;
   position: relative;
   color: #0d0d0e;
   padding: 200px;
+  margin-left: 3.5%;
 }
 #mask{
   clip-path: circle();
   
 }
 #mascara{
-  width: 300px;
+  width: 200px;
   /*imagem*/
 }
 .t1{
-font-size: 40px;
+font-size: 30px;
 }
 .t2{
   
-  font-size: 30px;
+  font-size: 25px;
   
 }
 .t3{
@@ -215,7 +216,7 @@ main{
   top: 0;
   position: relative;
   width: 100%;
-  height: 1500px;
+  height: 1050px;
   background-color: #ffffff;
   font-size: 15px;
   float: left;
@@ -224,7 +225,7 @@ main{
 h4{
 margin: 0 auto;
   max-width: 150px;
-  margin-top: 80px;
+  margin-top: 40px;
   font-size: 40px;
   color: #2b2b2b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -240,11 +241,11 @@ h5{
 }
 h6{
   font-family: Canela Web,Times,serif;
-  margin-top: 60px;
-  font-size: 140%;
+  font-size: 124%;
   color: #2b2b2b;
   margin-right:40px ;
   margin-left: 40px;
+  margin-top: -20px;
 
 }
 
@@ -296,13 +297,14 @@ width: 15%;
 margin-left: 17%;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 450px;
+height: 300px;
+border-radius: 12%;
 
 
 }
 #imageCriative{
-margin-top: 10%;
-  width: 80%;
+margin-top: 05%;
+  width: 60%;
 }
 .inovate{
 margin-top: 0px;
@@ -311,12 +313,13 @@ float: left;
 margin-left: 10%;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 450px;
+height: 300px;
+border-radius: 12%;
 }
 #imageInovate{
-width: 60%;
-  margin-bottom: 10%;
-  margin-top: 10%;
+width: 45%;
+  margin-bottom: 05%;
+  margin-top: 05%;
 
   
 }
@@ -327,17 +330,18 @@ width: 15%;
 
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 450px;
+height: 300px;
 margin-left: 10%;
+border-radius: 12%;
 }
 #imageCuriosity{
-width: 40%;
+width: 35%;
 margin-bottom: 10%;
-margin-top: 10%;
+margin-top: 05%;
   
 }
 .centralizeObJ{
-margin-top: 05%;
+margin-top: 03%;
 position: relative;
 width: 100%;
 align-self: center;
@@ -347,7 +351,7 @@ float: right;
 
 .skills{
   width: 100%;
-  max-width: 1200px;
+  max-width: 600px;
   margin-top: 10%;
   
   
@@ -402,12 +406,11 @@ float: right;
 }
 .centralizeskills{
   margin-right: 03%;
-margin-top: 5%;
   position: relative;
   display: flex;
   float: right;
   width: 50%;
-  
+  margin-top: -50px;
   
 }
 
