@@ -40,7 +40,7 @@
 	
 	(function(){
 		var $target = $('.animeCriative'),
-				animationClass = 'anime-start',
+				
 				offset = $(window).height() * 1/8;
 	
 		function animeScroll() {
@@ -76,7 +76,7 @@
 		
 		function animeScroll3(){
 			$(".animeCuriosity").addClass('anime-start2');
-			console.log('animescrolll3 ativado')
+			
 		
 		}
 	

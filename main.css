@@ -316,7 +316,7 @@ margin-top: 05%;
 position: relative;
 width: 100%;
 align-self: center;
-float: left;
+float: right;
 }
 
 
@@ -376,12 +376,13 @@ float: left;
   border-radius: 2px;
 }
 .centralizeskills{
- padding: 80px;
+  margin-right: 03%;
+margin-top: 5%;
   position: relative;
   display: flex;
-  justify-content: center;
+  float: right;
   width: 50%;
-  margin:0 auto;
+  
   
 }
 
