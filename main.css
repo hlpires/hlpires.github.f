@@ -324,6 +324,14 @@ width: 100%;
   
 
 }
+.email{
+  width: 70px;
+  margin-top: 20px;
+  float: right;
+  margin-right: 20px;
+  background-color: transparent;
+  }
+  
 .linkedin{
 float: right;
 position: relative;
@@ -331,6 +339,32 @@ width: 63px;
 margin-top: 22px;
 margin-right: 20px;
 }
+.wpp{
+  float: right;
+  position: relative;
+  width: 70px;
+  margin-top: 20px;
+  margin-right: 100px;
+
+}
+.backgroundButton{
+  width: 18%;
+  height: 80px;
+  background-color: transparent;
+  margin-top: 15%;
+  border: 3px solid rgb(236, 233, 233);
+  font-size: 35px;
+  font-family: raleway,raleway1;
+  color: white;
+}
+
+
+
+
+
+
+
+
 
 @font-face {
   font-family:raleway;
@@ -648,7 +682,7 @@ main{
 button{
   margin-top: 8%;
   border:none;
-  background-color: transparent;
+  background-color: transparent ;
   background-repeat: no-repeat;
   background-size: 85px;
   position: relative;
@@ -659,30 +693,61 @@ button{
 .expJS{
   margin-top: 3%;
 }
+
+
+
+
+
+
+
+
+
+
+
+.boxToolsanime{
+  opacity: 1!important;
+  transform: translate3d(0,0,0)!important;
+  transition: .9s;
+}
+
 .boxTools{
 width: 40%;
 height: 25%;
 background-color: transparent;
 margin: 0 auto;
 margin-top: 09%;
+opacity: 0;
+transition: .0s;
+transform: translate3d(-300,0,0);
 }
 .git{
 width: 250px;
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .buttonRight{
-  width: 10%;
-  height: 200px;
+  width:04.5%;
+  height: 160px;
   margin-right: 07%;
   background-image: url("./IMG/arrow-next.png");
   float: right;
   
 }
 .buttonLeft{
-  width: 200px;
-  height: 200px;
+  width:04.5%;
+  height: 160px;
   background-image: url("./IMG/arrow-left.png");
   float: left;
   margin-left: 10%;
@@ -844,13 +909,4 @@ width: 100%;
 background-color: transparent;
 height: 120px;
 }
-.email{
-width: 70px;
-margin-top: 20px;
-float: right;
-margin-right: 10%;
-background-color: transparent;
-}
-
-
 

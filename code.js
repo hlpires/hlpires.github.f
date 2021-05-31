@@ -206,3 +206,9 @@
 	  });
 	  
 	  makeItRain();
+
+
+function changeTool(){
+	$('.boxTools').addClass('boxToolsanime');
+	
+}
