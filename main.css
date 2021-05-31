@@ -759,11 +759,23 @@ left: 45%;
 opacity: 0;
 transition: 0.5s;
 transform: translate3d(-300,0,0);
-width: 250px;
+width: 300px;
 position: absolute;
 z-index: 4;
-left: 45%;
+left: 42%;
+top:250px
 }
+
+.git4{
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate3d(-300,0,0);
+  width: 250px;
+  position: absolute;
+  z-index: 4;
+  left: 42%;
+  top:250px
+  }
 
 
 

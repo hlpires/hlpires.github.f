@@ -210,9 +210,9 @@
 	  
 
 
-
+	  $('.git').addClass('boxToolsanime');
 function changeTool(){
-var toolNumber = Math.floor(Math.random() * 4);
+var toolNumber = Math.floor(Math.random() * 5);
 
 if(toolNumber==0){
 	$('.git').addClass('boxToolsanime');	
@@ -243,7 +243,15 @@ $('.git2').removeClass('boxToolsanime');
 $('.git').removeClass('boxToolsanime');
 $('.git4').removeClass('boxToolsanime');
 }
+if(toolNumber==4){
+	$('.git4').addClass('boxToolsanime');
+	$('.git1').removeClass('boxToolsanime');
+	$('.git2').removeClass('boxToolsanime');
+	$('.git').removeClass('boxToolsanime');
+	$('.git3').removeClass('boxToolsanime');
+	
 
+	}
 }
 
 
