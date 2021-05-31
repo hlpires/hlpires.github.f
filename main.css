@@ -716,7 +716,7 @@ background-color:rgb(223, 232, 241);
 float: right;
 margin-right: 10%;
 margin-top: 11%;
-box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
+box-shadow: 0 50px 50px 0 rgb(160, 160, 182), 0 0 0 1px #e6ecf8;
 color: #141c3a;
 border-radius: 12px;
 }
@@ -729,7 +729,7 @@ margin-top: 8%;
 .box{
 margin: 0 auto;
 margin-right: 07%;
-margin-top: 08%;
+margin-top: 0%;
 }
 .box2{
 height: 300px;
@@ -738,7 +738,7 @@ background-color:rgb(223, 232, 241);
 float: right;
 margin-right: 10%;
 margin-top: 11%;
-box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
+box-shadow: 0 50px 50px 0 rgb(160, 160, 182), 0 0 0 1px #e6ecf8;
 color: #141c3a;
 border-radius: 12px;
 }
@@ -756,7 +756,7 @@ background-color:rgb(223, 232, 241);
 float: right;
 margin-right: 10%;
 margin-top: 11%;
-box-shadow: 0 50px 50px 0 rgb(233 240 243 / 100%), 0 0 0 1px #e6ecf8;
+box-shadow: 0 50px 50px 0 rgb(160, 160, 182), 0 0 0 1px #e6ecf8;
 color: #141c3a;
 border-radius: 12px;
 }
@@ -785,12 +785,12 @@ font-family: raleway,raleway1;
 }
 
 .frase{
-height: 400px;
+height: 600px;
 background-color: transparent;
 position: relative;
 float: left;
 width: 100%;
-background-color: #252934;
+background-color: #1b1b1b;
 background-size: 100%;
 background-repeat: no-repeat;
 font-family: raleway,raleway1;
@@ -809,9 +809,9 @@ color: rgb(255, 254, 254);
 }
 
 .box10{
+padding: 150px;
 width: 20%;
-height: 400px;
-
+height: 100px;
 margin: 0 auto;
 text-align: center;
 
@@ -821,14 +821,14 @@ text-align: center;
 .fraseleft{
 float: left;
 width: 100%;
-margin-top: 6.7%;
+margin-top:18.2%;
 position: relative;
-height: 60%;
-background-color: #252934;
-background-image: url(./IMG/frase.png);
+height: 200px;
+background-color:#1b1b1b;
+background-image: url(./IMG/Coner.png);
 background-repeat: no-repeat;
 background-size: 100%;
-padding-bottom: 00px;
+
 
 overflow: hidden;
 }
