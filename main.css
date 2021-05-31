@@ -611,12 +611,11 @@ h7{
 h8{
   font-family: Canela Web,Times,serif;
   font-size: 40px;
-  color: #c8deec;
+  color: #f4fbff;
   margin-bottom: 10%;
   width: 100%;
- 
-  
 font-weight: bold;
+margin-left: -7%;
 }
 main{
   text-align: center;
@@ -650,7 +649,7 @@ button{
   height: 200px;
   background-image: url("./IMG/arrow-left.png");
   float: left;
-  margin-left: 12%;
+  margin-left: 10%;
 }
 
 .QUALIFICAÇÕES{
