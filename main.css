@@ -381,23 +381,25 @@ margin-right: 20px;
 
 .intro{
   margin-top: 04%;
-  width: 20%;
+  width: 32%;
   position: relative;
   float: left;
-  height: 600px;
+  height: 1600px;
   position: relative;
   color: #0d0d0e;
 
   margin-left: 16%;
   
 }
+
 #mask{
-  clip-path: circle();
-  
+  clip-path: circle()
 }
 #mascara{
-  width: 300px;
-  /*imagem*/
+ 
+  width: 650px;
+  
+
 }
 .t1{
 font-size: 25px;
@@ -408,7 +410,8 @@ font-weight: bold;
 .t2{
   font-family: raleway,raleway1;
   font-size: 20px;
-  
+  width: 60%;
+  margin-left: 20%;
 }
 
 .introAnime{
@@ -723,26 +726,26 @@ margin-top: 09%;
 .git{
 width: 250px;
 opacity: 0;
-transition: .0s;
+transition: 10s;
 transform: translate3d(-300,0,0);
 }
 .git1{
   opacity: 0;
-  transition: .0s;
+  transition: 05s;
   transform: translate3d(-300,0,0);
   width: 200px;
 }
 
 .git2{
   opacity: 0;
-transition: .0s;
+transition: 05s;
 transform: translate3d(-300,0,0);
 width: 200px;
 }
 
 .git3{
   opacity: 0;
-transition: .0s;
+transition: 05s;
 transform: translate3d(-300,0,0);
 width: 200px;
 }

@@ -207,14 +207,32 @@
 	  
 	  makeItRain();
 
-
+	  
+$('.git').addClass('boxToolsanime');
+ var toolClock = setInterval(changeTool,2000);
+ 
 function changeTool(){
-	setTimeout($('.git').addClass('boxToolsanime'),20000);
-	setTimeout($('.git1').addClass('boxToolsanime'),20000);
-	setTimeout($('.git2').addClass('boxToolsanime'),20000);
-	setTimeout($('.git3').addClass('boxToolsanime'),20000);
+var selector = 1;
+selector = selector + 1;
+console.log(selector)
+
+if(selector==2){
+	
+	$('.git').removeClass('boxToolsanime');
+	$('.git1').addClass('boxToolsanime');
+	
+	selector = selector + 1;
+}
+if(selector==3){
+	$('.git2').addClass('boxToolsanime');
+	selector = selector + 1;
+}
+if(selector==4){
+$('.git3').addClass('boxToolsanime');
+	
 }
 
+}
 
 
 
