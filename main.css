@@ -53,12 +53,12 @@ body{
 }
 .wave:before{
   border-radius:45%;
-  background:aqua;
+  background:rgb(17, 17, 17);
   animation:animate 5s linear infinite;
 }
 .wave:after{
   border-radius:50%;
-  background:blue;
+  background:rgb(20, 20, 20);
   animation:animate 3.5s linear infinite;
 }
 @keyframes animate{
@@ -84,7 +84,7 @@ overflow:hidden;
 position:relative;
 width:120%;
 height:100%;
-background:#4973ff;
+background:#3f3f3f;
 border-radius:50%;
 box-shadow:inset 0 0 50px rgba(0,0,0,.5);
 }
@@ -100,12 +100,12 @@ background:#000;
 }
 .wave:before{
 border-radius:45%;
-background:aqua;
+background:rgb(255, 255, 255);
 animation:animate 5s linear infinite;
 }
 .wave:after{
 border-radius:50%;
-background:blue;
+background:rgb(110, 110, 110);
 animation:animate 3.5s linear infinite;
 }
 @keyframes animate{
@@ -346,15 +346,15 @@ margin-right: 20px;
 
 
 .intro{
-  margin-top: -100px;
+  margin-top: 05.5%;
   width: 20%;
   position: relative;
   float: left;
-  height: 700px;
+  height: 600px;
   position: relative;
   color: #0d0d0e;
-  padding: 200px;
-  margin-left: 3.5%;
+
+  margin-left: 16%;
   
 }
 #mask{
@@ -362,7 +362,7 @@ margin-right: 20px;
   
 }
 #mascara{
-  width: 250px;
+  width: 300px;
   /*imagem*/
 }
 .t1{
@@ -432,7 +432,7 @@ h6{
   color: #2b2b2b;
   margin-right:40px ;
   margin-left: 40px;
-  margin-top: -20px;
+  margin-top: -27px;
 
 }
 
@@ -484,13 +484,13 @@ width: 15%;
 margin-left: 17%;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 280px;
+height: 310px;
 border-radius: 12%;
 
 
 }
 #imageCriative{
-margin-top: 05%;
+margin-top: -3%;
   width: 60%;
 }
 .inovate{
@@ -500,13 +500,13 @@ float: left;
 margin-left: 10%;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 280px;
+height: 310px;
 border-radius: 12%;
 }
 #imageInovate{
 width: 45%;
   margin-bottom: 05%;
-  margin-top: 05%;
+  margin-top: 02%;
 
   
 }
@@ -517,14 +517,14 @@ width: 15%;
 
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 280px;
+height: 310px;
 margin-left: 10%;
 border-radius: 12%;
 }
 #imageCuriosity{
 width: 35%;
 margin-bottom: 10%;
-margin-top: 05%;
+margin-top: 02%;
   
 }
 .centralizeObJ{
@@ -594,12 +594,12 @@ float: right;
   border-radius: 2px;
 }
 .centralizeskills{
-  margin-right: 03%;
+  margin-right: 18%;
   position: relative;
   display: flex;
   float: right;
-  width: 50%;
-  margin-top: -50px;
+  width: 32.5%;
+  margin-top: 2%;
   
 }
 
@@ -710,7 +710,7 @@ margin-top: 200px;
 }
 
 .box1{
-height: 300px;
+height: 320px;
 width: 18%;
 background-color:rgb(223, 232, 241);
 float: right;
@@ -732,7 +732,7 @@ margin-right: 07%;
 margin-top: 0%;
 }
 .box2{
-height: 300px;
+height: 320px;
 width: 18%;
 background-color:rgb(223, 232, 241);
 float: right;
@@ -750,7 +750,7 @@ margin-top: 5%;
 padding-left: 8%;
 }
 .box3{
-height: 300px;
+height: 320px;
 width: 18%;
 background-color:rgb(223, 232, 241);
 float: right;
@@ -778,7 +778,7 @@ font-weight: bold;
 p5{
 width: 100%;
 float: left;
-font-size: 22px;
+font-size: 20px;
 font-family: Times,serif;
 margin-top: 5%;
 font-family: raleway,raleway1;
@@ -790,12 +790,12 @@ background-color: transparent;
 position: relative;
 float: left;
 width: 100%;
-background-color: #1b1b1b;
+background-color: #1b1b1b!important;
 background-size: 100%;
 background-repeat: no-repeat;
 font-family: raleway,raleway1;
 font-weight: bolder;
-
+margin-bottom: 0!important;
 
 }
 
@@ -809,11 +809,12 @@ color: rgb(255, 254, 254);
 }
 
 .box10{
-padding: 150px;
+
 width: 20%;
 height: 100px;
 margin: 0 auto;
 text-align: center;
+margin-top: -90px;
 
 
 }
@@ -821,7 +822,7 @@ text-align: center;
 .fraseleft{
 float: left;
 width: 100%;
-margin-top:18.2%;
+margin-top:7%;
 position: relative;
 height: 600px;
 background-color:#1b1b1b;
