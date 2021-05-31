@@ -209,5 +209,13 @@
 
 
 function changeTool(){
-	$('.boxTools').addClass('boxToolsanime');
+	setTimeout($('.git').addClass('boxToolsanime'),20000);
+	setTimeout($('.git1').addClass('boxToolsanime'),20000);
+	setTimeout($('.git2').addClass('boxToolsanime'),20000);
+	setTimeout($('.git3').addClass('boxToolsanime'),20000);
 }
+
+
+
+
+

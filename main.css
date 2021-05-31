@@ -704,11 +704,7 @@ button{
 
 
 
-.boxToolsanime{
-  opacity: 1!important;
-  transform: translate3d(0,0,0)!important;
-  transition: .9s;
-}
+
 
 .boxTools{
 width: 40%;
@@ -716,18 +712,40 @@ height: 25%;
 background-color: transparent;
 margin: 0 auto;
 margin-top: 09%;
+
+}
+.boxToolsanime{
+  opacity: 1!important;
+  transform: translate3d(0,0,0)!important;
+  transition: .9s;
+}
+
+.git{
+width: 250px;
 opacity: 0;
 transition: .0s;
 transform: translate3d(-300,0,0);
 }
-.git{
-width: 250px;
+.git1{
+  opacity: 0;
+  transition: .0s;
+  transform: translate3d(-300,0,0);
+  width: 200px;
 }
 
+.git2{
+  opacity: 0;
+transition: .0s;
+transform: translate3d(-300,0,0);
+width: 200px;
+}
 
-
-
-
+.git3{
+  opacity: 0;
+transition: .0s;
+transform: translate3d(-300,0,0);
+width: 200px;
+}
 
 
 
