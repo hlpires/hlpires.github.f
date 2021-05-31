@@ -3,7 +3,7 @@ body{
   height: 100%;
   width: 100%;
   max-width: 3000px;
- 
+ overflow-x: hidden;
 
   }
   /* LOADING */
@@ -636,7 +636,19 @@ button{
 .expJS{
   margin-top: 3%;
 }
+.boxTools{
+width: 40%;
+height: 25%;
+background-color: transparent;
+margin: 0 auto;
+margin-top: 09%;
+}
+.git{
+width: 250px;
 
+
+
+}
 .buttonRight{
   width: 10%;
   height: 200px;
