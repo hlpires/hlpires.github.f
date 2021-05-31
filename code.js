@@ -208,28 +208,40 @@
 	  makeItRain();
 
 	  
-$('.git').addClass('boxToolsanime');
- var toolClock = setInterval(changeTool,2000);
- 
-function changeTool(){
-var selector = 1;
-selector = selector + 1;
-console.log(selector)
 
-if(selector==2){
+
+
+function changeTool(){
+var toolNumber = Math.floor(Math.random() * 4);
+
+if(toolNumber==0){
+	$('.git').addClass('boxToolsanime');	
 	
+	$('.git1').removeClass('boxToolsanime');
+	$('.git2').removeClass('boxToolsanime');
+	$('.git3').removeClass('boxToolsanime');
+	$('.git4').removeClass('boxToolsanime');
+}
+if(toolNumber==1){
+	$('.git1').addClass('boxToolsanime');	
 	$('.git').removeClass('boxToolsanime');
-	$('.git1').addClass('boxToolsanime');
-	
-	selector = selector + 1;
+	$('.git2').removeClass('boxToolsanime');
+	$('.git3').removeClass('boxToolsanime');
+	$('.git4').removeClass('boxToolsanime');
 }
-if(selector==3){
+if(toolNumber==2){
 	$('.git2').addClass('boxToolsanime');
-	selector = selector + 1;
+	$('.git1').removeClass('boxToolsanime');
+	$('.git').removeClass('boxToolsanime');
+	$('.git3').removeClass('boxToolsanime');
+	$('.git4').removeClass('boxToolsanime');
 }
-if(selector==4){
+if(toolNumber==3){
 $('.git3').addClass('boxToolsanime');
-	
+$('.git1').removeClass('boxToolsanime');
+$('.git2').removeClass('boxToolsanime');
+$('.git').removeClass('boxToolsanime');
+$('.git4').removeClass('boxToolsanime');
 }
 
 }
