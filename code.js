@@ -210,5 +210,4 @@
 
 function changeTool(){
 	$('.boxTools').addClass('boxToolsanime');
-	
 }
