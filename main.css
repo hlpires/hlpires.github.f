@@ -7,7 +7,11 @@ body{
  
 
   }
-
+  @viewport {
+    zoom: 1.0;
+    min-zoom: 1.0;
+    max-zoom: 2.0;
+  }
 
   /* LOADING */
 #circle{
@@ -121,175 +125,15 @@ animation:animate 3.5s linear infinite;
 
 
 
-#background{    
+#background{
+  justify-content: center;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
-  background: linear-gradient(to bottom, #202020, #111119);
-  
-  
+  background-repeat: no-repeat;
+  background-image: url(./IMG/background.png);
+background-size: 100%;
 }
-
-
-.rain {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-
-.rain.back-row {
-  display: none;
-  z-index: 1;
-  bottom: 60px;
-  opacity: 0.5;
-}
-
-body.back-row-toggle .rain.back-row {
-  display: block;
-}
-
-.drop {
-  position: absolute;
-  bottom: 100%;
-  width: 15px;
-  height: 120px;
-  pointer-events: none;
-  animation: drop 0.5s linear infinite;
-}
-
-@keyframes drop {
-  0% {
-    transform: translateY(0vh);
-  }
-  75% {
-    transform: translateY(90vh);
-  }
-  100% {
-    transform: translateY(90vh);
-  }
-}
-
-.stem {
-  width: 1px;
-  height: 60%;
-  margin-left: 7px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
-  animation: stem 0.5s linear infinite;
-}
-
-@keyframes stem {
-  0% {
-    opacity: 1;
-  }
-  65% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.splat {
-  width: 15px;
-  height: 10px;
-  border-top: 2px dotted rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  opacity: 1;
-  transform: scale(0);
-  animation: splat 0.5s linear infinite;
-  display: none;
-}
-
-body.splat-toggle .splat {
-  display: block;
-}
-
-@keyframes splat {
-  0% {
-    opacity: 1;
-    transform: scale(0);
-  }
-  80% {
-    opacity: 1;
-    transform: scale(0);
-  }
-  90% {
-    opacity: 0.5;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.5);
-  }
-}
-
-.toggles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 3;
-}
-
-.toggle {
-  position: absolute;
-  left: 20px;
-  width: 50px;
-  height: 50px;
-  line-height: 51px;
-  box-sizing: border-box;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.toggle:hover {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.toggle:active {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.toggle.active {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-.splat-toggle {
-  top: 20px;
-}
-
-.back-row-toggle {
-  top: 90px;
-  line-height: 12px;
-  padding-top: 14px;
-}
-
-.single-toggle {
-  top: 160px;
-}
-
-body.single-toggle .drop {
-  display: none;
-}
-
-body.single-toggle .drop:nth-child(10) {
-  display: block;
-}
-
-
-
-
 
 
 
@@ -347,19 +191,33 @@ margin-right: 20px;
   margin-right: 100px;
 
 }
-.backgroundButton{
-  width: 18%;
-  height: 80px;
+.titulo{
+font-size: 40px;
+color: white;
+right:33%;
+width: 32%;
+position: absolute;
+float: left;
+margin-top: 12%;
+font-family: raleway1,raleway;
+}
+
+.backgroundButton1{
+  width: 17%;
+  height: 7%;
   background-color: transparent;
-  margin-top: 15%;
   border: 3px solid rgb(236, 233, 233);
   font-size: 35px;
   font-family: raleway,raleway1;
   color: white;
+  transition: all .2s ease-in-out;
+  margin-top: 12%;
 }
-
-
-
+.backgroundButton1:hover{
+  transform: scale(1.2)!important;
+  color: #cc7513;
+  border: 3px solid #cc7513;
+}
 
 
 
@@ -396,16 +254,18 @@ margin-right: 20px;
   clip-path: circle()
 }
 #mascara{
- 
   width: 650px;
-  
+ 
 
 }
 .t1{
 font-size: 25px;
 font-family: raleway,raleway1;
 font-weight: bold;
-
+border-bottom: 4px solid #cc7513;
+width: 180px;
+margin:0 auto;
+margin-top: 15px;
 }
 .t2{
   font-family: raleway,raleway1;
@@ -453,7 +313,7 @@ margin: 0 auto;
   font-size: 40px;
   color: #2b2b2b;
   font-family: raleway,raleway1;
-  border-bottom:4px solid black;
+  border-bottom:4px solid #cc7513;
   font-weight: bold;
   
 }
@@ -462,6 +322,9 @@ h5{
   margin-top: 0px;
   font-size: 25px;
   color: #2b2b2b;
+  border-bottom: 4px solid #cc7513;
+  width: 110px;
+  margin-left: 30%;
 }
 h6{
   font-family: raleway,raleway1;
@@ -520,10 +383,10 @@ float: left;
 width: 15%;
 margin-left: 17%;
 font-family:Arial, Helvetica, sans-serif;
-box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
+box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 border-radius: 12%;
-
+background-color: #ffffff;
 
 }
 #imageCriative{
@@ -536,7 +399,7 @@ width: 15%;
 float: left;
 margin-left: 10%;
 font-family:Arial, Helvetica, sans-serif;
-box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
+box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 border-radius: 12%;
 }
@@ -553,7 +416,7 @@ float: left;
 width: 15%;
 
 font-family:Arial, Helvetica, sans-serif;
-box-shadow: 0 10px 10px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
+box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 margin-left: 10%;
 border-radius: 12%;
@@ -599,7 +462,7 @@ float: right;
 
 .skill-per{
   height: 20px;
-  background-color: #0fbcf9;
+  background-color: #cc7513;
   border-radius: 8px;
   width: 0;
   transition: 1s linear;
@@ -672,11 +535,12 @@ h7{
 h8{
   font-family: raleway,raleway1;
   font-size: 40px;
-  color: #f4fbff;
+  color: #d0f5ef;
   margin-bottom: 10%;
   width: 100%;
 font-weight: bold;
 margin-left: -4%;
+
 }
 main{
   text-align: center;
@@ -792,6 +656,10 @@ top:250px
   background-image: url("./IMG/arrow-next.png");
   float: right;
   
+  transition: all .2s ease-in-out; 
+}
+.buttonRight:hover{
+  transform: scale(1.3);
 }
 .buttonLeft{
   width:04.5%;
@@ -799,7 +667,17 @@ top:250px
   background-image: url("./IMG/arrow-left.png");
   float: left;
   margin-left: 10%;
+  
+  transition: all .2s ease-in-out; 
 }
+.buttonLeft:hover{
+  transform: scale(1.3);
+}
+
+
+
+
+
 
 .QUALIFICAÇÕES{
 height: 1000px;
@@ -817,9 +695,10 @@ height: 50px;
 margin: 0 auto;
 position: relative;
 font-weight: bold;
-border-bottom: 4px solid black;
+
 color: #2b2b2b;
 margin-top: 200px;
+border-bottom: 4px solid #cc7513;
 }
 
 .box1{
@@ -916,7 +795,7 @@ h20{
 float: left;
 text-align: center;
 font-size: 40px;
-color: rgb(255, 254, 254);
+color: rgb(187, 129, 3);
 
 
 }
