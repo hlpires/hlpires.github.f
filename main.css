@@ -137,7 +137,7 @@ animation:animate 3.5s linear infinite;
   background-repeat: no-repeat;
   background-image: url(./IMG/background.png);
   background-size: 100%;
-max-height: 1500px;
+max-height: 1100px;
 }
 
 
@@ -393,7 +393,6 @@ h6{
 
 
 
-
 .criative{
 margin-top: 0px;
 float: left;
@@ -556,7 +555,7 @@ h8{
   margin-bottom: 10%;
   width: 100%;
 font-weight: bold;
-margin-left: -4%;
+
 
 }
 main{
@@ -672,7 +671,7 @@ top:250px
   margin-right: 07%;
   background-image: url("./IMG/arrow-next.png");
   float: right;
-  
+  cursor: pointer;
   transition: all .2s ease-in-out; 
 }
 .buttonRight:hover{
@@ -684,7 +683,7 @@ top:250px
   background-image: url("./IMG/arrow-left.png");
   float: left;
   margin-left: 10%;
-  
+  cursor: pointer;
   transition: all .2s ease-in-out; 
 }
 .buttonLeft:hover{
@@ -794,7 +793,7 @@ font-family: raleway,raleway1;
 }
 
 .frase{
-height: 600px;
+height: 400px;
 background-color: transparent;
 position: relative;
 float: left;
@@ -809,12 +808,14 @@ margin-bottom: 0!important;
 }
 
 h20{
-  margin-top: 80px;
+  margin-top: 20%;
 float: left;
 text-align: center;
 font-size: 40px;
-color: rgb(187, 129, 3);
-
+color: rgb(255, 255, 255);
+font-weight:bolder;
+width: 400px;
+position: relative;
 
 }
 
