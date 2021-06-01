@@ -163,8 +163,8 @@
 	  
 	
 	
-
-	  $('.git').addClass('boxToolsanime');
+var autoRun = setInterval(changeTool,3000)
+$('.git').addClass('boxToolsanime');
 function changeTool(){
 var toolNumber = Math.floor(Math.random() * 5);
 

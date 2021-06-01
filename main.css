@@ -132,7 +132,8 @@ animation:animate 3.5s linear infinite;
   overflow: hidden;
   background-repeat: no-repeat;
   background-image: url(./IMG/background.png);
-background-size: 100%;
+  background-size: 100%;
+
 }
 
 
@@ -144,7 +145,6 @@ color: rgb(255, 255, 255);
 position: relative;
 float: left;
 width: 100%;
-
 
 }
 .sobreMenu{
@@ -160,14 +160,7 @@ width: 100%;
   margin-left: 7%;
   float: left;
 }
-.header{
-  height:100%;
-  width: 100%;
-  
-  
-  
 
-}
 .email{
   width: 70px;
   margin-top: 20px;
@@ -295,7 +288,7 @@ main{
 
 
 
-.OBj{
+#sobre10{
   top: 0;
   position: relative;
   width: 100%;
@@ -605,8 +598,8 @@ transform: translate3d(-300,0,0);
  float: left;
 position: absolute;
 z-index: 2;
-
 left: 45%;
+top:60%;
 }
 
 .git2{
@@ -626,7 +619,7 @@ transform: translate3d(-300,0,0);
 width: 300px;
 position: absolute;
 z-index: 4;
-left: 42%;
+left: 43.7%;
 top:250px
 }
 
@@ -637,8 +630,8 @@ top:250px
   width: 250px;
   position: absolute;
   z-index: 4;
-  left: 42%;
-  top:250px
+  left: 45%;
+  top:220px
   }
 
 
