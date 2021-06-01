@@ -816,11 +816,11 @@ position: relative;
 float: left;
 width: 100%;
 background-color: #1b1b1b!important;
-background-size: 100%;
+align-self: center;
 background-repeat: no-repeat;
 font-family: raleway,raleway1;
 font-weight: bolder;
-margin-bottom: 0!important;
+
 
 }
 
