@@ -11,12 +11,7 @@ body{
     scroll-behavior: smooth!important;
     
   }
-  @viewport {
-    zoom: 1.0;
-    min-zoom: 1.0;
-    max-zoom: 2.0;
-  }
-
+ 
   /* LOADING */
 #circle{
   height: 100%;
