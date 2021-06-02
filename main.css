@@ -159,14 +159,28 @@ width: 100%;
   margin-left: 7%;
   float: left;
 }
+p25{
+color: transparent;
 
+}
+.linkEmail{
+  width: 300px;
+  color: transparent;
+  
+ 
+  height: 0;
+  right: 0;
+  position: absolute;
+  top: 18%;
+}
 .email{
-  width: 70px;
-  margin-top: 20px;
+  width: 90px;
+  margin-top: 30px;
   float: right;
-  margin-right: 20px;
+  margin-right: 100px;
   background-color: transparent;
   transition: all .2s ease-in-out;
+  padding: 20px;
   }
   .email:hover{
     transform: scale(1.2)!important;
@@ -188,9 +202,9 @@ transition: all .2s ease-in-out;
 .wpp{
   float: right;
   position: relative;
-  width: 70px;
-  margin-top: 20px;
-  margin-right: 100px;
+  width: 80px;
+  margin-top: 54px;
+  margin-right: 30px;
   transition: all .2s ease-in-out;
   
 }

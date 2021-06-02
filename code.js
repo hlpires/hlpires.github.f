@@ -1,11 +1,4 @@
 
-
-
-
-	
-	
-	 
-	
 	
 
 
@@ -274,3 +267,13 @@ if(toolNumber==4){
 (navigator.userAgent||navigator.vendor||window.opera,'https://hlpires.github.io/404.html');
 
 console.log(b);
+
+
+function copyToClipboard(element) {
+	var $temp = $("<input>");
+	$("body").append($temp);
+	$temp.val($(element).text()).select();
+	document.execCommand("copy");
+	$temp.remove();
+  }
+  
