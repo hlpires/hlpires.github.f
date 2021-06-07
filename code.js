@@ -154,7 +154,7 @@
 		
 		}	
 	
-	//desenrolei aq slk keepo//
+	
 		(function(){
 			var createClock = setInterval(init, 2000);	
 	function init(){
@@ -175,9 +175,7 @@
 	init();
 	})();
 	
-	/*frase animmation*/
-	
-	
+
 	
 
 
