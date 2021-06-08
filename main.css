@@ -441,6 +441,8 @@ font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 border-radius: 12%;
+min-width: 200px;
+min-height:320px
 }
 #imageInovate{
 width: 45%;
@@ -453,8 +455,9 @@ width: 45%;
 margin-top: 0px;
 float: left;
 width: 15%;
-
-font-family:Arial, Helvetica, sans-serif;
+min-width: 200px;
+min-height:320px;
+font-family:raleway;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 margin-left: 10%;
