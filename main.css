@@ -269,11 +269,7 @@ h100:hover{
 
 @font-face {
   font-family:raleway;
-  src: url(./fontes/Raleway-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family:raleway1;
-  src: url(./fontes/Raleway-Italic-VariableFont_wght.ttf);
+  src: url(./fontes/Poppins-ExtraLight.ttf);
 }
 
 
@@ -429,7 +425,8 @@ box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 border-radius: 12%;
 background-color: #ffffff;
-
+min-width: 200px;
+min-height:320px
 }
 #imageCriative{
 margin-top: -3%;
