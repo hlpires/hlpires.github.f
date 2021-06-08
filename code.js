@@ -13,7 +13,7 @@
 	 
 	  smoothScrollTo(0, to);
 	}
-	
+		
 	function scrollToIdOnClick(event) {
 		event.preventDefault();
 		const to = getScrollTopByHref(event.currentTarget)+ 88;
