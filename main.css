@@ -168,6 +168,10 @@ h100:hover{
   font-family:raleway;
   src: url(./fontes/Poppins-ExtraLight.ttf);
 }
+@font-face {
+  font-family:ralewayB;
+  src: url(./fontes/Poppins-SemiBold.ttf);
+}
 
 
 
@@ -261,7 +265,7 @@ margin: 0 auto;
   margin-top: 80px;
   font-size: 40px;
   color: #2b2b2b;
-  font-family: raleway,raleway1;
+  font-family: ralewayB;
   border-bottom:4px solid #0047AB;
   font-weight: bold;
   
@@ -496,7 +500,7 @@ h7{
 .project {
   margin-top: 150px;
 height: 35vw;
-background-color: #e0e0e0;
+background-color: #e7e7e7;
 max-height: 800px;
 align-items: center;
  
@@ -504,7 +508,7 @@ align-items: center;
 .boxP{
   height: 30vw;
   width: 100vw;
-  background-color: #e0e0e0;
+  background-color: #e7e7e7;
 
   margin-top: 40px;
   justify-content: center;
@@ -531,8 +535,8 @@ h9{
   margin-top: 80px;
   font-size: 40px;
   color: #2b2b2b;
-  font-family: raleway,raleway1;
+  font-family: ralewayB;
   border-bottom:4px solid #0047AB;
-  font-weight: bold;
+  font-weight: bolder;
   display: block;
 }
