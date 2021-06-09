@@ -187,32 +187,28 @@ h100:hover{
 
 #mask{
  background-color:#053475; 
-height: 340px;
-width: 400px;
-margin-left: 110px;
+height: 17vw;
+width: 20vw;
+margin-left: -150px;
+margin-top: -180px;
 }
 #mascara{
-  margin-left: 40px;
-  margin-top: 30px;
-  width: 500px;
+  margin-left: 5.2vw;
+  margin-top: 2.2vw;
+  width: 23vw;
 clip-path:polygon();
 
 }
 .posicionate{
-  float: left;
-  margin-left: 17vw;
+  
+  align-items: center;
+  justify-content: center;
   position: relative;
   margin-top: -60px;
+  display: flex;
+  margin-left: 10vw;
 }
-h1{
 
-
-}
-h2{
-  
- 
-
-}
 .t1{
 font-size: 25px;
 font-family: raleway,raleway1;
@@ -220,13 +216,13 @@ font-weight: bold;
 border-bottom: 4px solid #0047AB;
 width: 180px;
 margin:0 auto;
-margin-top: 15px;
+margin-top: 2.5vw;
 }
 .t2{
   font-family: raleway,raleway1;
   font-size: 20px;
-  width: 60%;
-  margin-left: 20%;
+  width: 23vw;
+  
 }
 
 .introAnime{
@@ -325,7 +321,7 @@ h6{
   background-color: rgb(255, 255, 255);
   height: 500px;
   text-align: center;
-  margin-top: 05vw;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -403,11 +399,11 @@ margin-top: 02%;
 
 
 .skills{
-  width: 100%;
-  max-width: 500px;
-  margin-top: 10%;
-  
-  
+
+  max-width: 800px;
+  margin-top: 01vw;
+  margin-left: 11vw;
+ min-width: 31vw;
   
 }
 
