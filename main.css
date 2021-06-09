@@ -218,7 +218,7 @@ font-weight: bold;
 border-bottom: 4px solid #0047AB;
 width: 180px;
 margin:0 auto;
-margin-top: 2.5vw;
+margin-top: 2vw;
 }
 .t2{
   font-family: raleway,raleway1;
@@ -253,7 +253,7 @@ transition: 1.3s;
   font-size: 15px;
   float: left;
   text-align: center;
-  border-bottom: 10px solid #313131;
+ 
 }
 h4{
 margin: 0 auto;
@@ -370,7 +370,7 @@ height: 12vw;
 border-radius: 12%;
 min-width: 300px;
 min-height:300px;
-margin:3vw;
+margin:7vw;
 max-width: 500px;
 max-height: 400px;
 }
@@ -408,11 +408,12 @@ margin-top: 02%;
 
 .skills{
 
+
   max-width: 33vw;
   margin-top: 01vw;
   margin-left: 11vw;
- min-width: 31vw;
-  
+ min-width: 32vw;
+  background-color:rgb(255, 255, 255);
 }
 
 .skill-name{
@@ -426,6 +427,7 @@ margin-top: 02%;
 }
 
 .skill-bar{
+  margin: 20px;
   height: 20px;
   background: #cacaca;
   border-radius: 8px;
@@ -491,8 +493,9 @@ h7{
 
 
 
-.exp{
-background-color: black;
-  
+.project {
+  margin-top: 100px;
+height: 500px;
+background-color: rgb(255, 255, 255);
 
 }
