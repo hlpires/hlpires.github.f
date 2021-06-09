@@ -251,8 +251,10 @@ h100:hover{
   border: 3px solid rgb(236, 233, 233);
   height: 3.3vw;
   max-height: 100px;
+  min-height: 80px;
+  min-width: 300px;
   width: 15vw;
-  max-width: 600px;
+  max-width: 340px;
   font-size: 45px;
   font-family: raleway,raleway1;
   color: white;
