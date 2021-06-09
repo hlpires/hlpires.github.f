@@ -215,26 +215,28 @@ transition: all .2s ease-in-out;
 
 }
 .titulo{
-font-size: 40px;
+
 color: white;
-right:58%;
-width: 40%;
+right:62.7%;
+width: 35vw;
 position: absolute;
 float: left;
-margin-top: 34%;
+margin-top: 14%;
 font-family: raleway1,raleway;
 }
 h100{
- margin-top: 10px;
+ margin-top: -1px;
  position: relative;
  float: left;
- margin-left: 20px;
+ margin-left: 1.2vw;
  color: white;
  transition: all .2s ease-in-out;
+ font-family: raleway;
 }
 
 h100:hover{
-  color: #cc7513;
+  color: #1379cc;
+  transform: scale(1.0);
 }
 
 
@@ -247,19 +249,19 @@ h100:hover{
   left: 2%;
   background-color: transparent;
   border: 3px solid rgb(236, 233, 233);
-  height: 90px;
-  width: 270px;
+  height: 3vw;
+  width: 14vw;
   font-size: 45px;
   font-family: raleway,raleway1;
   color: white;
   transition: all .2s ease-in-out;
-  margin-top: 38%;
+  margin-top: 18%;
   position: absolute;
 }
 #backgroundButton1:hover{
-  transform: scale(1.2)!important;
-  color: #cc7513;
-  border: 3px solid #cc7513;
+  transform: scale(1.08)!important;
+  color: #0047AB;
+  border: 3px solid #0047AB;
 }
 
 
@@ -316,7 +318,7 @@ h2{
 font-size: 25px;
 font-family: raleway,raleway1;
 font-weight: bold;
-border-bottom: 4px solid #cc7513;
+border-bottom: 4px solid #0047AB;
 width: 180px;
 margin:0 auto;
 margin-top: 15px;
@@ -362,7 +364,7 @@ margin: 0 auto;
   font-size: 40px;
   color: #2b2b2b;
   font-family: raleway,raleway1;
-  border-bottom:4px solid #cc7513;
+  border-bottom:4px solid #0047AB;
   font-weight: bold;
   
 }
@@ -371,7 +373,7 @@ h5{
   margin-top: 0px;
   font-size: 25px;
   color: #2b2b2b;
-  border-bottom: 4px solid #cc7513;
+  border-bottom: 4px solid #0047AB;
   width: 110px;
   margin-left: 30%;
 }
@@ -523,7 +525,7 @@ margin-top: 02%;
 
 .skill-per{
   height: 20px;
-  background-color: #cc7513;
+  background-color: #0047AB;
   border-radius: 8px;
   width: 0;
   transition: 1s linear;
