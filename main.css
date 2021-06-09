@@ -217,11 +217,11 @@ transition: all .2s ease-in-out;
 .titulo{
 font-size: 40px;
 color: white;
-right:33%;
-width: 32%;
+right:58%;
+width: 40%;
 position: absolute;
 float: left;
-margin-top: 18%;
+margin-top: 34%;
 font-family: raleway1,raleway;
 }
 h100{
@@ -244,16 +244,16 @@ h100:hover{
 
 
 #backgroundButton1{
-  left: 42%;
+  left: 2%;
   background-color: transparent;
   border: 3px solid rgb(236, 233, 233);
-  height: 60px;
+  height: 90px;
   width: 270px;
-  font-size: 35px;
+  font-size: 45px;
   font-family: raleway,raleway1;
   color: white;
   transition: all .2s ease-in-out;
-  margin-top: 25%;
+  margin-top: 38%;
   position: absolute;
 }
 #backgroundButton1:hover{
@@ -277,23 +277,38 @@ h100:hover{
 
 
 .intro{
-  margin-top: 2.5%;
-  width: 32%;
+ margin-top: 5vw;
+  width: 100%;
   position: relative;
   float: left;
   height: 1600px;
   position: relative;
-  color: #0d0d0e;
-
-  margin-left: 13%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0%;
   
 }
 
 #mask{
-  clip-path: circle()
+  clip-path: circle();
+  
 }
 #mascara{
   width: 650px;
+
+
+}
+.posicionate{
+  float: left;
+  margin-left: 05%;
+  position: relative;
+  margin-top: 70px;
+}
+h1{
+
+
+}
+h2{
+  
  
 
 }
@@ -325,12 +340,7 @@ transform: translate3d(0,0,0);
 transition: 1.3s;
 }
 
-main{
-  
-  width: 100%;
-  position: relative;
-  
-}
+
 
 
 
@@ -407,7 +417,17 @@ h6{
   transition: .9s;
 }
 
+.centralize{
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  text-align: center;
+  margin-top: 05vw;
 
+position: relative;
+}
 
 
 
@@ -416,17 +436,18 @@ h6{
 
 
 .criative{
-margin-top: 0px;
-float: left;
+
 width: 15%;
-margin-left: 17%;
-font-family:Arial, Helvetica, sans-serif;
+float: left;
+font-family:raleway;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 border-radius: 12%;
 background-color: #ffffff;
 min-width: 200px;
-min-height:320px
+margin-left: 25%;
+margin-right: 3vw;
+
 }
 #imageCriative{
 margin-top: -3%;
@@ -436,13 +457,15 @@ margin-top: -3%;
 margin-top: 0px;
 width: 15%;
 float: left;
-margin-left: 10%;
+margin: auto 0;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 border-radius: 12%;
 min-width: 200px;
-min-height:320px
+min-height:320px;
+margin-right: 3vw;
+
 }
 #imageInovate{
 width: 45%;
@@ -460,22 +483,18 @@ min-height:320px;
 font-family:raleway;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
-margin-left: 10%;
+margin: auto 0;
 border-radius: 12%;
+margin-right: 20%;
+
 }
 #imageCuriosity{
 width: 35%;
 margin-bottom: 10%;
 margin-top: 02%;
-  
+
 }
-.centralizeObJ{
-margin-top: 04%;
-position: relative;
-width: 100%;
-align-self: center;
-float: right;
-}
+
 
 
 .skills{
