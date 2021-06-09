@@ -493,7 +493,9 @@ h7{
 
 
 
-
+.projetosText{
+  min-width: 170px;
+}
 
 
 
@@ -509,6 +511,8 @@ align-items: center;
   height: 30vw;
   width: 100vw;
   background-color: #e7e7e7;
+  max-height: 700px;
+  max-width: 3000px;
 
   margin-top: 40px;
   justify-content: center;
@@ -521,13 +525,16 @@ align-items: center;
  margin: 40px;
   margin-top: 40px;
   transition: 0.6s;
+  max-width: 800px;
+  max-height: 500px;
 }
 .boxPchild:hover{
   transform: scale(1.1);
 }
 #projectReino{
-  width: 500px;
+  width: 30vw;
   float: left;
+max-width: 800px;
 }
 h9{
   margin: 0 auto;
