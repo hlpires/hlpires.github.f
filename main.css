@@ -191,13 +191,15 @@ height: 17vw;
 width: 20vw;
 margin-left: -150px;
 margin-top: -180px;
+max-width: 500px;
+max-height: 500px;
 }
 #mascara{
   margin-left: 5.2vw;
   margin-top: 2.2vw;
   width: 23vw;
 clip-path:polygon();
-
+max-width: 500px;
 }
 .posicionate{
   
@@ -221,8 +223,8 @@ margin-top: 2.5vw;
 .t2{
   font-family: raleway,raleway1;
   font-size: 20px;
-  width: 23vw;
-  
+  width: 25vw;
+  margin-left: -40px;
 }
 
 .introAnime{
@@ -341,7 +343,7 @@ width: 15vw;
 float: left;
 font-family:raleway;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-min-height:370px;
+min-height:300px;
 border-radius: 12%;
 background-color: #ffffff;
 min-width: 300px;
@@ -363,7 +365,7 @@ box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 310px;
 border-radius: 12%;
 min-width: 300px;
-min-height:370px;
+min-height:300px;
 margin:3vw
 
 }
@@ -380,10 +382,10 @@ float: left;
 display: inline;
 width: 15vw;
 min-width: 300px;
-min-height:370px;
+min-height:300px;
 font-family:raleway;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 310px;
+height: 12vw;
 margin: auto 0;
 border-radius: 12%;
 
@@ -400,7 +402,7 @@ margin-top: 02%;
 
 .skills{
 
-  max-width: 800px;
+  max-width: 33vw;
   margin-top: 01vw;
   margin-left: 11vw;
  min-width: 31vw;
