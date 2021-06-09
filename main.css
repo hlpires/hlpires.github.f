@@ -347,9 +347,9 @@ min-height:300px;
 border-radius: 12%;
 background-color: #ffffff;
 min-width: 300px;
-
-
-
+max-width: 500px;
+max-height: 400px;
+height: 12vw;
 }
 #imageCriative{
 margin-top: -3%;
@@ -362,12 +362,13 @@ float: left;
 margin: auto 0;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 310px;
+height: 12vw;
 border-radius: 12%;
 min-width: 300px;
 min-height:300px;
-margin:3vw
-
+margin:3vw;
+max-width: 500px;
+max-height: 400px;
 }
 #imageInovate{
 width: 45%;
@@ -388,8 +389,9 @@ box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
 height: 12vw;
 margin: auto 0;
 border-radius: 12%;
-
+max-width: 500px;
 display:inline-block;
+max-height: 400px;
 }
 #imageCuriosity{
 width: 35%;
@@ -416,19 +418,21 @@ margin-top: 02%;
   margin: 20px 0;
   font-weight: bold;
   font-family: raleway,raleway1;
+  max-width: 700px;
 }
 
 .skill-bar{
   height: 20px;
   background: #cacaca;
   border-radius: 8px;
+  max-width: 650px
 }
 
 .skill-per{
   height: 20px;
   background-color: #0047AB;
   border-radius: 8px;
-  width: 0;
+  width: 30;
   transition: 1s linear;
   position: relative;
 }
