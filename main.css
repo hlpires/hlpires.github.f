@@ -215,13 +215,13 @@ transition: all .2s ease-in-out;
 
 }
 .titulo{
-
+max-width: 800px;
 color: white;
-right:62.7%;
+margin-left: 49px;
 width: 35vw;
 position: absolute;
 float: left;
-margin-top: 14%;
+margin-top: 380px;
 font-family: raleway1,raleway;
 }
 h100{
@@ -246,16 +246,18 @@ h100:hover{
 
 
 #backgroundButton1{
-  left: 2%;
+  margin-left: 50px;
   background-color: transparent;
   border: 3px solid rgb(236, 233, 233);
-  height: 3vw;
-  width: 14vw;
+  height: 3.3vw;
+  max-height: 100px;
+  width: 15vw;
+  max-width: 600px;
   font-size: 45px;
   font-family: raleway,raleway1;
   color: white;
   transition: all .2s ease-in-out;
-  margin-top: 18%;
+  margin-top: 450px;
   position: absolute;
 }
 #backgroundButton1:hover{
@@ -359,7 +361,7 @@ transition: 1.3s;
 }
 h4{
 margin: 0 auto;
-  max-width: 150px;
+  max-width: 120px;
   margin-top: 80px;
   font-size: 40px;
   color: #2b2b2b;
@@ -501,7 +503,7 @@ margin-top: 02%;
 
 .skills{
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   margin-top: 10%;
   
   
