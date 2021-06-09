@@ -198,7 +198,7 @@ max-height: 400px;
   margin-left: 100px;
   margin-top: 40px;
   width: 23vw;
-clip-path:polygon();
+clip-path:fill-box;
 max-width: 500px;
 }
 .posicionate{
@@ -494,8 +494,18 @@ h7{
 
 
 .project {
-  margin-top: 100px;
-height: 500px;
-background-color: rgb(255, 255, 255);
-
+  margin-top: 150px;
+height: 35vw;
+background-color: #e0e0e0;
+max-height: 800px;
+}
+h9{
+  margin: 0 auto;
+  max-width: 120px;
+  margin-top: 80px;
+  font-size: 40px;
+  color: #2b2b2b;
+  font-family: raleway,raleway1;
+  border-bottom:4px solid #0047AB;
+  font-weight: bold;
 }
