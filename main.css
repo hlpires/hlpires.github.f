@@ -295,15 +295,15 @@ h100:hover{
   
 }
 #mascara{
-  width: 650px;
+  width: 600px;
 
 
 }
 .posicionate{
   float: left;
-  margin-left: 05%;
+  margin-left: 17vw;
   position: relative;
-  margin-top: 70px;
+  margin-top: -60px;
 }
 h1{
 
@@ -562,7 +562,7 @@ margin-top: 02%;
   display: flex;
   float: right;
   width: 32.5%;
-  margin-top: 1.5%;
+  margin-top: -06%;
   
 }
 
