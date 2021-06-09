@@ -192,11 +192,11 @@ width: 20vw;
 margin-left: -150px;
 margin-top: -180px;
 max-width: 500px;
-max-height: 500px;
+max-height: 400px;
 }
 #mascara{
-  margin-left: 5.2vw;
-  margin-top: 2.2vw;
+  margin-left: 100px;
+  margin-top: 40px;
   width: 23vw;
 clip-path:polygon();
 max-width: 500px;
@@ -225,6 +225,7 @@ margin-top: 2.5vw;
   font-size: 20px;
   width: 25vw;
   margin-left: -40px;
+  max-width: 600px;
 }
 
 .introAnime{
