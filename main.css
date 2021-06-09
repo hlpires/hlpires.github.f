@@ -249,12 +249,12 @@ h100:hover{
   margin-left: 50px;
   background-color: transparent;
   border: 3px solid rgb(236, 233, 233);
-  height: 3.3vw;
-  max-height: 100px;
-  min-height: 80px;
+  height: 2.0vw;
+  max-height: 85px;
+  min-height: 60px;
   min-width: 300px;
   width: 15vw;
-  max-width: 340px;
+  max-width: 300px;
   font-size: 45px;
   font-family: raleway,raleway1;
   color: white;
