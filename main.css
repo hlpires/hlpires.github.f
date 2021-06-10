@@ -420,7 +420,7 @@ width: 45%;
 }
 .curiosity{
 margin-top: 0px;
-float: left;
+
 display: inline;
 width: 15vw;
 min-width: 300px;
@@ -560,6 +560,7 @@ align-items: center;
   transition: 0.6s;
   max-width: 800px;
   max-height: 500px;
+  cursor: pointer;
 }
 .boxPchild:hover{
   transform: scale(1.1);
@@ -585,7 +586,7 @@ h9{
 .habilidades{
   height:40vw ;
   width: 100vw;
-  background-color: turquoise;
+  background-color: rgb(255, 255, 255);
 }
 .habilidadesText{
   min-width: 525px;
@@ -596,17 +597,40 @@ h9{
   justify-content: center;
   position: relative;
   display: flex;
-  background-color: yellowgreen;
+  background-color: rgb(255, 255, 255);
   margin-top: 0px;
 }
 .boxHabilidades{
 margin: 30px;
-  background-color: rgb(230, 50, 50);
-  height: 13vw;
-  width: 14vw;
+  background-color: rgb(221, 236, 255);
+  height: 6vw;
+  width: 6vw;
   margin-top: 120px;
+  min-height: 12vw;
+  min-width: 15vw;
+  box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
+  transition: 1s;
+}
+.boxHabilidades:hover{
+  transform: scale(1.2);
 }
 .boxH{
-  width: 12vw;
+  width: 7vw;
+  margin-top: 0px;
+  padding: 25px;
+
+}
+
+.boxH1{
+  width: 6vw;
   margin-top: 9px;
+  padding: 25px;
+  
+}
+.contato{
+  margin-top: 120px;
+  height: 35vw;
+  width: 100vw;
+  background-color: #e7e7e7;
+
 }
