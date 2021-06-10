@@ -547,6 +547,33 @@ h9{
   font-weight: bolder;
   display: block;
 }
+
+
+.habilidades{
+  height:40vw ;
+  width: 100vw;
+  background-color: turquoise;
+}
 .habilidadesText{
   min-width: 255px;
+}
+.habilidadesBoxes{
+  height:20vw ;
+  width: 100vw;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  background-color: yellowgreen;
+  margin-top: 0px;
+}
+.boxHabilidades{
+margin: 30px;
+  background-color: rgb(230, 50, 50);
+  height: 13vw;
+  width: 14vw;
+  margin-top: 120px;
+}
+.boxH{
+  width: 12vw;
+  margin-top: 9px;
 }
