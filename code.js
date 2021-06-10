@@ -181,7 +181,7 @@
 					});
 				  });
 				
-			  }, 5000));
+			  }, 1000));
 
 			  (setTimeout(function boxes() {
 				$('.mask1').each(function(){
@@ -199,7 +199,7 @@
 					});
 				  });
 				
-			  }, 5500));
+			  }, 1100));
 
 			  (setTimeout(function boxes() {
 				$('.mask2').each(function(){
@@ -217,7 +217,7 @@
 					});
 				  });
 				
-			  }, 6000));
+			  }, 1200));
 
 
 			  (setTimeout(function boxes() {
@@ -236,7 +236,7 @@
 					});
 				  });
 				
-			  }, 6500));
+			  }, 1300));
 
 			  (setTimeout(function boxes() {
 				$('.mask1').each(function(){
@@ -254,7 +254,7 @@
 					});
 				  });
 				
-			  }, 7000));
+			  }, 1400));
 
 			  (setTimeout(function boxes() {
 				$('.mask2').each(function(){
@@ -272,7 +272,64 @@
 					});
 				  });
 				
-			  }, 7500))
+			  }, 1500));
+
+			  (setTimeout(function boxes() {
+				$('.mask').each(function(){
+					var $this = $(this);
+					var per = 0;
+					$this.css("width",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 1600));
+
+			  (setTimeout(function boxes() {
+				$('.mask1').each(function(){
+					var $this = $(this);
+					var per = 0;
+					$this.css("width",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 1700));
+
+			  (setTimeout(function boxes() {
+				$('.mask2').each(function(){
+					var $this = $(this);
+					var per = 0;
+					$this.css("width",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 1800));
+
+			  
+			 
 			  
 	}
 	}
