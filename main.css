@@ -185,25 +185,58 @@ h100:hover{
   height: 1600px;
   position: relative;
   background-color: rgb(255, 255, 255);
-  margin-left: 0%;
-  
+  left: 20px ;
 }
 
 #mask{
  background-color:#053475; 
-height: 17vw;
+ height: 23vw;
 width: 20vw;
-margin-left: -150px;
-margin-top: -180px;
-max-width: 500px;
-max-height: 400px;
+left: 40px ;
+max-width: 400px;
+max-height: 520px;
+z-index: 0;
+position: absolute;
+}
+#mask1{
+  background-color:#0448a7; 
+  height: 21vw;
+  width: 20vw;
+  left: 80px ;
+  max-width: 400px;
+  max-height: 480px;
+  z-index: 1;
+  position: absolute;
+}
+#mask2{
+  background-color:#0b5ed1; 
+  height: 19vw;
+  width: 20vw;
+  left: 120px ;
+  max-width: 400px;
+  max-height: 440px;
+  z-index: 2;
+  position: absolute;
+}
+#mask3{
+  background-color:#3581eb; 
+  height: 17vw;
+  width: 20vw;
+  left: 160px ;
+  max-width: 400px;
+  max-height: 400px;
+  z-index: 3;
+  position: absolute;
 }
 #mascara{
-  margin-left: 100px;
-  margin-top: 40px;
+  height: 14vw;
+  margin-left: 40px;
+  margin-top: 30px;
   width: 23vw;
 clip-path:fill-box;
 max-width: 500px;
+max-height:400px ;
+max-width: 600px;
 }
 .posicionate{
   
@@ -555,7 +588,7 @@ h9{
   background-color: turquoise;
 }
 .habilidadesText{
-  min-width: 255px;
+  min-width: 525px;
 }
 .habilidadesBoxes{
   height:20vw ;
