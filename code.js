@@ -161,6 +161,13 @@
 	
 	
 	
+
+
+
+
+
+//COPIA NAO COMEDIA
+
 	if(scrollwhereV>offset){
 			scrollwhere();
 			console.log("STOP INTERVAL EXECUTED");

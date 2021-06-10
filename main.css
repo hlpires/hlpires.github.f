@@ -610,6 +610,8 @@ margin: 30px;
   min-width: 15vw;
   box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
   transition: 1s;
+
+  
 }
 .boxHabilidades:hover{
   transform: scale(1.2);
@@ -618,6 +620,8 @@ margin: 30px;
   width: 7vw;
   margin-top: 0px;
   padding: 25px;
+max-width: 600px;
+max-height: 600px;
 
 }
 
@@ -625,7 +629,7 @@ margin: 30px;
   width: 6vw;
   margin-top: 9px;
   padding: 25px;
-  
+
 }
 .contato{
   margin-top: 120px;
@@ -633,4 +637,8 @@ margin: 30px;
   width: 100vw;
   background-color: #e7e7e7;
 
+}
+.contatoText{
+  min-width: 165px;
+  margin-top: 120px;
 }
