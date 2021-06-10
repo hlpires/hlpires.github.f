@@ -58,15 +58,7 @@
 
 
 
-	
-	jQuery(document).ready(function(){
-	"use strict"
-	$('.exp').ripples({
-		dropRadius:10,
-		perturbance:0.01,
-	});
-	});
-	
+
 	
 	
 	
@@ -109,7 +101,7 @@
 			});
 		}
 		
-			
+
 		
 		function animeScroll2(){
 			
@@ -129,11 +121,17 @@
 		}
 	
 		animeScroll();
-	
+		
+
+
 		$(document).scroll(debounce(function(){
 			animeScroll();
 		}, 200));
 	})();
+	
+
+
+
 	
 	  function scrollwhere() {
 		  
@@ -153,8 +151,6 @@
 		  });
 		
 		}	
-	
-	
 		(function(){
 			var createClock = setInterval(init, 2000);	
 	function init(){
@@ -169,7 +165,115 @@
 			scrollwhere();
 			console.log("STOP INTERVAL EXECUTED");
 			clearInterval(createClock);
-			
+			(setTimeout(function boxes() {
+				$('.mask').each(function(){
+					var $this = $(this);
+					var per = $this.attr('per');
+					$this.css("height",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 5000));
+
+			  (setTimeout(function boxes() {
+				$('.mask1').each(function(){
+					var $this = $(this);
+					var per = $this.attr('per');
+					$this.css("height",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 5500));
+
+			  (setTimeout(function boxes() {
+				$('.mask2').each(function(){
+					var $this = $(this);
+					var per = $this.attr('per');
+					$this.css("height",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 6000));
+
+
+			  (setTimeout(function boxes() {
+				$('.mask').each(function(){
+					var $this = $(this);
+					var per = 87.8;
+					$this.css("height",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 6500));
+
+			  (setTimeout(function boxes() {
+				$('.mask1').each(function(){
+					var $this = $(this);
+					var per = 87.8;
+					$this.css("height",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 7000));
+
+			  (setTimeout(function boxes() {
+				$('.mask2').each(function(){
+					var $this = $(this);
+					var per = 87.8;
+					$this.css("height",per+'%');
+					$({animatedValue: 0}).animate({animatedValue: per},{
+					  duration: 3000,
+					  step: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  },
+					  complete: function(){
+						$this.attr('per', Math.floor(this.animatedValue) + '%');
+					  }
+					});
+				  });
+				
+			  }, 7500))
+			  
 	}
 	}
 	init();
