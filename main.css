@@ -644,8 +644,9 @@ max-height: 600px;
 }
 input{
   padding: 10px;
-  margin-top: 05px;
+  margin-top: 20px;
   float: left;
+  background-color: royalblue;
  
   width: 20vw;
 
@@ -668,5 +669,7 @@ float: left!important;
 
 }
 #buttonEmail{
-
+margin-top: 20px;
+width: 100px;
+height: 40px;
 }
