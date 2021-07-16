@@ -646,19 +646,21 @@ input{
   padding: 10px;
   margin-top: 20px;
   float: left;
-  background-color: royalblue;
- 
+  background-color: #ffffff;
+ margin-left: 5vw;
   width: 20vw;
+text-align: start;
 
 }
 .emailP{
-  width: 20vw;
-  border: 2px solid red;
-  height: 30vw;
+  width: 30vw;
+  box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
+  height: 23.5vw;
   margin-top: 100px;
   display: flex;
   margin-left: 300px;
   flex-wrap:wrap;
+  background-color: #ddecff;
 }
 
 
@@ -672,4 +674,8 @@ float: left!important;
 margin-top: 20px;
 width: 100px;
 height: 40px;
+align-self: center;
+}
+#texto{
+  height: 12vw;
 }
