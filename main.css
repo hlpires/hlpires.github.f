@@ -214,16 +214,17 @@ float: left;
 .perfil{
 margin-top: 20vw;
  border: 1px solid red;
- height: 25vw;
- width: 20vw;
- 
+ height: 44vw;
+ width: 35vw;
+
 }
 .about{
 border: 1px solid blue; 
-height: 55vw;
+height: 100vh;
 width: 100%;
 display:flex;
 flex-wrap: wrap;
+justify-content: center;
 
 }
 .aboutText{
@@ -370,15 +371,13 @@ h6{
 
 
 
-.skills{
-
-
-  
- margin-top: 20vw;
-  margin-left: 30vw;
- min-width: 32vw;
-  background-color:rgb(255, 255, 255);
-  
+.skills{  
+margin-top: 20vw;
+width: 40vw;
+height: 35vw;
+background-color:rgb(255, 255, 255);
+margin-left: 5vw; 
+border: 1px solid red;
 }
 
 .skill-name{
