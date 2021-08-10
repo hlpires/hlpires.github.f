@@ -230,14 +230,15 @@ position: absolute;
   position: absolute;
 }
 #mascara{
-  height: 14vw;
-  margin-left: 40px;
+
+ 
   margin-top: 30px;
-  width: 23vw;
-clip-path:fill-box;
-max-width: 500px;
+  width: 50vw;
+  
+clip-path: circle();
 max-height:400px ;
 max-width: 600px;
+
 }
 .perfil{
 margin-top: 30vw;
@@ -396,38 +397,44 @@ h6{
 .skills{
 
 
-  max-width: 33vw;
+  
   margin-top: 01vw;
-  margin-left: 11vw;
+  margin-left: 6vw;
  min-width: 32vw;
   background-color:rgb(255, 255, 255);
+  
 }
 
 .skill-name{
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bolder;
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 25px 0;
   font-weight: bold;
   font-family: raleway,raleway1;
   max-width: 700px;
+ margin-left: -1.9vw;
+  
+ border: 1px solid red;
+ width: 10vw;
 }
 
 .skill-bar{
   margin: -20px;
   height: 20px;
   background: #cacaca;
-  
-  max-width: 650px
+  width: 45vw;
+  max-width: 65vw
 }
 
 .skill-per{
   height: 20px;
   background-color: #0047AB;
-  border-radius: 8px;
+ 
   width: 30;
   transition: 1s linear;
   position: relative;
+  
 }
 
 .skill-per::before{
@@ -441,6 +448,7 @@ h6{
   top: -35px;
   right: 0;
   transform: translateX(50%);
+  
 }
 
 .skill-per::after{
