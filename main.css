@@ -206,8 +206,8 @@ float: left;
 .perfil{
 margin-top: 10vh;
  border: 1px solid red;
- height: 57vh;
- width: 20vw;
+ height: 60vh;
+ width: 40vw;
  display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -248,7 +248,7 @@ margin-top: 2vw;
 .t2{
   font-family: raleway,raleway1;
   font-size: 20px;
-  width: 450px;
+  width: 100vw;
   
   max-width: 600px;
   text-align: center;
