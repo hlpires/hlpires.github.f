@@ -189,18 +189,10 @@ h100:hover{
   
 }
 
-
-.mask3{
-  background-color:#3581eb; 
-  height: 27vw;
-  width: 30vw;
-  left: 160px ;
-  max-width: 400px;
-  max-height: 400px;
-  z-index: 3;
-  position: absolute;
-  transition: 2s;
-  float:left;
+.boxSkill{
+  border: 2px solid red;
+  height: 20vh;
+  width: 22vw;
 }
 #mascara{
 
@@ -230,7 +222,7 @@ justify-content: center;
 
 }
 .aboutText{
-  margin-top: 5vw;
+  margin-top: 5vh;
   text-align: center;
   width: 100vw;
   border: 1px solid red;
@@ -374,7 +366,7 @@ h6{
 
 
 .skills{  
-margin-top: 20vw;
+margin-top: 10vh;
 width: 40vw;
 height: 35vh;
 background-color:rgb(255, 255, 255);
