@@ -1,6 +1,6 @@
 body{
   margin: 0 auto;
-  height: 100%;
+  height: 300%;
   width: 100%;
   max-width: 3000px;
  overflow-x: hidden;
@@ -239,14 +239,20 @@ max-width: 500px;
 max-height:400px ;
 max-width: 600px;
 }
-.posicionate{
-  
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-top: -60px;
-  display: flex;
-  margin-left: 10vw;
+.perfil{
+margin-top: 30vw;
+ border: 1px solid red;
+ height: 25vw;
+ width: 30vw;
+ margin-left: 12vw;
+}
+.about{
+border: 1px solid blue; 
+height: 85vw;
+width: 100%;
+display:flex;
+
+
 }
 
 .t1{
@@ -385,66 +391,6 @@ h6{
 
 
 
-.criative{
-
-width: 18vw;
-float: left;
-font-family:raleway;
-box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-border-radius: 12%;
-background-color: #ffffff;
-max-width: 250px;
-max-height: 300px;
-height: 17vw;
-
-}
-#imageCriative{
-margin-top: 3%;
-width: 120%;
-}
-.inovate{
-margin-top: 0px;
-width: 18vw;
-float: left;
-margin: auto 0;
-font-family:Arial, Helvetica, sans-serif;
-box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-border-radius: 12%;
-height: 17vw;
-
-max-width: 500px;
-max-height: 400px;
-}
-#imageInovate{
-width: 90%;
-margin-bottom: 05%;
-margin-top: 02%;
-
-  
-}
-.curiosity{
-margin-top: 0px;
-
-display: inline;
-width: 18vw;
-
-
-font-family:raleway;
-box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 17vw;
-
-border-radius: 12%;
-max-width: 500px;
-display:inline-block;
-max-height: 400px;
-}
-#imageCuriosity{
-width: 35%;
-margin-bottom: 10%;
-margin-top: 02%;
-
-}
-
 
 
 .skills{
@@ -468,10 +414,10 @@ margin-top: 02%;
 }
 
 .skill-bar{
-  margin: 20px;
+  margin: -20px;
   height: 20px;
   background: #cacaca;
-  border-radius: 8px;
+  
   max-width: 650px
 }
 
@@ -509,12 +455,13 @@ margin-top: 02%;
   border-radius: 2px;
 }
 .centralizeskills{
-  margin-right: 18%;
+  
   position: relative;
   display: flex;
   float: right;
   width: 32.5%;
-  margin-top: -06%;
+  margin-top: 30vw;
+  margin-left: 0vw;
   
 }
 
@@ -539,7 +486,7 @@ main{
 
 
 .project {
-  margin-top: 150px;
+  
 height: 35vw;
 background-color: #e7e7e7;
 max-height: 800px;
