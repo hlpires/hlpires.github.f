@@ -380,17 +380,16 @@ h6{
 
 .criative{
 
-width: 15vw;
+width: 21vw;
 float: left;
 font-family:raleway;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-min-height:300px;
 border-radius: 12%;
 background-color: #ffffff;
-min-width: 300px;
 max-width: 500px;
 max-height: 400px;
-height: 12vw;
+height: 20vw;
+
 }
 #imageCriative{
 margin-top: -3%;
@@ -398,16 +397,14 @@ margin-top: -3%;
 }
 .inovate{
 margin-top: 0px;
-width: 15vw;
+width: 21vw;
 float: left;
 margin: auto 0;
 font-family:Arial, Helvetica, sans-serif;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 12vw;
 border-radius: 12%;
-min-width: 300px;
-min-height:300px;
-margin:7vw;
+height: 20vw;
+
 max-width: 500px;
 max-height: 400px;
 }
@@ -422,13 +419,13 @@ width: 45%;
 margin-top: 0px;
 
 display: inline;
-width: 15vw;
-min-width: 300px;
-min-height:300px;
+width: 21vw;
+
+
 font-family:raleway;
 box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
-height: 12vw;
-margin: auto 0;
+height: 20vw;
+
 border-radius: 12%;
 max-width: 500px;
 display:inline-block;
