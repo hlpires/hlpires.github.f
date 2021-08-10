@@ -203,7 +203,7 @@ h100:hover{
   float:left;
 }
 #mascara{
-margin-left: -07vw;
+
 margin-top: 30px;
 width: 50vw;
 clip-path: circle();
@@ -212,11 +212,13 @@ max-width: 600px;
 float: left;
 }
 .perfil{
-margin-top: 20vw;
+margin-top: 10vh;
  border: 1px solid red;
- height: 37vh;
- width: 35vw;
-
+ height: 57vh;
+ width: 20vw;
+ display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 .about{
 border: 1px solid blue; 
@@ -255,7 +257,7 @@ margin-top: 2vw;
   font-family: raleway,raleway1;
   font-size: 20px;
   width: 450px;
-  margin-left: -40px;
+  
   max-width: 600px;
   text-align: center;
 }
