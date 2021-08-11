@@ -471,16 +471,9 @@ main{
 
 
 
-.project {
-  
-height: 50vh;
-background-color: #e7e7e7;
-float: left;
-align-items: center;
-max-width: 2200px;
-}
+
 .boxP{
-  height: 60vh;
+  height: 80vh;
   width: 100vw;
   background-color: #e7e7e7;
   max-height: 700px;
