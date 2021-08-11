@@ -17,15 +17,20 @@ body{
 
 #background{
   justify-content: center;
-  height: 57vw;
+  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-image: url(./IMG/background.png);
-  background-size: 100%;
+ 
+  
 
 }
-
+#backgroundImage{
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  position: absolute;
+}
 
 
 header{
@@ -150,7 +155,7 @@ h100:hover{
   font-family: raleway,raleway1;
   color: white;
   transition: all .2s ease-in-out;
-  margin-top: 450px;
+  
   position: absolute;
 }
 #backgroundButton1:hover{
