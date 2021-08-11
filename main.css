@@ -30,6 +30,8 @@ body{
   height: 100vh;
   float: left;
   position: absolute;
+  max-width: 2200px;
+  max-height: 2000px;
 }
 
 
@@ -142,7 +144,7 @@ h100:hover{
 
 
 #backgroundButton1{
-  margin-left: 4vw;
+  margin-left: 6vw;
   background-color: transparent;
   border: 3px solid rgb(236, 233, 233);
   height: 2.0vw;
@@ -155,7 +157,7 @@ h100:hover{
   font-family: raleway,raleway1;
   color: white;
   transition: all .2s ease-in-out;
-  margin-top: 60vh;
+  margin-top:calc(30vh + 200px);
   position: absolute;
   padding: 1vw;
 }
@@ -199,6 +201,8 @@ h100:hover{
   border: 2px solid red;
   height: 20vh;
   width: 22vw;
+  max-height: 300px;
+  max-width: 400px;
 }
 #mascara{
 
@@ -217,6 +221,8 @@ margin-top: 10vh;
  display: flex;
 justify-content: center;
 flex-wrap: wrap;
+max-width: 600px;
+max-height: 500px;
 }
 .about{
 border: 1px solid blue; 
@@ -225,10 +231,11 @@ width: 100%;
 display:flex;
 flex-wrap: wrap;
 justify-content: center;
-
+max-width: 2200px;
+max-height: 1800px;
 }
 .aboutText{
-  margin-top: 5vh;
+  margin-top: 20px;
   text-align: center;
   width: 100vw;
   border: 1px solid red;
@@ -237,7 +244,7 @@ justify-content: center;
   font-size: 40px;
   font-family: ralewayB;
   color: #2b2b2b;
-  
+  max-width: 2200px;
 
 
 }
@@ -379,14 +386,16 @@ height: 50vh;
 background-color:rgb(255, 255, 255);
 margin-left: 5vw; 
 border: 1px solid red;
+max-height: 500px;
+max-width: 800px;
 }
 
 .skill-name{
   font-size: 18px;
   font-weight: bolder;
   text-transform: uppercase;
-  margin-top: 1000px;
-  margin: 2vh 0;
+  
+  margin: calc(1vh + 12px );
   font-weight: bold;
   font-family: raleway,raleway1;
   max-width: 700px;
@@ -401,7 +410,7 @@ border: 1px solid red;
   height: 20px;
   background: #cacaca;
   width: 40vw;
-  max-width: 65vw;
+  max-width: 700px;
   margin-left: 1vw;
 }
 
@@ -466,9 +475,9 @@ main{
   
 height: 50vh;
 background-color: #e7e7e7;
-
+float: left;
 align-items: center;
- 
+max-width: 2200px;
 }
 .boxP{
   height: 60vh;
@@ -531,6 +540,7 @@ h11{
   height:70vh ;
   width: 100vw;
   background-color: rgb(255, 255, 255);
+  float: left;
 }
 .habilidadesText{
   min-width: 525px;
@@ -576,13 +586,13 @@ max-height: 600px;
 
 }
 .contato{
-  margin-top: 120px;
+  
   height: 45vw;
   width: 100vw;
   background-color: #252934;
   max-width: 2200px;
   max-height: 800px;
- 
+ float: left;
 }
 .contatoText{
   min-width: 165px;
