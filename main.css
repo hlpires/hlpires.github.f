@@ -368,8 +368,8 @@ h6{
 
 .skills{  
 margin-top: 10vh;
-width: 40vw;
-height: 35vh;
+width: 42vw;
+height: 50vh;
 background-color:rgb(255, 255, 255);
 margin-left: 5vw; 
 border: 1px solid red;
@@ -379,7 +379,8 @@ border: 1px solid red;
   font-size: 18px;
   font-weight: bolder;
   text-transform: uppercase;
-  margin: 25px 0;
+  margin-top: 1000px;
+  margin: 2vh 0;
   font-weight: bold;
   font-family: raleway,raleway1;
   max-width: 700px;
@@ -390,10 +391,10 @@ border: 1px solid red;
 }
 
 .skill-bar{
-  margin: -20px;
+  margin-top: -1.5vh;
   height: 20px;
   background: #cacaca;
-  width: 35vw;
+  width: 40vw;
   max-width: 65vw;
   margin-left: 1vw;
 }
