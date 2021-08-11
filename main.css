@@ -21,7 +21,7 @@ body{
   margin: 0 auto;
   overflow: hidden;
   background-repeat: no-repeat;
- 
+ max-height: 1000px;
   
 
 }
@@ -484,7 +484,7 @@ max-width: 2200px;
   width: 100vw;
   background-color: #e7e7e7;
   max-height: 700px;
-  max-width: 3000px;
+  max-width: 2200px;
 
   margin-top: 40px;
   justify-content: center;
@@ -496,7 +496,7 @@ max-width: 2200px;
   width: 40vw;
   background-color: white;
  margin: 40px;
-  margin-top: 10vh;
+  margin-top:calc(2vh + 50px);
   transition: 0.6s;
   max-width: 800px;
   max-height: 500px;
@@ -510,6 +510,7 @@ max-width: 2200px;
   width: 40vw;
   float: left;
 max-width: 800px;
+max-height: 500px;
 }
 h9{
   margin: 0 auto;
@@ -541,9 +542,11 @@ h11{
   width: 100vw;
   background-color: rgb(255, 255, 255);
   float: left;
+  max-width: 2200px;
 }
 .habilidadesText{
   min-width: 525px;
+  
 }
 .habilidadesBoxes{
   height:40vw ;
@@ -553,6 +556,8 @@ h11{
   display: flex;
   background-color: rgb(255, 255, 255);
   margin-top: 0px;
+  max-width: 2200px;
+  max-height: 700px;
 }
 .boxHabilidades{
 margin: 30px;
@@ -560,10 +565,10 @@ margin: 30px;
   height: 16vh;
   width: 30vw;
   margin-top: 120px;
-
+  max-width: 400px;
   box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
   transition: 1s;
-
+max-height: 400px;
   
 }
 .boxHabilidades:hover{
@@ -573,7 +578,7 @@ margin: 30px;
   width: 14vw;
   margin-top: 0px;
   padding: 25px;
-max-width: 600px;
+  max-width: 350px;
 max-height: 600px;
 
 }
@@ -583,7 +588,7 @@ max-height: 600px;
   margin-top: 9px;
   padding: 25px;
   margin-left: 1vw;
-
+  max-width: 350px;
 }
 .contato{
   
