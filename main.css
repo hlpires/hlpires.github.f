@@ -21,8 +21,8 @@ body{
   margin: 0 auto;
   overflow: hidden;
   background-repeat: no-repeat;
- max-height: 1000px;
-  
+ max-height: 1400px;
+
 
 }
 #backgroundImage{
@@ -30,7 +30,7 @@ body{
   height: 100vh;
   float: left;
   position: absolute;
-  max-width: 2200px;
+  max-width: 2300px;
   max-height: 1200px;
 }
 
@@ -186,7 +186,7 @@ h100:hover{
 
 
 .intro{
- margin-top: 5vw;
+ margin-top: 125vw;
   width: 100%;
   position: relative;
   float: left;
@@ -198,9 +198,10 @@ h100:hover{
 }
 
 .boxSkill{
+  margin-top: 1vh;
   border: 2px solid red;
   height: 20vh;
-  width: 22vw;
+  width: 20.2vw;
   max-height: 300px;
   max-width: 400px;
 }
@@ -235,7 +236,7 @@ max-width: 2200px;
 max-height: 1800px;
 }
 .aboutText{
-  margin-top: 20px;
+  margin-top: 120px;
   text-align: center;
   width: 100vw;
   border: 1px solid red;
