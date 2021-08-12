@@ -473,7 +473,7 @@ main{
 
 
 .boxP{
-  height: 80vh;
+  height: 60vh;
   width: 100vw;
   background-color: #e7e7e7;
   max-height: 700px;
@@ -489,7 +489,7 @@ main{
   width: 40vw;
   background-color: white;
  margin: 40px;
-  margin-top:calc(2vh + 50px);
+  margin-top:calc(1vh + 150px);
   transition: 0.6s;
   max-width: 800px;
   max-height: 500px;
@@ -576,6 +576,7 @@ max-height: 400px;
   padding: 25px;
   max-width: 350px;
 max-height: 600px;
+margin-left: 1vw;
 
 }
 
@@ -583,7 +584,7 @@ max-height: 600px;
   width: 10vw;
   margin-top: 9px;
   padding: 25px;
-  margin-left: 1vw;
+  margin-left: 2.5vw;
   max-width: 250px;
 }
 .contato{
