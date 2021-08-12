@@ -590,7 +590,7 @@ margin-left: 1vw;
 }
 .contato{
 
-  height: 60vh;
+  height: 50vh;
   width: 100vw;
   background-color: #252934;
   max-width: 2200px;
@@ -605,21 +605,22 @@ margin-left: 1vw;
   
   background-color: #252934;
   width: 100vw;
-  height: 10vh;
+  height: 15vh;
   float: left;
-  text-align: center;
+ 
 }
 .contatoText1{
-position: relative;
+position: absolute;
 background-color: #252934;
 color: white;
 font-size: 40px;
 font-family: ralewayB;
-text-align: center;
 font-weight: bolder;
 border-bottom: 4px solid blue;
-height: 10vh;
-margin-top: 100px;
+height: 5vh;
+margin-top: 5vh;
+width: 20vw;
+left: 42vw;
 }
 
 input{
