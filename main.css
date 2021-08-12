@@ -518,15 +518,15 @@ h9{
   
 }
 h11{
-  margin: 0 auto;
-  max-width: 170px;
+  
+  width: 100vw;
   margin-top: 80px;
   font-size: 40px;
   color: white;
   font-family: ralewayB;
-  border-bottom:4px solid #0047AB;
+  text-align: center;
   font-weight: bolder;
-  display: block;
+  
   
 }
 
@@ -600,6 +600,7 @@ max-height: 600px;
 .contatoText{
  width: 100vw;
   margin-top: 120px;
+  border: 2px solid red;
 }
 input{
   padding: 10px;
