@@ -589,7 +589,7 @@ margin-left: 1vw;
   max-width: 250px;
 }
 .contato{
-  margin-top: 10vh;
+  margin-top: 20vh;
   height: 125vw;
   width: 100vw;
   background-color: #252934;
@@ -603,9 +603,18 @@ margin-left: 1vw;
 }
 .contatoText{
  width: 100vw;
-  margin-top: 120px;
+ height: 5vh;
+margin-top: 5vh;
+color: white;
+font-size: 40px;
+font-family: ralewayB;
+text-align: center;
+font-weight: bolder;
+
+
  
 }
+
 input{
   padding: 10px;
   margin-top: 05px;
@@ -657,7 +666,7 @@ transition: 1s;
 #emailImage{
   
   float: right;
-  width: 30vw;
-  height: 30vh;
+  width: 40vw;
+  height: 35vh;
  
 }
