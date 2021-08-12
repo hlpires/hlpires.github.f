@@ -587,15 +587,16 @@ max-height: 600px;
 }
 .contato{
   margin-top: 10vh;
-  height: 75vw;
+  height: 125vw;
   width: 100vw;
   background-color: #252934;
   max-width: 2200px;
-  max-height: 800px;
+  max-height: 900px;
  float: left;
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
+ 
 }
 .contatoText{
  width: 100vw;
@@ -618,10 +619,11 @@ max-width: 800px;
   width: 30vw;
  border: 2px solid red;
   height: 45vh;
-  margin-top: 130px;
+ 
   background-color: transparent;
   max-height: 800px;
   max-width: 800px;
+  margin-right: 5vw;
 }
 
 
@@ -649,7 +651,9 @@ transition: 1s;
   height: 18vw;
 }
 #emailImage{
+  
   float: right;
-  width: 500px;
+  width: 25vw;
+  height: 45vh;
   
 }
