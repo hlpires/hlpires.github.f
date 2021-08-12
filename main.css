@@ -236,19 +236,18 @@ max-width: 2200px;
 max-height: 1800px;
 }
 .aboutText{
-  margin-top: 10vh;
-  text-align: center;
-  width: 100vw;
-  border: 1px solid red;
-  height: 6vh;
-  float: left;
+  position: absolute;
+  background-color: #252934;
+  color: white;
   font-size: 40px;
   font-family: ralewayB;
-  color: #2b2b2b;
-  max-width: 2200px;
-
-
-}
+  font-weight: bolder;
+  border-bottom: 4px solid blue;
+  height: 5vh;
+  margin-top: 5vh;
+  width: 20vw;
+  left: 44vw;
+  }
 
 .t1{
 font-size: 25px;
@@ -592,13 +591,21 @@ margin-left: 1vw;
 
   height: 50vh;
   width: 100vw;
-  background-color: #252934;
+  background-color: #252934;  
   max-width: 2200px;
   max-height: 900px;
  float: left;
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
+ 
+}
+.divisoria1{
+  
+  background-color: white;
+  width: 100vw;
+  height: 15vh;
+  float: left;
  
 }
 .divisoria{
@@ -620,9 +627,19 @@ border-bottom: 4px solid blue;
 height: 5vh;
 margin-top: 5vh;
 width: 20vw;
-left: 42vw;
+left: 44vw;
 }
-
+.divisoriaText{
+  position: absolute;
+  font-size: 40px;
+  font-family: ralewayB;
+  font-weight: bolder;
+  border-bottom: 4px solid blue;
+  height: 5vh;
+  margin-top: 5vh;
+  width: 19vw;
+  left: 44vw;
+  }
 input{
   padding: 10px;
   margin-top: 05px;
