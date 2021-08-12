@@ -536,6 +536,7 @@ h11{
   background-color: rgb(255, 255, 255);
   float: left;
   max-width: 2200px;
+  max-height: 1100px;
 }
 .habilidadesText{
   min-width: 525px;
@@ -592,9 +593,12 @@ max-height: 600px;
   max-width: 2200px;
   max-height: 800px;
  float: left;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
 }
 .contatoText{
-  min-width: 165px;
+ width: 100vw;
   margin-top: 120px;
 }
 input{
@@ -611,12 +615,9 @@ max-width: 800px;
 }
 .emailP{
   width: 30vw;
- 
-  height: 30vw;
+ border: 2px solid red;
+  height: 45vh;
   margin-top: 130px;
-  display: flex;
-  margin-left: 300px;
-  flex-wrap:wrap;
   background-color: transparent;
   max-height: 800px;
   max-width: 800px;
@@ -633,7 +634,7 @@ float: left!important;
 margin-top: 20px;
 width: 100px;
 height: 40px;
-align-self: center;
+
 background-color: transparent;
 border: 1px solid white;
 color: white;
@@ -649,6 +650,5 @@ transition: 1s;
 #emailImage{
   float: right;
   width: 500px;
-  margin-right: 17vw;
-  margin-top: 7vw;
+  
 }
