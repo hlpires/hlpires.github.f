@@ -527,6 +527,7 @@ h11{
   text-align: center;
   font-weight: bolder;
   
+  height: 10vh;
   
 }
 
@@ -601,7 +602,7 @@ max-height: 600px;
 .contatoText{
  width: 100vw;
   margin-top: 120px;
-  border: 2px solid red;
+ 
 }
 input{
   padding: 10px;
@@ -609,21 +610,22 @@ input{
   float: left;
   background-color: #1e242c;
  margin-left: 0vw;
-  width: 30vw;
+  width: 45vw;
 text-align: start;
 border: none;
+height: 4vh;
 max-height: 400px;
 max-width: 800px;
 }
 .emailP{
-  width: 30vw;
- border: 2px solid red;
+  width: 45vw;
+ 
   height: 45vh;
  
   background-color: transparent;
   max-height: 800px;
   max-width: 800px;
-  margin-right: 5vw;
+  margin-right: 10vw;
 }
 
 
@@ -648,12 +650,12 @@ transition: 1s;
   cursor: pointer;
 }
 #texto{
-  height: 18vw;
+  height: 25vh;
 }
 #emailImage{
   
   float: right;
-  width: 25vw;
-  height: 45vh;
-  
+  width: 30vw;
+  height: 30vh;
+ 
 }
