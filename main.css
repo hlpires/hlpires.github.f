@@ -466,7 +466,7 @@ main{
 }
 
 .projetosText{
-  min-width: 170px;
+  min-width: 200px;
 }
 
 
@@ -606,7 +606,8 @@ margin-left: 1vw;
   width: 100vw;
   height: 15vh;
   float: left;
- 
+  max-width: 2200px;
+ max-height: 300px;
 }
 .divisoria{
   
@@ -614,7 +615,8 @@ margin-left: 1vw;
   width: 100vw;
   height: 15vh;
   float: left;
- 
+ max-width: 2200px;
+ max-height: 200px;
 }
 .contatoText1{
 position: absolute;
@@ -624,9 +626,9 @@ font-size: 40px;
 font-family: ralewayB;
 font-weight: bolder;
 border-bottom: 4px solid blue;
-height: 5vh;
+height: 6vh;
 margin-top: 5vh;
-width: 20vw;
+width: 200px;
 left: 44vw;
 }
 .divisoriaText{
@@ -635,9 +637,9 @@ left: 44vw;
   font-family: ralewayB;
   font-weight: bolder;
   border-bottom: 4px solid blue;
-  height: 5vh;
+  height: 6vh;
   margin-top: 5vh;
-  width: 19vw;
+  width: 130px;
   left: 44vw;
   }
 input{
@@ -693,5 +695,7 @@ transition: 1s;
   float: right;
   width: 40vw;
   height: 35vh;
+  max-width: 600px;
+  max-height: 500px;
  
 }
