@@ -236,7 +236,7 @@ max-width: 2200px;
 max-height: 1800px;
 }
 .aboutText{
-  margin-top: 120px;
+  margin-top: 10vh;
   text-align: center;
   width: 100vw;
   border: 1px solid red;
