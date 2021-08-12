@@ -533,12 +533,12 @@ h11{
 }
 
 .habilidades{
-  height:100vh ;
+  height:110vh ;
   width: 100vw;
   background-color: rgb(255, 255, 255);
   float: left;
   max-width: 2200px;
-  max-height: 1100px;
+  max-height: 1300px;
 }
 .habilidadesText{
   min-width: 525px;
@@ -589,8 +589,8 @@ margin-left: 1vw;
   max-width: 250px;
 }
 .contato{
-  margin-top: 20vh;
-  height: 125vw;
+
+  height: 60vh;
   width: 100vw;
   background-color: #252934;
   max-width: 2200px;
@@ -601,19 +601,25 @@ margin-left: 1vw;
  flex-wrap: wrap;
  
 }
-
-.contatoText{
- width: 100vw;
- height: 5vh;
-margin-top: 5vh;
+.divisoria{
+  
+  background-color: #252934;
+  width: 100vw;
+  height: 10vh;
+  float: left;
+  text-align: center;
+}
+.contatoText1{
+position: relative;
+background-color: #252934;
 color: white;
 font-size: 40px;
 font-family: ralewayB;
 text-align: center;
 font-weight: bolder;
-
-
- 
+border-bottom: 4px solid blue;
+height: 10vh;
+margin-top: 100px;
 }
 
 input{
