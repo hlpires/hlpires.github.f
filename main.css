@@ -205,7 +205,6 @@ h100:hover{
   max-width: 400px;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
   flex-wrap: wrap;
 }
 .boxSkill{
@@ -232,6 +231,8 @@ h6{
   text-align: center;
   color: #2b2b2b;
   width: 27vw;
+  
+  margin-top: 1vh;
 
 }
 h8{
@@ -240,6 +241,8 @@ h8{
   text-align: center;
   color: #2b2b2b;
   width: 27vw;
+
+  margin-top: -2vh;
 }
 #mascara{
 
