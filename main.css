@@ -252,7 +252,6 @@ float: left;
 }
 .perfil{
 margin-top: 100px;
-border: 1px solid red;
  height:calc(360px + 10vh);
  width: 400px;
  display: flex;
@@ -262,7 +261,6 @@ max-width: 600px;
 max-height: 500px;
 }
 .about{
-  border: 1px solid red;
 max-width: 1200px;
 height: 100vh;
 width: 100%;
@@ -402,7 +400,7 @@ width: 420px;
 height: 50vh;
 background-color:rgb(255, 255, 255);
 margin-left: 5vw; 
-border: 1px solid red;
+
 max-height: 500px;
 max-width: 800px;
 }
@@ -551,19 +549,20 @@ h11{
 }
 
 .habilidades{
-  height:110vh ;
+  height:100px;
   width: 100vw;
   background-color: rgb(255, 255, 255);
   max-width: 1200px;
   max-height: 1300px;
   margin: auto;
+  float: left;
 }
 .habilidadesText{
   min-width: 525px;
   
 }
 .habilidadesBoxes{
-  height:1200px ;
+  height:900px ;
   width: 100vw;
   justify-content: center;
   position: relative;
@@ -580,7 +579,7 @@ margin: 15px;
   background-color: rgb(221, 236, 255);
   height: 200px;
   width: 220px;
-  margin-top: 120px;
+  margin-top: 00px;
   max-width: 400px;
   box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
   transition: 1s;
@@ -614,16 +613,16 @@ max-height: 600px;
 }
 .contato{
 
-  height: 50vh;
+  height: 600px;
   width: 100vw;
   background-color: #252934;  
-  max-width: 2200px;
+  max-width: 1200px;
   max-height: 900px;
- float: left;
+
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
- 
+ margin: auto;
 }
 .divisoria1{
 margin: auto;
@@ -632,7 +631,7 @@ width: 100%;
 height: 250px;
 max-width: 1200px;
 max-height: 300px;
-border: 1px solid red;
+
 justify-content: center;
 display: flex;
 flex-wrap: wrap;
@@ -643,9 +642,9 @@ flex-wrap: wrap;
   background-color: #252934;
   width: 100vw;
   height: 15vh;
-  float: left;
- max-width: 2200px;
+  max-width: 1200px;
  max-height: 200px;
+ margin: auto;
 }
 .contatoText1{
 position: absolute;
@@ -668,7 +667,7 @@ left: 44vw;
   border-bottom: 2px solid blue;
   height:50px;
   margin-top: 60px;
- border: 1px solid red;
+ 
   
   }
 input{
@@ -677,22 +676,23 @@ input{
   float: left;
   background-color: #1e242c;
  margin-left: 0vw;
-  width: 45vw;
+  width: 500px;
 text-align: start;
 border: none;
-height: 4vh;
+height: 30px;
 max-height: 400px;
 max-width: 800px;
 }
 .emailP{
-  width: 45vw;
+  margin-top: 120px;
+  width: 500px;
  
-  height: 45vh;
+  height:300px;
  
   background-color: transparent;
   max-height: 800px;
   max-width: 800px;
-  margin-right: 10vw;
+  margin-right: 50px;
 }
 
 
@@ -720,10 +720,10 @@ transition: 1s;
   height: 30vh;
 }
 #emailImage{
-  
+  margin-top: 120px;
   float: right;
-  width: 40vw;
-  height: 35vh;
+  width: 400px;
+  height: 300px;
   max-width: 600px;
   max-height: 500px;
  
