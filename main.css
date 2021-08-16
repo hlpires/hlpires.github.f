@@ -5,15 +5,12 @@ body{
   max-width: 3000px;
  overflow-x: hidden;
  overflow-y: scroll;
-
+  
   }
   html {
     scroll-behavior: smooth!important;
     
   }
- 
-
-
 
 #background{
   justify-content: center;
@@ -22,9 +19,8 @@ body{
   overflow: hidden;
   background-repeat: no-repeat;
  max-height: 1400px;
-
-
 }
+
 #backgroundImage{
   width: 100vw;
   height: 100vh;
@@ -198,7 +194,7 @@ h100:hover{
 }
 .boxSkillText{
  
- margin-top: 4vh;
+ margin-top: 0px;
   height: 30vh;
   width: 28vw;
   max-height: 600px;
@@ -221,9 +217,9 @@ h100:hover{
   justify-content: center;
 }
 .imgSkill{
-  width: 07vw;
-  height: 07vh;
-  margin-top: 6.5vh;
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
 
 }
 h6{
@@ -231,7 +227,7 @@ h6{
   font-size: 17px;
   text-align: center;
   color: #2b2b2b;
-  width: 27vw;
+  width: 30vw;
   
   margin-top: 1vh;
 
@@ -243,7 +239,7 @@ h8{
   color: #2b2b2b;
   width: 27vw;
 
-  margin-top: -2vh;
+  margin-top: 15px;
 }
 #mascara{
 
@@ -255,10 +251,10 @@ max-width: 600px;
 float: left;
 }
 .perfil{
-margin-top: -6vh;
-
- height: 52vh;
- width: 35vw;
+margin-top: 100px;
+border: 1px solid red;
+ height:calc(360px + 10vh);
+ width: 400px;
  display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -266,44 +262,32 @@ max-width: 600px;
 max-height: 500px;
 }
 .about{
-
+  border: 1px solid red;
+max-width: 1200px;
 height: 100vh;
 width: 100%;
 display:flex;
 flex-wrap: wrap;
 justify-content: center;
-max-width: 2200px;
-max-height: 1800px;
+
+
 }
-.aboutText{
-  position: absolute;
-  background-color: #252934;
-  color: white;
-  font-size: 40px;
-  font-family: ralewayB;
-  font-weight: bolder;
-  border-bottom: 4px solid blue;
-  height: 5vh;
-  margin-top: 5vh;
-  width: 20vw;
-  left: 44vw;
-  }
 
 .t1{
-font-size: 25px;
-font-family: raleway,raleway1;
+font-size: 30px;
+font-family: ralewaB;
 font-weight: bold;
 border-bottom: 2px solid #0047AB;
-width: 180px;
+width: 190px;
 margin:0 auto;
 margin-top: 2vh;
-height: 3vh;
+height: 30px;
 }
 .t2{
   font-family: raleway,raleway1;
   font-size: 17px;
   width: 100vw;
-  margin-top: -1vh;
+  margin-top: 20px;
   max-width: 600px;
   text-align: center;
 }
@@ -411,13 +395,14 @@ h5{
 
 
 
-.skills{  
-margin-top: -02vh;
-width: 42vw;
+.skills{ 
+
+margin-top: 100px;
+width: 420px;
 height: 50vh;
 background-color:rgb(255, 255, 255);
 margin-left: 5vw; 
-
+border: 1px solid red;
 max-height: 500px;
 max-width: 800px;
 }
@@ -442,7 +427,7 @@ max-width: 800px;
   margin-top: -1.5vh;
   height: 20px;
   background: #cacaca;
-  width: 40vw;
+  width: 400px;
   max-width: 700px;
   margin-left: 1vw;
 }
@@ -500,6 +485,7 @@ main{
 
 .projetosText{
   min-width: 200px;
+  margin-top: 200px;
 }
 
 
@@ -637,7 +623,7 @@ margin-left: 1vw;
   
   background-color: white;
   width: 100vw;
-  height: 15vh;
+  height: 250px;
   float: left;
   max-width: 2200px;
  max-height: 300px;
@@ -669,10 +655,10 @@ left: 44vw;
   font-size: 40px;
   font-family: ralewayB;
   font-weight: bolder;
-  border-bottom: 4px solid blue;
-  height: 6vh;
-  margin-top: 5vh;
-  width: 130px;
+  border-bottom: 2px solid blue;
+  height:50px;
+  margin-top: 60px;
+ 
   left: 44vw;
   }
 input{
