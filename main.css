@@ -262,7 +262,7 @@ max-height: 500px;
 }
 .about{
 max-width: 1200px;
-height: 100vh;
+height: 750px;
 width: 100%;
 display:flex;
 flex-wrap: wrap;
