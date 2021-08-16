@@ -198,9 +198,9 @@ h100:hover{
 }
 .boxSkillText{
  
-  margin: 2vw;
+  margin: 4vw;
   height: 20vh;
-  width: 18.2vw;
+  width: 14vw;
   max-height: 300px;
   max-width: 400px;
   display: flex;
@@ -222,8 +222,8 @@ h100:hover{
 }
 .imgSkill{
   width: 08vw;
-  height: 10vh;
-  margin-top: 05vh;
+  height: 08vh;
+  margin-top: 6vh;
 
 }
 h6{
