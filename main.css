@@ -206,6 +206,14 @@ h100:hover{
   max-width: 400px;
   background-color: #04c2c9;
   clip-path: circle();
+  display: flex;
+  justify-content: center;
+}
+.imgSkill{
+  width: 08vw;
+  height: 10vh;
+  margin-top: 05vh;
+
 }
 #mascara{
 
