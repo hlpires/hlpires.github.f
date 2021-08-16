@@ -620,13 +620,17 @@ margin-left: 1vw;
  
 }
 .divisoria1{
-  
-  background-color: white;
-  width: 100vw;
-  height: 250px;
-  float: left;
-  max-width: 2200px;
- max-height: 300px;
+margin: auto;
+background-color: white;
+width: 100%;
+height: 250px;
+max-width: 1200px;
+max-height: 300px;
+border: 1px solid red;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+
 }
 .divisoria{
   
@@ -658,8 +662,8 @@ left: 44vw;
   border-bottom: 2px solid blue;
   height:50px;
   margin-top: 60px;
- 
-  left: 44vw;
+ border: 1px solid red;
+  
   }
 input{
   padding: 10px;
