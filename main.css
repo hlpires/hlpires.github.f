@@ -492,23 +492,23 @@ main{
 
 
 .boxP{
-  height: 60vh;
+  height: 500px;
   width: 100vw;
   background-color: #e7e7e7;
   max-height: 700px;
-  max-width: 2200px;
-
+  max-width: 1200px;
   margin-top: 40px;
   justify-content: center;
   position: relative;
   display: flex;
+  margin: auto;
 }
 .boxPchild{  
-  height: 30vh;
-  width: 40vw;
+  height: 270px;
+  width: 400px;
   background-color: white;
  margin: 40px;
-  margin-top:calc(1vh + 150px);
+  margin-top:calc(1vh + 100px);
   transition: 0.6s;
   max-width: 800px;
   max-height: 500px;
@@ -518,8 +518,8 @@ main{
   transform: scale(1.1);
 }
 #projectReino{
-  height: 30vh;
-  width: 40vw;
+  height: 270px;
+  width: 400px;
   float: left;
 max-width: 800px;
 max-height: 500px;
@@ -554,57 +554,63 @@ h11{
   height:110vh ;
   width: 100vw;
   background-color: rgb(255, 255, 255);
-  float: left;
-  max-width: 2200px;
+  max-width: 1200px;
   max-height: 1300px;
+  margin: auto;
 }
 .habilidadesText{
   min-width: 525px;
   
 }
 .habilidadesBoxes{
-  height:40vw ;
+  height:1200px ;
   width: 100vw;
   justify-content: center;
   position: relative;
   display: flex;
   background-color: rgb(255, 255, 255);
   margin-top: 0px;
-  max-width: 2200px;
-  max-height: 700px;
+  max-width: 1200px;
+  max-height: 1200px;
   flex-wrap: wrap;
+  margin: auto;
 }
 .boxHabilidades{
-margin: 30px;
+margin: 15px;
   background-color: rgb(221, 236, 255);
-  height: 16vh;
-  width: 20vw;
+  height: 200px;
+  width: 220px;
   margin-top: 120px;
   max-width: 400px;
   box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
   transition: 1s;
-max-height: 400px;
+max-height: 300px;
+display: flex;
+justify-content: center;
   
 }
 .boxHabilidades:hover{
   transform: scale(1.2);
 }
 .boxH{
-  width: 14vw;
-  margin-top: 0px;
-  padding: 25px;
+  width: 105px;
+  height: 140px;
+  margin-top: 30px;
+  padding: 0px;
   max-width: 350px;
 max-height: 600px;
-margin-left: 1vw;
+
 
 }
 
 .boxH1{
-  width: 10vw;
+  width: 90px;
+  height: 130px;
   margin-top: 9px;
   padding: 25px;
-  margin-left: 2.5vw;
+ 
   max-width: 250px;
+
 }
 .contato{
 
