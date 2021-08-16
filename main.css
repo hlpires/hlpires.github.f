@@ -204,7 +204,7 @@ h100:hover{
   width: 18.2vw;
   max-height: 300px;
   max-width: 400px;
-  background-color: #04c2c9;
+  background-color:rgb(221, 236, 255);
   clip-path: circle();
   display: flex;
   justify-content: center;
