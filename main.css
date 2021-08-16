@@ -199,11 +199,13 @@ h100:hover{
 
 .boxSkill{
   margin-top: 1vh;
-  border: 2px solid red;
+  margin: 2vw;
   height: 20vh;
-  width: 20.2vw;
+  width: 18.2vw;
   max-height: 300px;
   max-width: 400px;
+  background-color: #04c2c9;
+  clip-path: circle();
 }
 #mascara{
 
