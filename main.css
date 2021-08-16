@@ -207,8 +207,8 @@ h100:hover{
 .boxSkill{
   
 
-  height: 20vh;
-  width: 14.2vw;
+  height: 160px;
+  width: 200px;
   max-height: 300px;
   max-width: 400px;
   background-color:rgb(221, 236, 255);
@@ -269,7 +269,7 @@ width: 100%;
 display:flex;
 flex-wrap: wrap;
 justify-content: center;
-
+margin: auto;
 
 }
 
