@@ -198,9 +198,9 @@ h100:hover{
 }
 .boxSkillText{
  
-  margin: 4vw;
+ margin-top: 4vh;
   height: 20vh;
-  width: 14vw;
+  width: 28vw;
   max-height: 300px;
   max-width: 400px;
   display: flex;
@@ -212,7 +212,7 @@ h100:hover{
   
  
   height: 20vh;
-  width: 18.2vw;
+  width: 14.2vw;
   max-height: 300px;
   max-width: 400px;
   background-color:rgb(221, 236, 255);
@@ -221,21 +221,22 @@ h100:hover{
   justify-content: center;
 }
 .imgSkill{
-  width: 08vw;
-  height: 08vh;
-  margin-top: 6vh;
+  width: 07vw;
+  height: 07vh;
+  margin-top: 6.5vh;
 
 }
 h6{
   font-family: raleway,raleway1;
-  font-size: 115%;
+  font-size: 1.6vw;
   text-align: center;
   color: #2b2b2b;
+  width: 27vw;
 
 }
 #mascara{
 
-margin-top: 30px;
+margin-top: 2vh;
 width: 50vw;
 clip-path: circle();
 max-height:400px ;
@@ -243,7 +244,7 @@ max-width: 600px;
 float: left;
 }
 .perfil{
-margin-top: 10vh;
+margin-top: 02vh;
  border: 1px solid red;
  height: 52vh;
  width: 35vw;
@@ -400,7 +401,7 @@ h5{
 
 
 .skills{  
-margin-top: 10vh;
+margin-top: 02vh;
 width: 42vw;
 height: 50vh;
 background-color:rgb(255, 255, 255);
