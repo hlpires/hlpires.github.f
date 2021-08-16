@@ -206,6 +206,7 @@ h100:hover{
   display: flex;
   justify-content: center;
   border: 2px solid red;
+  flex-wrap: wrap;
 }
 .boxSkill{
   
@@ -223,6 +224,13 @@ h100:hover{
   width: 08vw;
   height: 10vh;
   margin-top: 05vh;
+
+}
+h6{
+  font-family: raleway,raleway1;
+  font-size: 115%;
+  text-align: center;
+  color: #2b2b2b;
 
 }
 #mascara{
@@ -328,15 +336,7 @@ h5{
 .h5D{
   margin-top: -20px;
 }
-h6{
-  font-family: raleway,raleway1;
-  font-size: 115%;
-  color: #2b2b2b;
-  margin-right:40px ;
-  margin-left: 40px;
-  margin-top: -27px;
 
-}
 
 
 .animeCriative{
