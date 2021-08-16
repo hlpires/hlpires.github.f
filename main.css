@@ -199,17 +199,18 @@ h100:hover{
 .boxSkillText{
  
  margin-top: 4vh;
-  height: 20vh;
+  height: 30vh;
   width: 28vw;
-  max-height: 300px;
+  max-height: 600px;
   max-width: 400px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+ 
 }
 .boxSkill{
   
- 
+
   height: 20vh;
   width: 14.2vw;
   max-height: 300px;
@@ -227,7 +228,7 @@ h100:hover{
 }
 h6{
   font-family: raleway,raleway1;
-  font-size: 1.6vw;
+  font-size: 17px;
   text-align: center;
   color: #2b2b2b;
   width: 27vw;
@@ -237,7 +238,7 @@ h6{
 }
 h8{
   font-family: ralewayB;
-  font-size: 2.5vw;
+  font-size: 28px;
   text-align: center;
   color: #2b2b2b;
   width: 27vw;
@@ -254,8 +255,8 @@ max-width: 600px;
 float: left;
 }
 .perfil{
-margin-top: 02vh;
- border: 1px solid red;
+margin-top: -6vh;
+
  height: 52vh;
  width: 35vw;
  display: flex;
@@ -265,7 +266,7 @@ max-width: 600px;
 max-height: 500px;
 }
 .about{
-border: 1px solid blue; 
+
 height: 100vh;
 width: 100%;
 display:flex;
@@ -292,7 +293,7 @@ max-height: 1800px;
 font-size: 25px;
 font-family: raleway,raleway1;
 font-weight: bold;
-border-bottom: 4px solid #0047AB;
+border-bottom: 2px solid #0047AB;
 width: 180px;
 margin:0 auto;
 margin-top: 2vh;
@@ -300,9 +301,9 @@ height: 3vh;
 }
 .t2{
   font-family: raleway,raleway1;
-  font-size: 20px;
+  font-size: 17px;
   width: 100vw;
-  
+  margin-top: -1vh;
   max-width: 600px;
   text-align: center;
 }
@@ -411,29 +412,30 @@ h5{
 
 
 .skills{  
-margin-top: 02vh;
+margin-top: -02vh;
 width: 42vw;
 height: 50vh;
 background-color:rgb(255, 255, 255);
 margin-left: 5vw; 
-border: 1px solid red;
+
 max-height: 500px;
 max-width: 800px;
 }
 
 .skill-name{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bolder;
   text-transform: uppercase;
-  
+  text-align: center;
   margin: calc(1vh + 12px );
   font-weight: bold;
-  font-family: raleway,raleway1;
+  font-family: ralewaB;
   max-width: 700px;
   margin-left: 1vw;
-  
- border: 1px solid red;
- width: 10vw;
+  background-color:rgb(221, 236, 255);
+ color: black;
+ width: 12vw;
+ padding: 05px;
 }
 
 .skill-bar{
