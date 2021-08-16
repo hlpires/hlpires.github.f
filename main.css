@@ -494,7 +494,7 @@ main{
   width: 100vw;
   background-color: #e7e7e7;
   max-height: 700px;
-  max-width: 1200px;
+ 
   margin-top: 40px;
   justify-content: center;
   position: relative;
@@ -616,7 +616,7 @@ max-height: 600px;
   height: 600px;
   width: 100vw;
   background-color: #252934;  
-  max-width: 1200px;
+ 
   max-height: 900px;
 
  display: flex;
@@ -642,7 +642,7 @@ flex-wrap: wrap;
   background-color: #252934;
   width: 100vw;
   height: 15vh;
-  max-width: 1200px;
+
  max-height: 200px;
  margin: auto;
 }
