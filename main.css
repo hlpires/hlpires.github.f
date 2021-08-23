@@ -1,6 +1,5 @@
 body{
   margin: 0 auto;
-  height: 300%;
   width: 100%;
   max-width: 3000px;
  overflow-x: hidden;
@@ -20,6 +19,7 @@ body{
   background-repeat: no-repeat;
  max-height: 1400px;
  max-width: 2200px;
+ 
 }
 
 #backgroundImage{
