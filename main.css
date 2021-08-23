@@ -663,7 +663,7 @@ flex-wrap: wrap;
 }
 .contatoText1{
 position: absolute;
-background-color: #252934;
+background-color: transparent;
 color: white;
 font-size: 40px;
 font-family: ralewayB;
