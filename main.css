@@ -195,14 +195,14 @@ h100:hover{
 .boxSkillText{
  
  margin-top: 0px;
-  height: 30vh;
-  width: 28vw;
+  height: 340px;
+  width: 300px;
   max-height: 600px;
   max-width: 400px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
- 
+ border: 2px solid red;
 }
 .boxSkill{
   
@@ -229,7 +229,7 @@ h6{
   color: #2b2b2b;
   width: 30vw;
   
-  margin-top: 1vh;
+  margin-top: 10px;
 
 }
 h8{
@@ -399,7 +399,7 @@ margin-top: 100px;
 width: 420px;
 height: 50vh;
 background-color:rgb(255, 255, 255);
-margin-left: 5vw; 
+margin-left: 100px; 
 
 max-height: 500px;
 max-width: 800px;
@@ -417,7 +417,7 @@ max-width: 800px;
   margin-left: 1vw;
   background-color:rgb(221, 236, 255);
  color: black;
- width: 12vw;
+ width: 200px;
  padding: 05px;
 }
 
@@ -494,7 +494,7 @@ main{
   width: 100vw;
   background-color: #e7e7e7;
   max-height: 700px;
- 
+  max-width: 2200px;
   margin-top: 40px;
   justify-content: center;
   position: relative;
@@ -618,6 +618,7 @@ max-height: 600px;
   background-color: #252934;  
  
   max-height: 900px;
+  max-width: 2200px;
 
  display: flex;
  justify-content: center;
@@ -642,7 +643,7 @@ flex-wrap: wrap;
   background-color: #252934;
   width: 100vw;
   height: 15vh;
-
+  max-width: 2200px;
  max-height: 200px;
  margin: auto;
 }
@@ -658,6 +659,7 @@ height: 6vh;
 margin-top: 5vh;
 width: 200px;
 left: 44vw;
+
 }
 .divisoriaText{
   position: absolute;
@@ -726,5 +728,6 @@ transition: 1s;
   height: 300px;
   max-width: 600px;
   max-height: 500px;
+  
  
 }
