@@ -251,7 +251,7 @@ max-width: 600px;
 float: left;
 }
 .perfil{
-margin-top: 100px;
+margin-top: 60px;
  height:calc(360px + 10vh);
  width: 400px;
  display: flex;
@@ -278,7 +278,7 @@ font-weight: bold;
 border-bottom: 2px solid #0047AB;
 width: 190px;
 margin:0 auto;
-margin-top: 2vh;
+margin-top: 20px;
 height: 30px;
 }
 .t2{
