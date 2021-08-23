@@ -736,10 +736,10 @@ transition: 1s;
   height: 30vh;
 }
 #emailImage{
-  margin-top: 120px;
+  margin-top: 80px;
   float: right;
   width: 400px;
-  height: 300px;
+  height: 400px;
   max-width: 600px;
   max-height: 500px;
   
