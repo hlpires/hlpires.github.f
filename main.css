@@ -194,8 +194,7 @@ h100:hover{
   
 }
 .boxSkillText{
- 
- margin-top: 0px;
+  margin-top: 0px;
   height: 340px;
   width: 300px;
   max-height: 600px;
@@ -203,7 +202,7 @@ h100:hover{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
- border: 2px solid red;
+  padding: 10px;
 }
 .boxSkill{
   
@@ -263,7 +262,7 @@ max-height: 500px;
 }
 .about{
 max-width: 1200px;
-height: 950px;
+height: 1050px;
 width: 100%;
 display:flex;
 flex-wrap: wrap;
