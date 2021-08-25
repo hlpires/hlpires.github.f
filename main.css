@@ -871,7 +871,7 @@ transition: 1s;
    font-family: raleway; 
    height: 40px;
    font-size: 25px;
-   margin-left: 10px;
+   margin-left: 15px;
   }
   
   h100:hover{
@@ -892,13 +892,13 @@ transition: 1s;
     border: 3px solid rgb(236, 233, 233);
    
     max-height: 40px;
-    width: 50vw;
+    width: 45vw;
     max-width: 300px;
     font-size: 45px;
     font-family: raleway,raleway1;
     color: white;
     transition: all .2s ease-in-out;
-    margin-top:calc(10vh + 200px);
+    margin-top:calc(10vh + 350px);
     position: absolute;
   
   }
