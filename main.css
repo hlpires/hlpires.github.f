@@ -1362,9 +1362,9 @@ transition: 1s;
     transform: scale(1.2);
   }
   .boxH{
-    width: 55px;
+    width: 65px;
     height: 80px;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 0px;
     max-width: 350px;
   max-height: 600px;
@@ -1384,7 +1384,7 @@ transition: 1s;
   .contato{
     width: 100vw;
     background-color: #252934;  
-    
+    height: 440px;
     max-width: 2200px;
    display: flex;
    justify-content: center;
