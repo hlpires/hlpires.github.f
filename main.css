@@ -754,7 +754,7 @@ transition: 1s;
     margin: 0 auto;
     overflow: hidden;
     background-repeat: no-repeat;
-    border: 2px solid red;
+    
 
   
    
@@ -765,7 +765,7 @@ transition: 1s;
     height: 70vh;
     float: left;
     position: absolute;
-    border: 2px solid red;
+   
   }
   
   
@@ -776,32 +776,32 @@ transition: 1s;
   position: relative;
   float: left;
   width: 100%;
-  border: 2px solid red;
+ 
   }
   .sobreMenu{
     margin-left: 3%;
     float: left;
-    border: 2px solid red;
+    
   }
   .ferramentasMenu{
     margin-left: 6%;
     float: left;
-    border: 2px solid red;
+   
   }
   .qualificacoesMenu{
     margin-left: 7%;
     float: left;
-    border: 2px solid red;
+    
   }
   p25{
   color: transparent;
-  border: 2px solid red;
+
   }
   .linkEmail{
     width: 300px;
     color: transparent;
     
-    border: 2px solid red;
+    
     height: 0;
     right: 0;
     position: absolute;
@@ -815,12 +815,12 @@ transition: 1s;
     background-color: transparent;
     transition: all .2s ease-in-out;
     padding: 20px;
-    border: 2px solid red;
+    
     }
     .email:hover{
       transform: scale(1.2)!important;
       cursor: pointer;
-      border: 2px solid red;
+      
     }
     
   .linkedin{
@@ -830,12 +830,12 @@ transition: 1s;
   margin-top: 22px;
   margin-right: 20px;
   transition: all .2s ease-in-out;
-  border: 2px solid red;
+
   }
   .linkedin:hover{
     transform: scale(1.2)!important;
     cursor: pointer;
-    border: 2px solid red;
+   
   }
   .wpp{
     float: right;
@@ -844,13 +844,13 @@ transition: 1s;
     margin-top: 54px;
     margin-right: 30px;
     transition: all .2s ease-in-out;
-    border: 2px solid red;
+ 
   }
   .wpp:hover{
     cursor: pointer;
     transform: scale(1.2)!important;
   
-    border: 2px solid red;
+    
   }
   .titulo{
   max-width: 800px;
@@ -861,7 +861,7 @@ transition: 1s;
   float: left;
   margin-top: 380px;
   font-family: raleway1,raleway;
-  border: 2px solid red;
+ 
   }
   h100{
    margin-top: -10px;
@@ -877,7 +877,7 @@ transition: 1s;
   h100:hover{
     color: #1379cc;
     transform: scale(1.0);
-    border: 2px solid red;
+   
   }
   
   
@@ -890,7 +890,7 @@ transition: 1s;
     margin-left: 25vw;
     background-color: transparent;
     border: 3px solid rgb(236, 233, 233);
-    border: 2px solid red;
+   
     max-height: 40px;
     width: 50vw;
     max-width: 300px;
@@ -905,8 +905,8 @@ transition: 1s;
   #backgroundButton1:hover{
     transform: scale(1.08)!important;
     color: #0047AB;
-    border: 3px solid #0047AB;
-    border: 2px solid red;
+    
+ 
   }
   
   
@@ -936,7 +936,7 @@ transition: 1s;
     position: relative;
     background-color: rgb(255, 255, 255);
     left: 20px ;
-    border: 2px solid red;
+    
   }
   .boxSkillText{
     margin-top: 0px;
@@ -971,7 +971,7 @@ transition: 1s;
     text-align: center;
     color: #2b2b2b;
     width: 42vw;
-    border: 2px solid red;
+   
     margin-top: 10px;
     padding: 0px;  
   }
@@ -982,7 +982,6 @@ transition: 1s;
     text-align: center;
     color: #2b2b2b;
     width: 27vw;
-    border: 2px solid red;
     margin-top: 15px;
   }
   #mascara{
@@ -1004,11 +1003,11 @@ transition: 1s;
   flex-wrap: wrap;
   max-width: 600px;
   max-height: 500px;
-  border: 2px solid red;
+  
   }
   .about{
   max-width: 1200px;
-  border: 2px solid red;
+  
   width: 100%;
   display:flex;
   flex-wrap: wrap;
@@ -1021,34 +1020,34 @@ transition: 1s;
   font-size: 30px;
   font-family: ralewaB;
   font-weight: bold;
-  border-bottom: 2px solid #0047AB;
+  
   width: 190px;
   margin:0 auto;
   margin-top: 20px;
   height: 30px;
-  border: 2px solid red;
+  
   }
   .t2{
     font-family: raleway,raleway1;
     font-size: 17px;
     width: 100vw;
-    margin-top: 20px;
+    margin-top: 0px;
     max-width: 600px;
     text-align: center;
-    border: 2px solid red;
+   
   }
   
   .introAnime{
   opacity: 0;
   transform: translate3d(-200px,0,0);
   transition: .9s;
-  border: 2px solid red;
+
   }
   .introAnimeStart{
   opacity: 1;
   transform: translate3d(0,0,0);
   transition: 1.3s;
-  border: 2px solid red;
+  
   }
   
   
@@ -1065,7 +1064,7 @@ transition: 1s;
     font-family: ralewayB;
     border-bottom:4px solid #0047AB;
     font-weight: bold;
-    border: 2px solid red;
+    
   }
   h5{
     font-family: raleway,raleway1;
@@ -1075,11 +1074,11 @@ transition: 1s;
     border-bottom: 4px solid #0047AB;
     width: 110px;
     margin-left: 30%;
-    border: 2px solid red;
+   
   }
   .h5D{
     margin-top: -20px;
-    border: 2px solid red;
+    
   }
   
   
@@ -1088,29 +1087,29 @@ transition: 1s;
     opacity: 0;
     transform: translate3d(-100px,0,0);
     transition: .9s;
-    border: 2px solid red;
+    
   }
   .anime-start{
     opacity: 1;
     transform: translate3d(0,0,0);
-    border: 2px solid red;
+    
     
   }
   .anime-start1{
     opacity: 1!important;
     transform: translate3d(0,0,0)!important;
-    border: 2px solid red;
+    
   }
   .anime-start2{
     opacity: 1!important;
     transform: translate3d(0,0,0)!important;
-    border: 2px solid red;
+    
   }
   
   .animeInovate{
     opacity: 0;
     transform: translate3d(-100px,0,0);
-    border: 2px solid red;
+    
     transition: .9s;
   }
   
@@ -1118,7 +1117,7 @@ transition: 1s;
     opacity: 0;
     transform: translate3d(-100px,0,0);
     transition: .9s;
-    border: 2px solid red;
+    
   }
   
   .centralize{
@@ -1128,7 +1127,7 @@ transition: 1s;
     background-color: rgb(255, 255, 255);
     height: 500px;
     text-align: center;
-    border: 2px solid red;
+    
     
     display: flex;
     align-items: center;
@@ -1139,7 +1138,7 @@ transition: 1s;
   
   
   .textAbout{
-    border: 2px solid red;
+    
     height: 16vw;
     float: left;
     width: 30vw;
@@ -1152,11 +1151,11 @@ transition: 1s;
   
   
   .skills{ 
-    border: 2px solid red;
+    
   width: 100vw;
   height: 420px;
   background-color:rgb(255, 255, 255);
-  border: 1px solid red;
+  
   padding: 20px;
   max-height: 500px;
   max-width: 800px;
@@ -1176,7 +1175,7 @@ transition: 1s;
    color: black;
    width: 85px;
    padding: 05px;
-   border: 2px solid red;
+   
   }
   
   .skill-bar{
@@ -1186,13 +1185,13 @@ transition: 1s;
     width: 80vw;
     max-width: 700px;
     margin-left: 1vw;
-    border: 2px solid red;
+    
   }
   
   .skill-per{
     height: 20px;
     background-color: #0047AB;
-    border: 2px solid red;
+    
     width: 30;
     transition: 1s linear;
     position: relative;
@@ -1210,7 +1209,7 @@ transition: 1s;
     top: -35px;
     right: 0;
     transform: translateX(50%);
-    border: 2px solid red;
+   
   }
   
   .skill-per::after{
@@ -1223,7 +1222,7 @@ transition: 1s;
     right: 0;
     transform: translateX(50%) rotate(45deg);
     border-radius: 2px;
-    border: 2px solid red;
+    
   }
   
   
@@ -1234,19 +1233,19 @@ transition: 1s;
     color: #272727;
     float: left;
     position: relative;
-    border: 2px solid red;
+    
   }
   
   main{
     height: 3000px;
-    border: 2px solid red;
+    
   }
   
   .projetosText{
     min-width: 200px;
     background-color: #e7e7e7;
     margin-top: 200px;
-    border: 2px solid red;
+    
   }
   
   
@@ -1263,7 +1262,7 @@ transition: 1s;
     position: relative;
     display: flex;
     margin: auto;
-    border: 2px solid red;
+    
   }
   .boxPchild{  
     height: 270px;
@@ -1275,11 +1274,11 @@ transition: 1s;
     max-width: 800px;
     max-height: 500px;
     cursor: pointer;
-    border: 2px solid red;
+    
   }
   .boxPchild:hover{
     transform: scale(1.1);
-    border: 2px solid red;
+    
   }
   #projectReino{
     height: 270px;
@@ -1287,7 +1286,7 @@ transition: 1s;
     float: left;
   max-width: 800px;
   max-height: 500px;
-  border: 2px solid red;
+  
   }
   h9{
     margin: 0 auto;
@@ -1299,7 +1298,7 @@ transition: 1s;
     border-bottom:4px solid #0047AB;
     font-weight: bolder;
     display: block;
-    border: 2px solid red;
+    
   }
   h11{
     
@@ -1310,7 +1309,7 @@ transition: 1s;
     font-family: ralewayB;
     text-align: center;
     font-weight: bolder;
-    border: 2px solid red;
+    
     height: 10vh;
     
   }
@@ -1323,11 +1322,11 @@ transition: 1s;
     max-height: 1300px;
     margin: auto;
     float: left;
-    border: 2px solid red;
+    
   }
   .habilidadesText{
     min-width: 525px;
-    border: 2px solid red;
+    
     
   }
   .habilidadesBoxes{
@@ -1342,7 +1341,7 @@ transition: 1s;
     max-height: 1200px;
     flex-wrap: wrap;
     margin: auto;
-    border: 2px solid red;
+    
   }
   .boxHabilidades{
   margin: 15px;
@@ -1356,7 +1355,7 @@ transition: 1s;
   max-height: 300px;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
+  
   }
   .boxHabilidades:hover{
     transform: scale(1.2);
@@ -1368,7 +1367,7 @@ transition: 1s;
     padding: 0px;
     max-width: 350px;
   max-height: 600px;
-  border: 2px solid red;
+  
   
   }
   
@@ -1377,7 +1376,7 @@ transition: 1s;
     height: 80px;
     margin-top: 9px;
     padding: 25px;
-    border: 2px solid red;
+    
     max-width: 250px;
   
   }
@@ -1398,7 +1397,7 @@ transition: 1s;
     height: 250px;
     max-width: 2200px;
     max-height: 150px;
-    border: 2px solid red;
+    
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -1408,10 +1407,10 @@ transition: 1s;
   margin: auto;
   background-color: white;
   width: 100%;
-  height: 150px;
+  height: 200px;
   max-width: 1200px;
   max-height: 300px;
-  border: 2px solid red;
+ 
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -1447,7 +1446,7 @@ transition: 1s;
     font-size: 35px;
     font-family: ralewayB;
     font-weight: bolder;
-    border-bottom: 2px solid blue;
+    
     height:50px;
     margin-top: 60px;
     
