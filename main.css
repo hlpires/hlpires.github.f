@@ -1153,11 +1153,11 @@ transition: 1s;
   
   .skills{ 
     border: 2px solid red;
-  width: 82vw;
-  height: 400px;
+  width: 100vw;
+  height: 420px;
   background-color:rgb(255, 255, 255);
   border: 1px solid red;
-  
+  padding: 20px;
   max-height: 500px;
   max-width: 800px;
   }
@@ -1384,7 +1384,7 @@ transition: 1s;
   .contato{
     width: 100vw;
     background-color: #252934;  
-    border: 2px solid red;
+    
     max-width: 2200px;
    display: flex;
    justify-content: center;
@@ -1418,7 +1418,7 @@ transition: 1s;
   
   }
   .divisoria{
-    border: 2px solid red;
+    
     background-color: #252934;
     width: 100vw;
     height: 15vh;
@@ -1435,7 +1435,7 @@ transition: 1s;
   font-size: 30px;
   font-family: ralewayB;
   font-weight: bolder;
-  border: 2px solid red;
+  
   height: 6vh;
   margin-top: 5vh;
   width: 170px;
@@ -1450,7 +1450,7 @@ transition: 1s;
     border-bottom: 2px solid blue;
     height:50px;
     margin-top: 60px;
-    border: 2px solid red;
+    
     
     }
   input{
@@ -1465,7 +1465,7 @@ transition: 1s;
   height: 30px;
   max-height: 400px;
   max-width: 800px;
-  border: 2px solid red;
+  
   }
   .emailP{
     margin-top: 40px;
@@ -1490,7 +1490,7 @@ transition: 1s;
   margin-top: 20px;
   width: 100px;
   height: 40px;
-  border: 2px solid red;
+  
   background-color: transparent;
   border: 1px solid white;
   color: white;
@@ -1499,11 +1499,11 @@ transition: 1s;
   #buttonEmail:hover{
     transform: scale(1.2);
     cursor: pointer;
-    border: 2px solid red;
+    
   }
   #texto{
     height: 30vh;
-    border: 2px solid red;
+    
   }
   #emailImage{
     margin-top: 80px;
@@ -1512,7 +1512,6 @@ transition: 1s;
     height: 00px;
     max-width: 600px;
     max-height: 500px;
-    border: 2px solid red;
    opacity: 0;
   }
 }
