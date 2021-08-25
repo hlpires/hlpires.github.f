@@ -10,7 +10,7 @@ body{
     scroll-behavior: smooth!important;
     
   }
-
+@media(min-width: 501px){
 #background{
   justify-content: center;
   height: 100vh;
@@ -744,4 +744,781 @@ transition: 1s;
   max-height: 500px;
   
  
+}
+ }
+@media(max-width: 500px){
+
+  #background{
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+
+  
+   
+  }
+  
+  #backgroundImage{
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    position: absolute;
+    border: 2px solid red;
+  }
+  
+  
+  header{
+  top: 0;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  float: left;
+  width: 100%;
+  border: 2px solid red;
+  }
+  .sobreMenu{
+    margin-left: 3%;
+    float: left;
+    border: 2px solid red;
+  }
+  .ferramentasMenu{
+    margin-left: 6%;
+    float: left;
+    border: 2px solid red;
+  }
+  .qualificacoesMenu{
+    margin-left: 7%;
+    float: left;
+    border: 2px solid red;
+  }
+  p25{
+  color: transparent;
+  border: 2px solid red;
+  }
+  .linkEmail{
+    width: 300px;
+    color: transparent;
+    
+    border: 2px solid red;
+    height: 0;
+    right: 0;
+    position: absolute;
+    top: 18%;
+  }
+  .email{
+    width: 90px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 100px;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+    padding: 20px;
+    border: 2px solid red;
+    }
+    .email:hover{
+      transform: scale(1.2)!important;
+      cursor: pointer;
+      border: 2px solid red;
+    }
+    
+  .linkedin{
+  float: right;
+  position: relative;
+  width: 63px;
+  margin-top: 22px;
+  margin-right: 20px;
+  transition: all .2s ease-in-out;
+  border: 2px solid red;
+  }
+  .linkedin:hover{
+    transform: scale(1.2)!important;
+    cursor: pointer;
+    border: 2px solid red;
+  }
+  .wpp{
+    float: right;
+    position: relative;
+    width: 80px;
+    margin-top: 54px;
+    margin-right: 30px;
+    transition: all .2s ease-in-out;
+    border: 2px solid red;
+  }
+  .wpp:hover{
+    cursor: pointer;
+    transform: scale(1.2)!important;
+  
+    border: 2px solid red;
+  }
+  .titulo{
+  max-width: 800px;
+  color: white;
+  margin-left: 49px;
+  width: 35vw;
+  position: absolute;
+  float: left;
+  margin-top: 380px;
+  font-family: raleway1,raleway;
+  border: 2px solid red;
+  }
+  h100{
+   margin-top: -10px;
+   position: relative;
+   float: left;
+   margin-left: 0.2vw;
+   color: white;
+   transition: all .2s ease-in-out;
+   font-family: raleway;
+   border: 2px solid red;
+  }
+  
+  h100:hover{
+    color: #1379cc;
+    transform: scale(1.0);
+    border: 2px solid red;
+  }
+  
+  
+  
+  
+  
+  
+  
+  #backgroundButton1{
+    margin-left: 6vw;
+    background-color: transparent;
+    border: 3px solid rgb(236, 233, 233);
+    border: 2px solid red;
+    max-height: 40px;
+   
+    min-width: 300px;
+    width: 5vw;
+    max-width: 300px;
+    font-size: 45px;
+    font-family: raleway,raleway1;
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-top:calc(10vh + 400px);
+    position: absolute;
+    padding: 12px;
+  }
+  #backgroundButton1:hover{
+    transform: scale(1.08)!important;
+    color: #0047AB;
+    border: 3px solid #0047AB;
+    border: 2px solid red;
+  }
+  
+  
+  
+  
+  
+  
+  @font-face {
+    font-family:raleway;
+    src: url(./fontes/Poppins-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family:ralewayB;
+    src: url(./fontes/Poppins-SemiBold.ttf);
+  }
+  
+  
+  
+  
+  
+  .intro{
+   margin-top: 125vw;
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 23vw;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 20px ;
+    border: 2px solid red;
+  }
+  .boxSkillText{
+    margin-top: 0px;
+    height: 340px;
+    width: 300px;
+    max-height: 600px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid red;
+  }
+  .boxSkill{
+    
+    border: 2px solid red;
+    height: 160px;
+    width: 200px;
+    max-height: 300px;
+    max-width: 400px;
+    background-color:rgb(221, 236, 255);
+    clip-path: circle();
+    display: flex;
+    justify-content: center;
+  }
+  .imgSkill{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    border: 2px solid red;
+  }
+  h6{
+    font-family: raleway,raleway1;
+    font-size: 17px;
+    text-align: center;
+    color: #2b2b2b;
+    width: 30vw;
+    border: 2px solid red;
+    margin-top: 10px;
+  
+  }
+  h8{
+    font-family: ralewayB;
+    font-size: 28px;
+    text-align: center;
+    color: #2b2b2b;
+    width: 27vw;
+    border: 2px solid red;
+    margin-top: 15px;
+  }
+  #mascara{
+  
+  margin-top: 2vh;
+  width: 50vw;
+  clip-path: circle();
+  max-height:400px ;
+  max-width: 600px;
+  float: left;
+  border: 2px solid red;
+  }
+  .perfil{
+  margin-top: 60px;
+   height:calc(360px + 10vh);
+   width: 400px;
+   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  max-height: 500px;
+  border: 2px solid red;
+  }
+  .about{
+  max-width: 1200px;
+  border: 2px solid red;
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  
+  }
+  
+  .t1{
+  font-size: 30px;
+  font-family: ralewaB;
+  font-weight: bold;
+  border-bottom: 2px solid #0047AB;
+  width: 190px;
+  margin:0 auto;
+  margin-top: 20px;
+  height: 30px;
+  border: 2px solid red;
+  }
+  .t2{
+    font-family: raleway,raleway1;
+    font-size: 17px;
+    width: 100vw;
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid red;
+  }
+  
+  .introAnime{
+  opacity: 0;
+  transform: translate3d(-200px,0,0);
+  transition: .9s;
+  border: 2px solid red;
+  }
+  .introAnimeStart{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  transition: 1.3s;
+  border: 2px solid red;
+  }
+  
+  
+  
+  
+  
+  
+  h4{
+  margin: 0 auto;
+    max-width: 120px;
+    margin-top: 0px;
+    font-size: 40px;
+    color: #2b2b2b;
+    font-family: ralewayB;
+    border-bottom:4px solid #0047AB;
+    font-weight: bold;
+    border: 2px solid red;
+  }
+  h5{
+    font-family: raleway,raleway1;
+    margin-top: 0px;
+    font-size: 25px;
+    color: #2b2b2b;
+    border-bottom: 4px solid #0047AB;
+    width: 110px;
+    margin-left: 30%;
+    border: 2px solid red;
+  }
+  .h5D{
+    margin-top: -20px;
+    border: 2px solid red;
+  }
+  
+  
+  
+  .animeCriative{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .9s;
+    border: 2px solid red;
+  }
+  .anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    border: 2px solid red;
+    
+  }
+  .anime-start1{
+    opacity: 1!important;
+    transform: translate3d(0,0,0)!important;
+    border: 2px solid red;
+  }
+  .anime-start2{
+    opacity: 1!important;
+    transform: translate3d(0,0,0)!important;
+    border: 2px solid red;
+  }
+  
+  .animeInovate{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    border: 2px solid red;
+    transition: .9s;
+  }
+  
+  .animeCuriosity{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .9s;
+    border: 2px solid red;
+  }
+  
+  .centralize{
+   
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    text-align: center;
+    border: 2px solid red;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+  }
+  
+  
+  .textAbout{
+    border: 2px solid red;
+    height: 16vw;
+    float: left;
+    width: 30vw;
+    margin-top: 5vw;
+  }
+  
+  
+  
+  
+  
+  
+  .skills{ 
+    border: 2px solid red;
+  width: 320px;
+  height: 400px;
+  background-color:rgb(255, 255, 255);
+  border: 1px solid red;
+  
+  max-height: 500px;
+  max-width: 800px;
+  }
+  
+  .skill-name{
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin: calc(1vh + 12px );
+    font-weight: bold;
+    font-family: ralewaB;
+    max-width: 700px;
+    margin-left: 1vw;
+    background-color:rgb(221, 236, 255);
+   color: black;
+   width: 200px;
+   padding: 05px;
+   border: 2px solid red;
+  }
+  
+  .skill-bar{
+    margin-top: -1.5vh;
+    height: 20px;
+    background: #cacaca;
+    width: 80vw;
+    max-width: 700px;
+    margin-left: 1vw;
+    border: 2px solid red;
+  }
+  
+  .skill-per{
+    height: 20px;
+    background-color: #0047AB;
+    border: 2px solid red;
+    width: 30;
+    transition: 1s linear;
+    position: relative;
+    
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    border: 2px solid red;
+  }
+  
+  .skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+    border: 2px solid red;
+  }
+  
+  
+  h7{
+    font-family: raleway,raleway1;
+    top: 60px;
+    font-size: 40px;
+    color: #272727;
+    float: left;
+    position: relative;
+    border: 2px solid red;
+  }
+  
+  main{
+    height: 3000px;
+    border: 2px solid red;
+  }
+  
+  .projetosText{
+    min-width: 200px;
+    background-color: #e7e7e7;
+    margin-top: 200px;
+    border: 2px solid red;
+  }
+  
+  
+  
+  
+  .boxP{
+    height: 500px;
+    width: 100vw;
+    background-color: #e7e7e7;
+    max-height: 700px;
+    max-width: 2200px;
+    margin-top: 40px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+    border: 2px solid red;
+  }
+  .boxPchild{  
+    height: 270px;
+    width: 400px;
+    background-color: white;
+   margin: 40px;
+    margin-top:calc( 100px);
+    transition: 0.6s;
+    max-width: 800px;
+    max-height: 500px;
+    cursor: pointer;
+    border: 2px solid red;
+  }
+  .boxPchild:hover{
+    transform: scale(1.1);
+    border: 2px solid red;
+  }
+  #projectReino{
+    height: 270px;
+    width: 400px;
+    float: left;
+  max-width: 800px;
+  max-height: 500px;
+  border: 2px solid red;
+  }
+  h9{
+    margin: 0 auto;
+    max-width: 120px;
+    margin-top: 80px;
+    font-size: 40px;
+    color: #2b2b2b;
+    font-family: ralewayB;
+    border-bottom:4px solid #0047AB;
+    font-weight: bolder;
+    display: block;
+    border: 2px solid red;
+  }
+  h11{
+    
+    width: 100vw;
+    margin-top: 80px;
+    font-size: 40px;
+    color: white;
+    font-family: ralewayB;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid red;
+    height: 10vh;
+    
+  }
+  
+  .habilidades{
+    height:100px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    max-height: 1300px;
+    margin: auto;
+    float: left;
+    border: 2px solid red;
+  }
+  .habilidadesText{
+    min-width: 525px;
+    border: 2px solid red;
+    
+  }
+  .habilidadesBoxes{
+    height:900px ;
+    width: 100vw;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    max-width: 1200px;
+    max-height: 1200px;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 2px solid red;
+  }
+  .boxHabilidades{
+  margin: 15px;
+    background-color: rgb(221, 236, 255);
+    height: 200px;
+    width: 220px;
+    margin-top: 00px;
+    max-width: 400px;
+    box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
+    transition: 1s;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+  }
+  .boxHabilidades:hover{
+    transform: scale(1.2);
+  }
+  .boxH{
+    width: 105px;
+    height: 120px;
+    margin-top: 40px;
+    padding: 0px;
+    max-width: 350px;
+  max-height: 600px;
+  border: 2px solid red;
+  
+  }
+  
+  .boxH1{
+    width: 90px;
+    height: 130px;
+    margin-top: 9px;
+    padding: 25px;
+    border: 2px solid red;
+    max-width: 250px;
+  
+  }
+  .contato{
+  
+    height: 700px;
+    width: 100vw;
+    background-color: #252934;  
+    border: 2px solid red;
+    max-height: 900px;
+    max-width: 2200px;
+  
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: auto;
+  }
+  .divisoria2{
+    margin: auto;
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 250px;
+    max-width: 2200px;
+    max-height: 150px;
+    border: 2px solid red;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+  .divisoria1{
+  margin: auto;
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  max-width: 1200px;
+  max-height: 300px;
+  border: 2px solid red;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+  .divisoria{
+    border: 2px solid red;
+    background-color: #252934;
+    width: 100vw;
+    height: 15vh;
+    max-width: 2200px;
+   max-height: 200px;
+   margin: auto;
+  }
+  .contatoText1{
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  font-size: 40px;
+  font-family: ralewayB;
+  font-weight: bolder;
+  border: 2px solid red;
+  height: 6vh;
+  margin-top: 5vh;
+  width: 200px;
+  left: 44vw;
+  
+  }
+  .divisoriaText{
+    position: absolute;
+    font-size: 20px;
+    font-family: ralewayB;
+    font-weight: bolder;
+    border-bottom: 2px solid blue;
+    height:50px;
+    margin-top: 60px;
+    border: 2px solid red;
+    
+    }
+  input{
+    padding: 10px;
+    margin-top: 05px;
+    float: left;
+    background-color: #1e242c;
+   margin-left: 0vw;
+    width: 300px;
+  text-align: start;
+  border: none;
+  height: 30px;
+  max-height: 400px;
+  max-width: 800px;
+  border: 2px solid red;
+  }
+  .emailP{
+    margin-top: 120px;
+    width: 500px;
+    border: 2px solid red;
+    height:300px;
+   
+    background-color: transparent;
+    max-height: 800px;
+    max-width: 800px;
+    margin-right: 50px;
+  }
+  
+  
+  h10{
+  min-width: 20vw;
+  font-size: 30px;
+  float: left!important;
+  border: 2px solid red;
+  }
+  #buttonEmail{
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border: 2px solid red;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: 1s;
+  }
+  #buttonEmail:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 2px solid red;
+  }
+  #texto{
+    height: 30vh;
+    border: 2px solid red;
+  }
+  #emailImage{
+    margin-top: 80px;
+    float: right;
+    width: 300px;
+    height: 400px;
+    max-width: 600px;
+    max-height: 500px;
+    border: 2px solid red;
+   
+  }
 }
