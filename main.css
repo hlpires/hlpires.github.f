@@ -750,7 +750,7 @@ transition: 1s;
 
   #background{
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
     margin: 0 auto;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -762,7 +762,7 @@ transition: 1s;
   
   #backgroundImage{
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     float: left;
     position: absolute;
     border: 2px solid red;
@@ -889,22 +889,20 @@ transition: 1s;
   
   
   #backgroundButton1{
-    margin-left: 6vw;
+    margin-left: 25vw;
     background-color: transparent;
     border: 3px solid rgb(236, 233, 233);
     border: 2px solid red;
     max-height: 40px;
-   
-    min-width: 200px;
-    width: 5vw;
+    width: 50vw;
     max-width: 300px;
     font-size: 45px;
     font-family: raleway,raleway1;
     color: white;
     transition: all .2s ease-in-out;
-    margin-top:calc(10vh + 400px);
+    margin-top:calc(10vh + 200px);
     position: absolute;
-    padding: 12px;
+  
   }
   #backgroundButton1:hover{
     transform: scale(1.08)!important;
@@ -944,7 +942,7 @@ transition: 1s;
   }
   .boxSkillText{
     margin-top: 0px;
-    height: 340px;
+    height: 210px;
     width: 130px;
     max-height: 600px;
     max-width: 400px;
@@ -958,7 +956,7 @@ transition: 1s;
     
     border: 2px solid red;
     
-    width: 90px;
+    width: 80px;
     max-height: 300px;
     max-width: 400px;
     background-color:rgb(221, 236, 255);
@@ -969,8 +967,9 @@ transition: 1s;
   .imgSkill{
     width: 50px;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 10px;
     border: 2px solid red;
+    padding: 15px;
   }
   h6{
     font-family: raleway,raleway1;
@@ -1160,7 +1159,7 @@ transition: 1s;
   
   .skills{ 
     border: 2px solid red;
-  width: 320px;
+  width: 82vw;
   height: 400px;
   background-color:rgb(255, 255, 255);
   border: 1px solid red;
@@ -1181,7 +1180,7 @@ transition: 1s;
     margin-left: 1vw;
     background-color:rgb(221, 236, 255);
    color: black;
-   width: 200px;
+   width: 85px;
    padding: 05px;
    border: 2px solid red;
   }
