@@ -1425,6 +1425,8 @@ transition: 1s;
     max-width: 2200px;
    max-height: 200px;
    margin: auto;
+   display: flex;
+   justify-content: center;
   }
   .contatoText1{
   position: absolute;
@@ -1466,9 +1468,9 @@ transition: 1s;
   border: 2px solid red;
   }
   .emailP{
-    margin-top: 120px;
+    margin-top: 40px;
     width: 80vw;
-    border: 2px solid red;
+    
     height:320px;
    
     background-color: transparent;
