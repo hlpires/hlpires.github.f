@@ -893,7 +893,7 @@ transition: 1s;
     border: 2px solid red;
     max-height: 40px;
    
-    min-width: 300px;
+    min-width: 200px;
     width: 5vw;
     max-width: 300px;
     font-size: 45px;
@@ -982,7 +982,7 @@ transition: 1s;
   }
   h8{
     font-family: ralewayB;
-    font-size: 28px;
+    font-size: 14px;
     text-align: center;
     color: #2b2b2b;
     width: 27vw;
@@ -1287,7 +1287,7 @@ transition: 1s;
   }
   #projectReino{
     height: 270px;
-    width: 400px;
+    width: 80vw;
     float: left;
   max-width: 800px;
   max-height: 500px;
@@ -1438,14 +1438,14 @@ transition: 1s;
   position: absolute;
   background-color: transparent;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: ralewayB;
   font-weight: bolder;
   border: 2px solid red;
   height: 6vh;
   margin-top: 5vh;
-  width: 200px;
-  left: 44vw;
+  width: 170px;
+ 
   
   }
   .divisoriaText{
