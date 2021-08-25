@@ -940,22 +940,22 @@ transition: 1s;
   }
   .boxSkillText{
     margin-top: 0px;
-    height: 210px;
-    width: 130px;
+    height: 100px;
+    width: 100vw;
     max-height: 600px;
     max-width: 400px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
-    
+    border: 2px solid red;
   }
   .boxSkill{
-    width: 80px;
+    width: 100px;
     max-height: 300px;
     max-width: 400px;
     background-color:rgb(221, 236, 255);
-    clip-path: circle();
+    border: 2px solid red;
     display: flex;
     justify-content: center;
   }
@@ -971,8 +971,8 @@ transition: 1s;
     text-align: center;
     color: #2b2b2b;
     width: 42vw;
-   
-    margin-top: 10px;
+    border: 2px solid red;
+   position: absolute;
     padding: 0px;  
   }
   h8{
@@ -983,6 +983,7 @@ transition: 1s;
     color: #2b2b2b;
     width: 27vw;
     margin-top: 15px;
+    border: 2px solid red;
   }
   #mascara{
   
