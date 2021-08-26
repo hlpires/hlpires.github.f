@@ -972,7 +972,7 @@ transition: 1s;
     text-align: center;
     color: #2b2b2b;
     width: 42vw;
-   
+   margin-top: 35px;
    position: absolute;
     margin-left: 50vw;
   }
@@ -985,7 +985,7 @@ transition: 1s;
     width: 27vw;
     margin-top: 5px;
    
-    margin-left: 27vw;
+    margin-left: 28.5vw;
   }
   #mascara{
   
