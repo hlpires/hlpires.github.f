@@ -948,21 +948,22 @@ transition: 1s;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
-    border: 2px solid red;
+    
+    box-shadow: 0 2px 2px 0 rgb(231, 235, 240);
   }
   .boxSkill{
-    width: 100px;
+    width: 80px;
     max-height: 300px;
     max-width: 400px;
     background-color:rgb(221, 236, 255);
-    border: 2px solid red;
     display: flex;
     justify-content: center;
+    clip-path: circle();
   }
   .imgSkill{
     width: 40px;
     height: 40px;
-    margin-top: 05px;
+    margin-top: 15px;
     padding: 15px;
   }
   h6{
@@ -971,9 +972,9 @@ transition: 1s;
     text-align: center;
     color: #2b2b2b;
     width: 42vw;
-    border: 2px solid red;
+   
    position: absolute;
-    padding: 0px;  
+    margin-left: 50vw;
   }
   h8{
     font-family: ralewayB;
@@ -982,8 +983,9 @@ transition: 1s;
     text-align: center;
     color: #2b2b2b;
     width: 27vw;
-    margin-top: 15px;
-    border: 2px solid red;
+    margin-top: 5px;
+   
+    margin-left: 27vw;
   }
   #mascara{
   
