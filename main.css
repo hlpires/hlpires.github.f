@@ -890,7 +890,7 @@ transition: 1s;
     margin-left: 25vw;
     background-color: transparent;
     border: 3px solid rgb(236, 233, 233);
-   
+   opacity: 0;
     max-height: 40px;
     width: 180px;
     max-width: 300px;
