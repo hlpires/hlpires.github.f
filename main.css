@@ -965,6 +965,9 @@ transition: 1s;
     margin-top: 15px;
     padding: 15px;
   }
+  #responsive{
+border-top: 1px solid rgb(157, 181, 212);
+ }
   h6{
     font-family: raleway,raleway1;
     font-size: 8pt;
@@ -997,8 +1000,8 @@ transition: 1s;
   
   }
   .perfil{
-    border-bottom: 1px solid blue;
-  margin-top: 60px;
+   
+  margin-top: 20px;
    height:calc(360px + 10vh);
    width: 400px;
    display: flex;
@@ -1006,7 +1009,7 @@ transition: 1s;
   flex-wrap: wrap;
   max-width: 600px;
   max-height: 500px;
-  
+ 
   }
   .about{
   max-width: 1200px;
@@ -1020,7 +1023,7 @@ transition: 1s;
   }
   
   .t1{
-  font-size: 30px;
+  font-size: 25px;
   font-family: ralewaB;
   font-weight: bold;
   text-align: center;
