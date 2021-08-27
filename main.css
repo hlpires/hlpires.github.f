@@ -870,8 +870,8 @@ transition: 1s;
    transition: all .2s ease-in-out;
    font-family: raleway; 
    height: 40px;
-   font-size: 25px;
-   margin-left: 15px;
+   font-size: 20px;
+   margin-left: 35px;
   }
   
   h100:hover{
@@ -1037,7 +1037,7 @@ border-top: 1px solid rgb(157, 181, 212);
     font-family: raleway,raleway1;
     font-size: 17px;
     width: 100vw;
-    margin-top: 0px;
+    margin-top: -40px;
     max-width: 600px;
     text-align: center;
    
