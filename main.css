@@ -997,6 +997,7 @@ transition: 1s;
   
   }
   .perfil{
+    border-bottom: 1px solid blue;
   margin-top: 60px;
    height:calc(360px + 10vh);
    width: 400px;
@@ -1022,8 +1023,8 @@ transition: 1s;
   font-size: 30px;
   font-family: ralewaB;
   font-weight: bold;
-  
-  width: 190px;
+  text-align: center;
+  width: 100vw;
   margin:0 auto;
   margin-top: 20px;
   height: 30px;
@@ -1157,7 +1158,6 @@ transition: 1s;
   width: 100vw;
   height: 420px;
   background-color:rgb(255, 255, 255);
-  border: 2px solid red;
   padding: 20px;
   max-height: 500px;
   max-width: 800px;
@@ -1172,7 +1172,7 @@ transition: 1s;
     font-weight: bold;
     font-family: ralewaB;
     max-width: 700px;
-    margin-left: 3vw;
+    margin-left: 4vw;
     background-color:rgb(221, 236, 255);
    color: black;
    width: 85px;
@@ -1186,7 +1186,7 @@ transition: 1s;
     background: #cacaca;
     width: 80vw;
     max-width: 700px;
-    margin-left: 3vw;
+    margin-left: 4vw;
     
   }
   
