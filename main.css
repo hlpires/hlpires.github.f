@@ -892,13 +892,13 @@ transition: 1s;
     border: 3px solid rgb(236, 233, 233);
    
     max-height: 40px;
-    width: 45vw;
+    width: 180px;
     max-width: 300px;
     font-size: 45px;
     font-family: raleway,raleway1;
     color: white;
     transition: all .2s ease-in-out;
-    margin-top:calc(10vh + 350px);
+    margin-top:300px;
     position: absolute;
   
   }
@@ -948,8 +948,7 @@ transition: 1s;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
-    
-    box-shadow: 0 2px 2px 0 rgb(231, 235, 240);
+    border-bottom: 1px solid rgb(157, 181, 212);
   }
   .boxSkill{
     width: 80px;
@@ -1158,7 +1157,7 @@ transition: 1s;
   width: 100vw;
   height: 420px;
   background-color:rgb(255, 255, 255);
-  
+  border: 2px solid red;
   padding: 20px;
   max-height: 500px;
   max-width: 800px;
@@ -1173,7 +1172,7 @@ transition: 1s;
     font-weight: bold;
     font-family: ralewaB;
     max-width: 700px;
-    margin-left: 1vw;
+    margin-left: 3vw;
     background-color:rgb(221, 236, 255);
    color: black;
    width: 85px;
@@ -1187,7 +1186,7 @@ transition: 1s;
     background: #cacaca;
     width: 80vw;
     max-width: 700px;
-    margin-left: 1vw;
+    margin-left: 3vw;
     
   }
   
