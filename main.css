@@ -1472,6 +1472,22 @@ transition: 1s;
   max-height: 400px;
   max-width: 800px;
   color: white;
+  column-count: initial !important;
+  }
+  textarea{
+    padding: 10px;
+    margin-top: 05px;
+    float: left;
+    background-color: #1e242c;
+   margin-left: 0vw;
+   width: 80vw;
+  text-align: start;
+  border: none;
+  height: 30px;
+  max-height: 400px;
+  max-width: 800px;
+  color: white;
+  column-count: initial !important;
   }
   .emailP{
     margin-top: 40px;
@@ -1509,7 +1525,7 @@ transition: 1s;
   }
   #texto{
     height: 30vh;
-    
+    text-align:match-parent;
   }
   #emailImage{
     margin-top: 80px;
