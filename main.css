@@ -958,6 +958,7 @@ transition: 1s;
     display: flex;
     justify-content: center;
     clip-path: circle();
+    margin-right:45vw;
   }
   .imgSkill{
     width: 40px;
@@ -965,18 +966,17 @@ transition: 1s;
     margin-top: 15px;
     padding: 15px;
   }
-  #responsive{
-border-top: 1px solid rgb(157, 181, 212);
- }
+  
   h6{
     font-family: raleway,raleway1;
     font-size: 8pt;
     text-align: center;
     color: #2b2b2b;
-    width: 42vw;
+    width: 40vw;
    margin-top: 35px;
    position: absolute;
-    margin-left: 50vw;
+   margin-left: 40vw;
+    border:1px solid red;
   }
   h8{
     font-family: ralewayB;
@@ -984,10 +984,12 @@ border-top: 1px solid rgb(157, 181, 212);
     height: 20px;
     text-align: center;
     color: #2b2b2b;
-    width: 27vw;
+    width: 40vw;
     margin-top: 5px;
-   
-    margin-left: 28.5vw;
+   border:1px solid red;
+    margin-left: 40vw;
+    
+   position: absolute;
   }
   #mascara{
   
