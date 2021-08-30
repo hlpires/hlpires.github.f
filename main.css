@@ -1483,9 +1483,9 @@ transition: 1s;
    width: 80vw;
   text-align: start;
   border: none;
-  height: 30px;
-  max-height: 400px;
-  max-width: 800px;
+  height: 200px;
+  max-height: 30vh;
+  max-width: 80vw;
   color: white;
   column-count: initial !important;
   }
