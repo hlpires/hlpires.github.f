@@ -247,8 +247,9 @@ h6{
   text-align: center;
   color: #2b2b2b;
   width: 30vw;
+  height: 70px;
+  margin-top: 10px!important;
   
-  margin-top: 10px;
 
 }
 h8{
@@ -257,6 +258,7 @@ h8{
   text-align: center;
   color: #2b2b2b;
   width: 27vw;
+  font-weight: bolder;
 
   margin-top: 15px;
 }
@@ -278,6 +280,7 @@ justify-content: center;
 flex-wrap: wrap;
 max-width: 600px;
 max-height: 500px;
+padding-bottom: 100px;
 }
 .about{
 max-width: 1200px;
@@ -352,36 +355,6 @@ h5{
 
 
 
-.animeCriative{
-  opacity: 0;
-  transform: translate3d(-100px,0,0);
-  transition: .9s;
-}
-.anime-start{
-  opacity: 1;
-  transform: translate3d(0,0,0);
-  
-}
-.anime-start1{
-  opacity: 1!important;
-  transform: translate3d(0,0,0)!important;
-}
-.anime-start2{
-  opacity: 1!important;
-  transform: translate3d(0,0,0)!important;
-}
-
-.animeInovate{
-  opacity: 0;
-  transform: translate3d(-100px,0,0);
-  transition: .9s;
-}
-
-.animeCuriosity{
-  opacity: 0;
-  transform: translate3d(-100px,0,0);
-  transition: .9s;
-}
 
 .centralize{
  
