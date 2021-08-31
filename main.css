@@ -126,7 +126,7 @@ padding-left:55px ;
 font-size: 35px;
  color: white;
  transition: all .2s ease-in-out;
- font-family: ralewayB;
+ font-family: ralewaybb;
  font-weight: lighter;
 }
 
@@ -170,7 +170,7 @@ h19{
   font-size: 55px;
   z-index: 1;
   position: relative;
-  font-family: raleway;
+  font-family: ralewaybb;
   font-weight:bold;
   top:calc(10vh + 400px);
   left: 6vw;
@@ -180,7 +180,7 @@ h20{
   font-size: 35px;
   position: relative;
   z-index: 1;
-  font-family: raleway;
+  font-family: ralewaybb;
   top:calc(10vh + 400px);
   left: 6vw;
 }
@@ -191,14 +191,17 @@ h20{
 
 @font-face {
   font-family:raleway;
-  src: url(./fontes/Raleway-Italic-VariableFont_wght.ttf);
+  src: url(./fontes/Poppins-ExtraLight.ttf);
 }
 @font-face {
   font-family:ralewayB;
-  src: url(./fontes/Raleway-VariableFont_wght.ttf);
+  src: url(./fontes/Poppins-SemiBold.ttf);
 
 }
-
+@font-face {
+  font-family:ralewaybb;
+  src: url(./fontes/Raleway-Italic-VariableFont_wght.ttf);
+}
 
 
 .intro{
@@ -892,7 +895,7 @@ transition: 1s;
     font-size: 30px;
     z-index: 1;
     position: relative;
-    font-family: raleway;
+    font-family: ralewaybb;
     font-weight:bold;
     top:calc(240px);
     left: 6vw;
@@ -903,7 +906,7 @@ transition: 1s;
     font-size: 20px;
     position: relative;
     z-index: 1;
-    font-family: raleway;
+    font-family: ralewaybb;
     top:calc(240px);
     left: 6vw;
     
@@ -941,16 +944,19 @@ transition: 1s;
   
   
   
-  
   @font-face {
     font-family:raleway;
-    src: url(./fontes/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(./fontes/Poppins-ExtraLight.ttf);
   }
   @font-face {
     font-family:ralewayB;
-    src: url(./fontes/Raleway-VariableFont_wght.ttf);
-  }
+    src: url(./fontes/Poppins-SemiBold.ttf);
   
+  }
+  @font-face {
+    font-family:ralewaybb;
+    src: url(./fontes/Raleway-Italic-VariableFont_wght.ttf);
+  }
   
   
   
@@ -1761,6 +1767,11 @@ transition: 1s;
   @font-face {
     font-family:ralewayB;
     src: url(./fontes/Poppins-SemiBold.ttf);
+  
+  }
+  @font-face {
+    font-family:ralewaybb;
+    src: url(./fontes/Raleway-Italic-VariableFont_wght.ttf);
   }
   
   
