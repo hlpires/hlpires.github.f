@@ -1035,7 +1035,7 @@ transition: 1s;
   .perfil{
    
   margin-top: 20px;
-   height:calc(360px + 10vh);
+   height:calc(360px);
    width: 400px;
    display: flex;
   justify-content: center;
