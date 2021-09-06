@@ -943,9 +943,10 @@ transition: 1s;
   } 
   #title{
     margin-top: 120px;
-    width: 100vw;
+    width: 60vw;
     text-align: center;
     position: absolute;
+    margin-left: 20vw;
   }
   
   
