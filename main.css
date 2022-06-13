@@ -270,7 +270,7 @@ h8{
 #mascara{
 
 margin-top: 2vh;
-width: 50vw;
+width: 30vw;
 clip-path: circle();
 max-height:400px ;
 max-width: 600px;
@@ -305,14 +305,14 @@ font-weight: bold;
 border-bottom: 2px solid #0047AB;
 width: 190px;
 margin:0 auto;
-margin-top: 20px;
+margin-top: 10px;
 height: 30px;
 }
 .t2{
   font-family: raleway,raleway1;
   font-size: 17px;
   width: 100vw;
-  margin-top: 20px;
+  margin-top: 10px;
   max-width: 600px;
   text-align: center;
 }
@@ -1066,7 +1066,7 @@ transition: 1s;
   .perfil{
    
   margin-top: 20px;
-   height:calc(360px);
+   height:calc(460px);
    width: 400px;
    display: flex;
   justify-content: center;
@@ -1093,7 +1093,7 @@ transition: 1s;
   text-align: center;
   width: 100vw;
   margin:0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 30px;
   
   }
@@ -1101,7 +1101,7 @@ transition: 1s;
     font-family: raleway,raleway1;
     font-size: 17px;
     width: 100vw;
-    margin-top: -10px;
+    margin-top: 20px;
     max-width: 600px;
     text-align: center;
    
@@ -1884,7 +1884,7 @@ transition: 1s;
   .perfil{
    padding:60px;
    margin-top: 20px;
-   height:calc(360px + 10vh);
+   height:calc(460px + 10vh);
    width: 400px;
    display: flex;
   justify-content: center;
@@ -1911,7 +1911,7 @@ transition: 1s;
   text-align: center;
   width: 100vw;
   margin:0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 30px;
   
   }
@@ -1919,7 +1919,7 @@ transition: 1s;
     font-family: raleway,raleway1;
     font-size: 17px;
     width: 100vw;
-    margin-top: 0px;
+    margin-top: 10px;
     max-width: 600px;
     text-align: center;
    
