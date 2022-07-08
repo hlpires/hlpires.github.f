@@ -1,0 +1,2068 @@
+:root{
+    --text-primary:#000;
+    --bgPrimary:#fff;
+   --bgSecondary: #F9F9F9;
+   --pink: #0071bd;
+   --light-blue: #e6f7ff;
+   --border: #d9d9d9;
+   overflow-x: hidden;
+   background-color: #393939;
+ ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: regular;
+    src: url(./font/Montserrat-Thin.ttf)
+  }
+  @font-face {
+    font-family: regular1;
+    src: url(./font/Montserrat-ExtraBoldItalic.ttf)
+  }
+  @font-face {
+    font-family: regular2;
+    src: url(./font/Montserrat-ExtraBold.ttf)
+  }
+
+
+
+@media (min-width: 1100px){
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: center;
+   
+}
+.menu{
+    width: 100%;
+    height: 10%;
+    
+    justify-content: center;
+    display: flex;
+}
+.menuPosition{
+    display: flex;
+    
+    width: 30%;
+    margin-left: 30%;
+
+
+}
+.menuText{
+
+margin-left: 14%;
+
+height: 30%;
+align-self: center;
+font-family: regular;
+color: white;
+font-size: 1.2vw;
+}
+
+.menuText:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+
+.button{
+    
+    width: 60%;
+    height: 25%;
+    align-self: center;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size:1.2vw;
+    display: none;
+    justify-content: center;
+    color: white;
+    position: relative;
+    margin-left: 20%;
+}
+
+.button:hover{
+    border: 2px solid red;
+    transition: 1s;
+}
+.headerText{
+   
+    width: 100%;
+    height: 85%;
+    position: relative;
+    font-size:1.5vw;
+   align-content: center;
+   color: white;
+ 
+
+   display: block;
+   
+
+}
+.animate__animated.animate__lightSpeedInLeft {
+    --animate-duration: 1.2s;
+  }
+h1{
+       
+    width: 100%;
+    height: 60%;
+    text-align: left;
+    font-size:3.5vw!important;
+    text-align: center;
+    color: rgb(0, 255, 179);
+    align-content: center;
+    align-self: center;
+    font-family: regular1;
+  
+}
+#h1S{
+    color: white!important;
+
+    margin-top: -2%;
+}
+h6{
+    
+    color: white;
+    font-size: 35px!important;
+    float: left;
+    align-self: center;
+    font-family: regular2;
+    margin-left: 5%;
+    font-weight: bolder;
+    border-bottom: 4px solid rgb(88, 15, 182);
+}
+
+
+.set{
+    width: 100%;
+    height: 25%;
+    font-weight: bolder;
+    
+  
+    display: block;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.sobre{
+display: flex;
+justify-content: center;
+margin-top:-5%!important;
+
+
+}
+
+.sobreTitle{
+    height: 50px!important;
+    margin-top: 3%!important;
+    width: 100%;
+    align-self: center;
+    display: flex;
+}
+.sobreall{
+    width: 100vw;
+    margin-top: 06%!important;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #393939;
+}
+
+.posicionarConteudo{
+    margin-top: 40px;
+    height: 580px;
+    width: 40%;
+    
+    display:inline-block;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+   
+}
+.sobreText{
+
+display: block;
+justify-content: center;
+
+width: 50%;
+
+
+}
+.art{
+height: 40%;
+margin-left: 10%;
+margin-top: 15%;
+
+}
+.text{
+    display: inline-block;
+    width: 90%;
+    height: 30%;
+    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    background-color: rgb(31, 29, 29);
+    margin-top: 05%;
+  
+}
+h2{
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    margin-left: 5%;
+    
+   
+    font-family: regular;
+    font-size:14px !important;
+    display: flex;
+    float: left;
+    color: white;
+    
+    
+}
+h3{
+    width: 100%;
+    margin-right: 10%;
+    height: 30%;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    float: left;
+    font-family: regular2;
+}
+.curriculo{
+
+width: 40%;
+height: 5%;
+margin-top: 2%;
+text-align: center;
+font-size: 26px;
+font-family: regular2;
+font-weight: bolder;
+color: white;
+border: 2px solid black;
+cursor: pointer;
+background-color: rgb(31, 29, 29);
+
+
+}
+.curriculo:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.conteudo{
+    width: 100%;
+    margin-top: 8%;
+    height: 25%;
+    display:inline-block;
+    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    justify-content: center;
+    font-size: 15px;
+    font-family: regular;
+    background-color: rgb(31, 29, 29);
+}
+
+
+#conteudo1{
+    border-top:2px solid #81D8F7;
+}
+#conteudo2{
+    border-top:2px solid yellow;
+}
+#conteudo3{
+    border-top:2px solid #cc6d3d;
+}
+
+
+
+
+
+.conteudoimage{
+    background-color:transparent;
+    height: 40%;
+    clip-path: circle();
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+    float: left;
+   
+   
+}
+h5{
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+}
+
+h4{
+    width: 80%;
+    
+    margin-left: 12%;
+    
+    
+  
+    margin-top:06%;
+    height: 30%;
+    color: white;
+    align-self: center;
+    font-family: regular2;
+    font-size: 22px;
+  
+}
+
+
+.perfil{
+    width: 675px;
+    
+    
+    display: flex;
+    justify-content: center;
+}
+.perfilcontent{
+
+width: 60%;
+height: 80%;
+border:2px solid black;
+display: inline-block;
+align-self: center;
+}
+.perfilimg{
+    width: 80%;
+  
+    clip-path: circle();
+    margin-left: 10%;
+}
+.mascaratext{
+    border:2px solid black;
+    width: 100%;
+    height: 38%;
+    color: white;
+}
+
+.conhecimentos{
+   margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-color: rgb(31, 29, 29);
+   
+    
+
+    
+}
+.conhecimentoBackground{
+    margin-top: 6%;
+    width: 28%;
+    margin-left: 4%;
+    float: left;
+    height: 60%;
+    display: block;
+    border-radius: 10%;
+   
+
+}
+.conhecimentoBackground:hover{
+    
+transform: scale(1.07);
+transition: 1s;
+
+}
+
+#background{
+    background-image: linear-gradient(#134e5e,#71b280);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#background1{
+    background-image: linear-gradient(
+        #59c173
+        , 
+        #a17fe0
+        ,
+        #5d26c1);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#background2{
+    background-image: linear-gradient(
+        #348f50
+        , 
+        #56b4d3);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.position{
+    width: 1350px;
+    display: inline-block;
+   
+}
+.conhecimentoBox{
+    width: 88%;
+    height: 60px;
+    align-self: center;
+    margin-left: 6%;
+    margin-top: 5%;
+    
+    
+    display: flex;
+    
+   
+}
+
+.conhecimentosTittle{
+width: 100%;
+padding-bottom: 6%;
+text-align: center;
+color: white;
+margin-top: 6%;
+font-size: 20px;
+font-family: regular2;
+font-weight: bolder;
+}
+
+
+.conhecimentosText{
+
+margin-left: 5%;
+font-size: 14px;
+font-family: regular;
+color: white;
+font-weight: bolder;
+
+
+}
+
+
+
+.conhecimentosIMG{
+    width: 15%;
+    height: 100%;
+    align-self: center;
+    float: left;
+    
+}
+
+
+.projetos{
+   
+    width: 100vw;
+    height: 700px;
+    background-color: #393939;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.projetosPosition{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    
+    height: 70%;
+    
+}
+.projetosBox{
+    width: 45%;
+    height: 100%;
+    align-self: center;
+    margin:0.5%;
+    
+    display: flex;
+    cursor: pointer;
+}
+.projetosSkillsBox{
+    
+    width: 8%;
+    float: left;
+    height: 100%;
+}
+.projetosSkills{
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+    height: 10%;
+    border: 1px solid black;
+    display: flex;
+}
+.projetosSkillsImg{
+    width:80%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.projetosText{
+    width: 55%;
+    
+    margin-top: 10%;
+    height: 60%;
+    margin-left: 5%;
+    color: white;
+    font-family: regular;
+}
+.imgButtonBox{
+    display: inline-block;
+    
+}
+.buttonImg{
+    width: 30%;
+    background-color: rgb(31, 29, 29);
+    height:10%;
+    float: left;
+    margin-top:1%;
+    display: flex;
+    font-family: regular2;
+}
+.buttonImg:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.buttonIcon{
+    width: 20%;
+    margin-left: 05%;
+    margin-top: 6%;
+    
+    height: 60%;
+}
+
+.buttonImg1{
+    width: 30%;
+    background-color: rgb(31, 29, 29);
+    height:10%;
+    margin-top:1% ;
+    float: left;
+    margin-left: 5%;
+    display: flex;
+    font-family: regular2;
+}
+.buttonImg1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.buttonImgText{
+
+height: 45%;
+width: 50%;
+margin-left: 10%;
+margin-top: 08%;
+color: white;
+font-size: 18px;
+}
+.rodape{
+margin-top: 06%;
+width: 100vw;
+height: 300px;
+background-color: black;
+}
+.projetosImg{
+width: 100%;
+height: 80%;
+
+
+}
+
+
+.contato{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 600px;
+}
+.email{
+margin-top: 6%;
+width: 40%;
+display: block;
+height: 60%;
+float: right;
+margin-right: 8%;
+
+}
+.nomeInput{
+    width: 48%;
+    border: 1px solid black;
+    height: 30px;
+    background-color: rgb(31, 29, 29);
+    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    color: white;
+}
+.emailInput{
+    width: 47%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 04%;
+    background-color: rgb(31, 29, 29);
+    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    border: 1px solid black;
+    color: white;
+}
+.messageInput{
+box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+border: 1px solid black;
+width: 100%;
+height: 200px;
+margin-top: 04%;
+background-color: rgb(31, 29, 29);
+color: white;
+}
+.buttonInput{
+    background-color: rgb(31, 29, 29);
+ height: 35px;
+ width: 30%;
+ margin-top: 2%;
+ cursor: pointer;
+ color: white;
+}
+.buttonInput:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.telefones{
+    margin-top: 8%;
+width: 40%;
+display: block;
+height: 40%;
+float: left;
+margin-left: 12%;
+
+font-family: regular;
+color: white;
+}
+.telefoneText{
+    font-size: 20px;
+    margin-top: 05%;
+    font-weight:bolder;
+}
+.celular{
+    margin-top: 2%;
+}
+
+.endereço{
+    margin-top: 2%;
+}
+.wppButton{
+    margin-top: 6%;
+    width:38%;
+    height:20%;
+    
+  
+    background-repeat: no-repeat;
+    
+}
+
+
+.contatowpp{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.contatowpp:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.modalContainer{
+    justify-content: center;
+    display: flex;
+}
+.modalImg{
+    position: fixed;
+    background-color: red;
+    max-height: 90vh;
+    min-height: 90vh;
+   
+    z-index: 99;
+    top: 5%;
+    left: 35%;
+
+}
+.modalButton{
+    position: fixed;
+    background-color:transparent;
+    min-height:100vh;
+    min-width:130vw;
+    z-index: 98;
+    top: 0%;
+    background-color: black;
+    opacity: 60%;
+}
+.modalButton1{
+    position: fixed;
+    background-color:transparent;
+    padding: 30px;
+    min-height:6vh;
+    min-width:4vw;
+    z-index: 98;
+    left: 30%;
+    top: 5%;
+    background-image: url(./img/X.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+
+   }
+}
+
+@media (min-width: 600px) and (max-width:1099px){
+
+    .header{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./img/background.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        justify-content: center;
+       
+    }
+    .menu{
+        width: 100%;
+        height: 10%;
+        
+        justify-content: center;
+        display: flex;
+    }
+    .menuPosition{
+        display: flex;
+        
+        width: 30%;
+        margin-left: 30%;
+    
+    
+    }
+    .menuText{
+    
+    margin-left: 14%;
+    
+    height: 30%;
+    align-self: center;
+    font-family: regular;
+    color: white;
+    font-size: 15px;
+    }
+    
+    .menuText:hover{
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
+    
+    
+    .button{
+        
+        width: 60%;
+        height: 25%;
+        align-self: center;
+        border: 2px solid white;
+        cursor: pointer;
+        font-size:1.2vw;
+        display: none;
+        justify-content: center;
+        color: white;
+        position: relative;
+        margin-left: 20%;
+    }
+    
+    .button:hover{
+        border: 2px solid red;
+        transition: 1s;
+    }
+    .headerText{
+       
+        width: 100%;
+        height: 85%;
+        position: relative;
+        font-size:1.5vw;
+       align-content: center;
+       color: white;
+     
+    
+       display: block;
+       
+    
+    }
+    .animate__animated.animate__lightSpeedInLeft {
+        --animate-duration: 1.2s;
+      }
+    h1{
+           
+        width: 100%;
+        height: 60%;
+        text-align: left;
+        font-size:3.5vw!important;
+        text-align: center;
+        color: rgb(0, 255, 179);
+        align-content: center;
+        align-self: center;
+        font-family: regular1;
+      
+    }
+    #h1S{
+        color: white!important;
+    
+        margin-top: -2%;
+    }
+    h6{
+        
+        color: white;
+        font-size: 35px!important;
+        float: left;
+        align-self: center;
+        font-family: regular2;
+        margin-left: 5%;
+        font-weight: bolder;
+        border-bottom: 4px solid rgb(88, 15, 182);
+    }
+    
+    
+    .set{
+        width: 100%;
+        height: 25%;
+        font-weight: bolder;
+        
+      
+        display: block;
+        margin-right: 30%;
+        margin-top: 20%;
+    }
+    .sobre{
+    display: block;
+    justify-content: center;
+    margin-top:-5%!important;
+    
+    
+    
+    }
+    
+    .sobreTitle{
+        height: 50px!important;
+        margin-top: 3%!important;
+       
+        width: 100%;
+        align-self: center;
+        display: flex;
+    }
+    .sobreall{
+        width: 100vw;
+        margin-top: 06%!important;
+        
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        
+    }
+    
+    .posicionarConteudo{
+        margin-top: 0px;
+        height: 780px;
+        width: 100%;
+        
+        display:inline-block;
+        position: relative;
+        justify-content: center;
+        align-self: center;
+       
+    }
+    .sobreText{
+    
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+    
+    
+    
+    }
+    .art{
+    height: 30%;
+    margin-left: 20%;
+    margin-top: 15%;
+    width: 60%;
+    
+    }
+    .text{
+        display: inline-block;
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+     
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        background-color: rgb(31, 29, 29);
+        margin-top: 05%;
+       
+      
+    }
+    h2{
+        width: 90%;
+        height: 60%;
+        text-align: center;
+        margin-left: 5%;
+        
+       
+        font-family: regular;
+        font-size:20px !important;
+        display: flex;
+        float: left;
+        color: white;
+        
+        
+    }
+    h3{
+        width: 100%;
+        margin-right: 10%;
+        height: 30%;
+        text-align: center;
+        color: white;
+        margin-top: 5%;
+        float: left;
+        
+        font-family: regular2;
+    }
+    .curriculo{
+    
+    width: 40%;
+    height: 5%;
+    margin-top: 2%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 26px;
+    font-family: regular2;
+    font-weight: bolder;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(31, 29, 29);
+    
+    
+    }
+    .curriculo:hover{
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    .conteudo{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 4%;
+        height: 25%;
+        display:inline-block;
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        justify-content: center;
+        font-size: 15px;
+        font-family: regular;
+        background-color: rgb(31, 29, 29);
+    }
+    
+    
+    #conteudo1{
+        border-top:2px solid #81D8F7;
+    }
+    #conteudo2{
+        border-top:2px solid yellow;
+    }
+    #conteudo3{
+        border-top:2px solid #cc6d3d;
+    }
+    
+    
+    
+    
+    
+    .conteudoimage{
+        background-color:transparent;
+        height: 40%;
+        clip-path: circle();
+        padding: 10px;
+        margin-top: 20px;
+        
+        
+        float: left;
+       
+       
+    }
+    h5{
+        width: 100%;
+        height: 60%;
+        padding: 10px;
+        font-size: 20px;
+        text-align: left;
+        color: white;
+    }
+    
+    h4{
+        width: 80%;
+        
+        margin-left: 12%;
+        
+        
+      
+        margin-top:06%;
+        height: 30%;
+        color: white;
+        align-self: center;
+        font-family: regular2;
+        font-size: 30px;
+      
+    }
+    
+    
+    .perfil{
+        width: 675px;
+        
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .conhecimentos{
+       margin-top: 2%;
+        width: 100vw;
+        display: block;
+        height: 1500px;
+        justify-content: center;
+        background-color: rgb(31, 29, 29);
+       display: none;
+        
+    
+        
+    }
+    .conhecimentoBackground{
+        margin-top: 6%;
+        width: 40%;
+        margin-left: 10%;
+       
+        height: 450px;
+        display: block;
+        border-radius: 10%;
+        
+       
+    
+    }
+    .conhecimentoBackground:hover{
+        
+    transform: scale(1.07);
+    transition: 1s;
+    
+    }
+    
+    #background{
+        background-image: linear-gradient(#134e5e,#71b280);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    #background1{
+        background-image: linear-gradient(
+            #59c173
+            , 
+            #a17fe0
+            ,
+            #5d26c1);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    #background2{
+        background-image: linear-gradient(
+            #348f50
+            , 
+            #56b4d3);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .position{
+        width: 1350px;
+        display: inline-block;
+       
+    }
+    .conhecimentoBox{
+        width: 88%;
+        height: 60px;
+        align-self: center;
+        margin-left: 6%;
+        margin-top: 5%;
+        
+        
+        display: flex;
+        
+       
+    }
+    
+    .conhecimentosTittle{
+    width: 100%;
+    padding-bottom: 6%;
+    text-align: center;
+    color: white;
+    margin-top: 6%;
+    font-size: 20px;
+    font-family: regular2;
+    font-weight: bolder;
+    }
+    
+    
+    .conhecimentosText{
+    
+    margin-left: 5%;
+    font-size: 14px;
+    font-family: regular;
+    color: white;
+    font-weight: bolder;
+    
+    
+    }
+    
+    
+    
+    .conhecimentosIMG{
+        width: 15%;
+        height: 100%;
+        align-self: center;
+        float: left;
+        
+    }
+    
+    
+    .projetos{
+       
+        width: 100vw;
+        height: 1400px;
+        background-color: rgb(31, 29, 29);
+        justify-content: center;
+        display: flex;
+        
+    }
+    
+    .projetosPosition{
+        margin-top: 8%;
+        display: block;
+        justify-content: center;
+        
+        height: 70%;
+        
+    }
+    .projetosBox{
+        
+        width: 80%;
+        height: 50%;
+        align-self: center;
+        margin-top:10.5%;
+        margin-left: 08%;
+        
+        display: flex;
+        cursor: pointer;
+    }
+    .projetosSkillsBox{
+        
+        width: 8%;
+        float: left;
+        height: 100%;
+    }
+    .projetosSkills{
+        width: 100%;
+        background-color: rgb(31, 29, 29);
+        height: 10%;
+        border: 1px solid black;
+        display: flex;
+    }
+    .projetosSkillsImg{
+        width:80%;
+        height: 70%;
+        margin-top: 5%;
+        margin-left: 10%;
+        
+    }
+    .projetosText{
+        width: 55%;
+        
+        margin-top: 10%;
+        height: 60%;
+        margin-left: 5%;
+        color: white;
+        font-family: regular;
+    }
+    .imgButtonBox{
+        display: inline-block;
+        
+    }
+    .buttonImg{
+        width: 30%;
+        background-color: rgb(31, 29, 29);
+        height:10%;
+        float: left;
+        margin-top:1%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid white;
+    }
+    .buttonImg:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    .buttonIcon{
+        width: 20%;
+        margin-left: 05%;
+        margin-top: 6%;
+        
+        height: 60%;
+    }
+    
+    .buttonImg1{
+        width: 30%;
+        background-color: rgb(31, 29, 29);
+        height:10%;
+        margin-top:1% ;
+        float: left;
+        margin-left: 5%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid white;
+    }
+    .buttonImg1:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    .buttonImgText{
+    
+    height: 45%;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 06%;
+    color: white;
+    font-size: 18px;
+    }
+    .rodape{
+    margin-top: 06%;
+    width: 100vw;
+    height: 300px;
+    background-color: black;
+    }
+    .projetosImg{
+    width: 100%;
+    height: 80%;
+    
+    
+    }
+    
+    
+    .contato{
+        
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 600px;
+    }
+    .email{
+    margin-top: 6%;
+    width: 40%;
+    display: block;
+    height: 60%;
+    float: right;
+    margin-right: 8%;
+    
+    }
+    .nomeInput{
+        width: 48%;
+        border: 1px solid black;
+        height: 30px;
+        background-color: rgb(31, 29, 29);
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        color: white;
+    }
+    .emailInput{
+        width: 47%;
+        height: 30px;
+        margin-left: 5%;
+        margin-top: 04%;
+        background-color: rgb(31, 29, 29);
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        border: 1px solid black;
+        color: white;
+    }
+    .messageInput{
+    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    margin-top: 04%;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    }
+    .buttonInput{
+        background-color: rgb(31, 29, 29);
+     height: 35px;
+     width: 30%;
+     margin-top: 2%;
+     cursor: pointer;
+     color: white;
+    }
+    .buttonInput:hover{
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    
+    .telefones{
+        margin-top: 8%;
+    width: 40%;
+    display: block;
+    height: 40%;
+    float: left;
+    margin-left: 12%;
+    
+    font-family: regular;
+    color: white;
+    }
+    .telefoneText{
+        font-size: 20px;
+        margin-top: 05%;
+        font-weight:bolder;
+    }
+    .celular{
+        margin-top: 2%;
+    }
+    
+    .endereço{
+        margin-top: 2%;
+    }
+    .wppButton{
+        margin-top: 6%;
+        width:38%;
+        height:20%;
+        
+      
+        background-repeat: no-repeat;
+        
+    }
+    
+    
+    .contatowpp{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .contatowpp:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .modalContainer{
+        justify-content: center;
+        display: flex;
+    }
+    .modalImg{
+        position: fixed;
+        background-color: red;
+        max-height: 90vh;
+        min-height: 90vh;
+       
+        z-index: 99;
+        top: 5%;
+        left: 35%;
+    
+    }
+    .modalButton{
+        position: fixed;
+        background-color:transparent;
+        min-height:100vh;
+        min-width:130vw;
+        z-index: 98;
+        top: 0%;
+        background-color: black;
+        opacity: 60%;
+    }
+    .modalButton1{
+        position: fixed;
+        background-color:transparent;
+        padding: 30px;
+        min-height:6vh;
+        min-width:4vw;
+        z-index: 98;
+        left: 30%;
+        top: 5%;
+        background-image: url(./img/X.png);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    
+       }
+}
+@media (max-width:599px){
+
+    .header{
+        width: 100vw;
+        height: 50vh;
+        background-image: url(./img/background.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        justify-content: center;
+       
+    }
+    .menu{
+        width: 100%;
+        height: 10%;
+        
+        justify-content: center;
+        display: flex;
+    }
+    .menuPosition{
+        display: flex;
+        
+        width: 60%;
+        margin-left: 0%;
+    
+    
+    }
+    .menuText{
+    
+    margin-left: 8%;
+    
+    height: 30%;
+    align-self: center;
+    font-family: regular;
+    color: white;
+    font-size: 15px;
+    }
+    
+    .menuText:hover{
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
+    
+    
+    .button{
+        
+        width: 60%;
+        height: 25%;
+        align-self: center;
+        border: 2px solid white;
+        cursor: pointer;
+        font-size:1.2vw;
+        display: none;
+        justify-content: center;
+        color: white;
+        position: relative;
+        margin-left: 20%;
+    }
+    
+    .button:hover{
+        border: 2px solid red;
+        transition: 1s;
+    }
+    .headerText{
+       
+        width: 100%;
+        height: 85%;
+        position: relative;
+        font-size:1.5vw;
+       align-content: center;
+       color: white;
+     
+    
+       display: block;
+       
+    
+    }
+    .animate__animated.animate__lightSpeedInLeft {
+        --animate-duration: 1.2s;
+      }
+    h1{
+           
+        width: 100%;
+        height: 60%;
+        text-align: left;
+        font-size:3.5vw!important;
+        text-align: center;
+        color: rgb(0, 255, 179);
+        align-content: center;
+        align-self: center;
+        font-family: regular1;
+      
+    }
+    #h1S{
+        color: white!important;
+    
+        margin-top: -2%;
+    }
+    h6{
+        
+        color: white;
+        font-size: 25px!important;
+        float: left;
+        align-self: center;
+        font-family: regular2;
+        
+        font-weight: bolder;
+        border-bottom: 4px solid rgb(88, 15, 182);
+    }
+    
+    
+    .set{
+        width: 100%;
+        height: 25%;
+        font-weight: bolder;
+        
+      
+        display: block;
+        margin-right: 30%;
+        margin-top: 20%;
+    }
+    .sobre{
+    display: block;
+    justify-content: center;
+    margin-top:-5%!important;
+    
+    
+    
+    }
+    
+    .sobreTitle{
+        height: 50px!important;
+        margin-top: 3%!important;
+        justify-content: center;
+       
+        width: 100%;
+        align-self: center;
+        display: flex;
+    }
+    .sobreall{
+        width: 100vw;
+        margin-top: 06%!important;
+        
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        
+    }
+    
+    .posicionarConteudo{
+        margin-top: 0px;
+        height: 880px;
+        width: 100%;
+        
+        display:inline-block;
+        position: relative;
+        justify-content: center;
+        align-self: center;
+       
+    }
+    .sobreText{
+    
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+    
+    
+    
+    }
+    .art{
+    height: 25%;
+    margin-left: 25%;
+    margin-top: 15%;
+    width: 50%;
+    
+    }
+    .text{
+        display: inline-block;
+        width: 100%;
+        
+        height: 500px;
+     
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        background-color: rgb(31, 29, 29);
+        margin-top: 05%;
+       
+      
+    }
+    h2{
+        width: 60%;
+        height: 60%;
+        text-align: center;
+        margin-left: 20%;
+        
+        
+        text-align: left;
+       
+        font-family: regular;
+        font-size:18px !important;
+        display: flex;
+        float: left;
+        color: white;
+        
+        
+    }
+    h3{
+        width: 100%;
+        margin-right: 10%;
+        height: 15%;
+        text-align: center;
+        color: white;
+        margin-top: 5%;
+        float: left;
+        
+        font-family: regular2;
+    }
+    .curriculo{
+    display: none;
+    width: 40%;
+    height: 5%;
+    margin-top: 2%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 26px;
+    font-family: regular2;
+    font-weight: bolder;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(31, 29, 29);
+    
+    
+    }
+    .curriculo:hover{
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    .conteudo{
+        width: 64%;
+        margin-left: 18%;
+        margin-top: 4%;
+        height: 30%;
+        display:inline-block;
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        justify-content: center;
+        font-size: 15px;
+        font-family: regular;
+        background-color: rgb(31, 29, 29);
+    }
+    
+    
+    #conteudo1{
+        border:2px solid #81D8F7;
+    }
+    #conteudo2{
+        border-top:2px solid yellow;
+    }
+    #conteudo3{
+        border-top:2px solid #cc6d3d;
+    }
+    
+    
+    
+    
+    
+    .conteudoimage{
+        background-color:transparent;
+        height: 15%;
+        clip-path: circle();
+        padding: 10px;
+        margin-top: 14px;
+        float: left;
+       
+       
+    }
+    h5{
+        width: 100%;
+        height: 60%;
+        padding: 10px;
+        font-size: 20px;
+        text-align: left;
+        color: white;
+    }
+    
+    h4{
+        width: 80%;
+        
+        margin-left: 12%;
+        
+        
+      
+        margin-top:06%;
+        height: 30%;
+        color: white;
+        align-self: center;
+        font-family: regular2;
+        font-size: 30px;
+      
+    }
+    
+    
+    .perfil{
+        width: 675px;
+        
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .conhecimentos{
+       margin-top: 2%;
+        width: 100vw;
+        display: block;
+        height: 1500px;
+        justify-content: center;
+        background-color: rgb(31, 29, 29);
+       display: none;
+        
+    
+        
+    }
+    .conhecimentoBackground{
+        margin-top: 6%;
+        width: 40%;
+        margin-left: 10%;
+       
+        height: 450px;
+        display: block;
+        border-radius: 10%;
+        
+       
+    
+    }
+    .conhecimentoBackground:hover{
+        
+    transform: scale(1.07);
+    transition: 1s;
+    
+    }
+    
+    #background{
+        background-image: linear-gradient(#134e5e,#71b280);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    #background1{
+        background-image: linear-gradient(
+            #59c173
+            , 
+            #a17fe0
+            ,
+            #5d26c1);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    #background2{
+        background-image: linear-gradient(
+            #348f50
+            , 
+            #56b4d3);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .position{
+        width: 1350px;
+        display: inline-block;
+       
+    }
+    .conhecimentoBox{
+        width: 88%;
+        height: 60px;
+        align-self: center;
+        margin-left: 6%;
+        margin-top: 5%;
+        
+        
+        display: flex;
+        
+       
+    }
+    
+    .conhecimentosTittle{
+    width: 100%;
+    padding-bottom: 6%;
+    text-align: center;
+    color: white;
+    margin-top: 6%;
+    font-size: 20px;
+    font-family: regular2;
+    font-weight: bolder;
+    }
+    
+    
+    .conhecimentosText{
+    
+    margin-left: 5%;
+    font-size: 14px;
+    font-family: regular;
+    color: white;
+    font-weight: bolder;
+    
+    
+    }
+    
+    
+    
+    .conhecimentosIMG{
+        width: 15%;
+        height: 100%;
+        align-self: center;
+        float: left;
+        
+    }
+    
+    
+    .projetos{
+       
+        width: 100vw;
+        height: 700px;
+        background-color: rgb(31, 29, 29);
+        justify-content: center;
+        display: flex;
+        
+    }
+    
+    .projetosPosition{
+        margin-top: 8%;
+        display: block;
+        justify-content: center;
+        
+        height: 70%;
+        
+    }
+    .projetosBox{
+        
+        width: 80%;
+        height: 50%;
+        align-self: center;
+        margin-top:10.5%;
+        margin-left: 10%;
+        
+        display: flex;
+        cursor: pointer;
+    }
+    .projetosSkillsBox{
+        display: none;
+        width: 8%;
+        float: left;
+        height: 100%;
+    }
+    .projetosSkills{
+        width: 100%;
+        background-color: rgb(31, 29, 29);
+        height: 10%;
+        border: 1px solid black;
+        display: flex;
+    }
+    .projetosSkillsImg{
+        width:80%;
+        height: 70%;
+        margin-top: 5%;
+        margin-left: 10%;
+        
+    }
+    .projetosText{
+        width: 55%;
+        
+        margin-top: 10%;
+        height: 60%;
+        margin-left: 5%;
+        color: white;
+        font-family: regular;
+    }
+    .imgButtonBox{
+        display: inline-block;
+        
+    }
+    .buttonImg{
+        
+        width: 40%;
+        margin-left: 08%;
+       
+        height:10%;
+        float: left;
+        margin-top:1%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid white;
+    }
+    .buttonImg:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    .buttonIcon{
+        width: 20%;
+        margin-left: 05%;
+        margin-top: 6%;
+        
+        height: 60%;
+    }
+    
+    .buttonImg1{
+        width: 40%;
+        background-color: rgb(31, 29, 29);
+        height:10%;
+        margin-top:1% ;
+        float: left;
+        margin-left: 5%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid white;
+    }
+    .buttonImg1:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    .buttonImgText{
+    
+    height: 45%;
+    width: 50%;
+    margin-left: 10%;
+    
+    color: white;
+    font-size: 18px;
+    }
+    .rodape{
+    margin-top: 06%;
+    width: 100vw;
+    height: 300px;
+    background-color: black;
+    }
+    .projetosImg{
+    width: 100%;
+    height: 80%;
+    
+    
+    }
+    
+    
+    .contato{
+        
+        display: block;
+
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 1000px;
+    }
+    .email{
+        display: none;
+    margin-top: 6%;
+    width: 40%;
+    display: block;
+    height: 60%;
+    float: right;
+    margin-right: 8%;
+    
+    }
+    .nomeInput{
+        width: 48%;
+        border: 1px solid black;
+        height: 30px;
+        background-color: rgb(31, 29, 29);
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        color: white;
+    }
+    .emailInput{
+        width: 47%;
+        height: 30px;
+        margin-left: 5%;
+        margin-top: 04%;
+        background-color: rgb(31, 29, 29);
+        box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+        border: 1px solid black;
+        color: white;
+    }
+    .messageInput{
+    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    margin-top: 04%;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    }
+    .buttonInput{
+        background-color: rgb(31, 29, 29);
+     height: 35px;
+     width: 30%;
+     margin-top: 2%;
+     cursor: pointer;
+     color: white;
+    }
+    .buttonInput:hover{
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    
+    .telefones{
+        margin-top: 8%;
+    width: 40%;
+    display: block;
+    height: 40%;
+    float: left;
+    margin-left: 12%;
+    
+    font-family: regular;
+    color: white;
+    }
+    .telefoneText{
+        font-size: 20px;
+        margin-top: 05%;
+        font-weight:bolder;
+    }
+    .celular{
+        margin-top: 2%;
+    }
+    
+    .endereço{
+        margin-top: 2%;
+    }
+    .wppButton{
+        margin-top: 6%;
+        width:38%;
+        height:20%;
+        
+      
+        background-repeat: no-repeat;
+        
+    }
+    
+    
+    .contatowpp{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .contatowpp:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .modalContainer{
+        justify-content: center;
+        display: flex;
+    }
+    .modalImg{
+        position: fixed;
+        background-color: red;
+        max-height: 90vh;
+        min-height: 90vh;
+       
+        z-index: 99;
+        top: 5%;
+        left: 35%;
+    
+    }
+    .modalButton{
+        position: fixed;
+        background-color:transparent;
+        min-height:100vh;
+        min-width:130vw;
+        z-index: 98;
+        top: 0%;
+        background-color: black;
+        opacity: 60%;
+    }
+    .modalButton1{
+        position: fixed;
+        background-color:transparent;
+        padding: 30px;
+        min-height:6vh;
+        min-width:4vw;
+        z-index: 98;
+        left: 30%;
+        top: 5%;
+        background-image: url(./img/X.png);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    
+       }
+}
